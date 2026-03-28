@@ -1,0 +1,11 @@
+{
+  "dataset_name": "openwebtext",
+  "dataset_config": null,
+  "text_column": "text",
+  "tokenizer": "gpt2",
+  "dtype": "uint16",
+  "train_tokens": 9035451846,
+  "val_tokens": 4565249,
+  "vocab_size": 50257,
+  "seed": 1337
+}

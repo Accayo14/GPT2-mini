@@ -1,15 +1,19 @@
 from __future__ import annotations
 
+import tiktoken
 
-class CharTokenizer:
-    def __init__(self, text: str) -> None:
-        vocab = sorted(set(text))
-        self.stoi = {ch: i for i, ch in enumerate(vocab)}
-        self.itos = {i: ch for ch, i in self.stoi.items()}
-        self.vocab_size = len(vocab)
 
-    def encode(self, text: str) -> list[int]:
-        return [self.stoi[ch] for ch in text]
+class GPT2Tokenizer:
+    def __init__(self) -> None:
+        self.enc = tiktoken.get_encoding("gpt2")
+        self.eot_token = self.enc.eot_token
+        self.vocab_size = self.enc.n_vocab
+
+    def encode(self, text: str, add_eot: bool = False) -> list[int]:
+        ids = self.enc.encode_ordinary(text)
+        if add_eot:
+            ids.append(self.eot_token)
+        return ids
 
     def decode(self, tokens: list[int]) -> str:
-        return "".join(self.itos[token] for token in tokens)
+        return self.enc.decode(tokens)
