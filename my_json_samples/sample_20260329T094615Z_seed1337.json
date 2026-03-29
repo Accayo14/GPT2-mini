@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "20260329T094615Z",
+  "input": "Once upon a time",
+  "output": "Once upon a time, any attempt to solve a problem created by the original creator was called in for a trial. And then the whole process went on. Who knows?\n\nBut the test had nothing to do with the original. The original creator had been lying about the fact that he was playing games, and he knew that if he didn’t, he would have done everything he could to get it. In fact, he claimed that he was a pure evil and that he was a master of mind, an incompetent magician who would almost always say whatever he wanted.\n\nIs this actually what the real owners of a game were really like?\n\nWell, they had this odd belief that if you were to write the game, you could invent a new game. And that’s what the original owners of a game would be like in this case. The ownership, however, was, by the way, a work of fiction, and the game would have been actually created in time for the",
+  "sampling_config": {
+    "max_new_tokens": 200,
+    "temperature": 0.8,
+    "top_k": 200,
+    "seed": 1337
+  },
+  "checkpoint_path": "/home/dmlab/Aryan_jr/GPT2/out-gpt2-small/ckpt.pt"
+}

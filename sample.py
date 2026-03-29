@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import argparse
+import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 import torch
@@ -16,10 +18,11 @@ except ImportError:
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Generate text from a trained GPT-2 checkpoint.")
     parser.add_argument("--out-dir", type=str, default="out-gpt2-small")
+    parser.add_argument("--samples-dir", type=str, default="sample_outputs")
     parser.add_argument("--prompt", type=str, default="Once upon a time")
     parser.add_argument("--max-new-tokens", type=int, default=200)
-    parser.add_argument("--temperature", type=float, default=0.8)
-    parser.add_argument("--top-k", type=int, default=200)
+    parser.add_argument("--temperature", type=float, default=0.7)
+    parser.add_argument("--top-k", type=int, default=40)
     parser.add_argument("--seed", type=int, default=1337)
     args = parser.parse_args(argv)
 
@@ -48,7 +51,28 @@ def main(argv: list[str] | None = None) -> None:
             temperature=args.temperature,
             top_k=args.top_k,
         )
-    print(tokenizer.decode(y[0].tolist()))
+    generated_text = tokenizer.decode(y[0].tolist())
+    print(generated_text)
+
+    samples_dir = Path(args.samples_dir)
+    samples_dir.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    sample_path = samples_dir / f"sample_{ts}_seed{args.seed}.json"
+    payload = {
+        "timestamp_utc": ts,
+        "input": args.prompt,
+        "output": generated_text,
+        "sampling_config": {
+            "max_new_tokens": args.max_new_tokens,
+            "temperature": args.temperature,
+            "top_k": args.top_k,
+            "seed": args.seed,
+        },
+        "checkpoint_path": str(ckpt_path.resolve()),
+    }
+    with open(sample_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f"Saved JSON sample to {sample_path.resolve()}")
 
 
 if __name__ == "__main__":

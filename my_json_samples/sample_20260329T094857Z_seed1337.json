@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "20260329T094857Z",
+  "input": "Indian Institute of Technology Bombay was established in",
+  "output": "Indian Institute of Technology Bombay was established in September 1979, the second-oldest day.[30]\n\nAfter the cancellation of the first Ramayana, the campus was refurbished and was renamed La Jara, an entirely new Hindu temple. Students enrolled in La Jara were encouraged to be admitted to the school, but their parents refused to take them because the temple was open to the public. On September 18, 1979, after completing the third Ramayana, the students were permitted to call up a teacher on the eve of an all-India Day of Remembrance. The students were asked to stay at La Jara in lieu of a religious holiday and to attend an adjoining school for the benefit of the students. In March 1979, the students made the last return of their students to the temple for a scheduled evening stay. The students were officially buried in the forest in October 1979. The site, however, was not recognised by the world as a Hindu temple but was claimed by many Hindu religious leaders as a site for Hindu",
+  "sampling_config": {
+    "max_new_tokens": 200,
+    "temperature": 0.8,
+    "top_k": 200,
+    "seed": 1337
+  },
+  "checkpoint_path": "/home/dmlab/Aryan_jr/GPT2/out-gpt2-small/ckpt.pt"
+}

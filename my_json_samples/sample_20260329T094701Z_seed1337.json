@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "20260329T094701Z",
+  "input": "Indian Institute of Technology Bombay is",
+  "output": "Indian Institute of Technology Bombay is the first Indian to recognise that they have the right to call his name in the name of religion.<|endoftext|>The Senate Finance Committee has accepted that under the law, individuals who file no-contact forms should be required to do so by the Internal Revenue Service.\n\n“No-contact forms are required to take place under the Internal Revenue Service,\" committee chairman Ajit Pai told reporters at the conclusion of the hearing Wednesday. On Wednesday, a Congressional panel on tax reform approved a bill that would allow local governments to prevent individuals from filing their returns with the Internal Revenue Service.\n\nThe Senate Finance Committee Chairman Ajit Pai and his counterpart Senator Chris Coons of Arkansas and the Republican tax-writing group, Committee on Taxation, have also filed their own bills, though they didn't specify how many they would have to file.\n\nCoons' legislation, which calls for a new law requiring individuals to ask a judge to stop the practice of filing their returns, has also been blocked by",
+  "sampling_config": {
+    "max_new_tokens": 200,
+    "temperature": 0.8,
+    "top_k": 200,
+    "seed": 1337
+  },
+  "checkpoint_path": "/home/dmlab/Aryan_jr/GPT2/out-gpt2-small/ckpt.pt"
+}
