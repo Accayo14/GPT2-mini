@@ -1,0 +1,1041 @@
+{
+  "timestamp_utc": "20260329T101515Z",
+  "model_name": "gpt2",
+  "prompt": "The capital of France is",
+  "position": 4,
+  "target_token_id": 262,
+  "target_token_text": " the",
+  "total_logit": -4.473989009857178,
+  "sum_of_heads": -1.3031407067319378,
+  "sum_of_other_terms": -3.170848581008613,
+  "reconstructed_total": -4.473989287740551,
+  "max_reconstruction_error": 8.58306884765625e-06,
+  "contributions": [
+    {
+      "component": "tok_embed",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.10107086598873138
+    },
+    {
+      "component": "pos_embed",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.012088041752576828
+    },
+    {
+      "component": "layer_0.head_0",
+      "layer": 0,
+      "head": 0,
+      "contribution": -0.009974136017262936
+    },
+    {
+      "component": "layer_0.head_1",
+      "layer": 0,
+      "head": 1,
+      "contribution": -0.024356262758374214
+    },
+    {
+      "component": "layer_0.head_2",
+      "layer": 0,
+      "head": 2,
+      "contribution": 0.003867863677442074
+    },
+    {
+      "component": "layer_0.head_3",
+      "layer": 0,
+      "head": 3,
+      "contribution": -0.012410350143909454
+    },
+    {
+      "component": "layer_0.head_4",
+      "layer": 0,
+      "head": 4,
+      "contribution": -0.015213984996080399
+    },
+    {
+      "component": "layer_0.head_5",
+      "layer": 0,
+      "head": 5,
+      "contribution": -0.01421340275555849
+    },
+    {
+      "component": "layer_0.head_6",
+      "layer": 0,
+      "head": 6,
+      "contribution": 0.016124121844768524
+    },
+    {
+      "component": "layer_0.head_7",
+      "layer": 0,
+      "head": 7,
+      "contribution": -0.01574799418449402
+    },
+    {
+      "component": "layer_0.head_8",
+      "layer": 0,
+      "head": 8,
+      "contribution": -0.013133712112903595
+    },
+    {
+      "component": "layer_0.head_9",
+      "layer": 0,
+      "head": 9,
+      "contribution": 0.017032310366630554
+    },
+    {
+      "component": "layer_0.head_10",
+      "layer": 0,
+      "head": 10,
+      "contribution": 0.016017112880945206
+    },
+    {
+      "component": "layer_0.head_11",
+      "layer": 0,
+      "head": 11,
+      "contribution": 0.0028023268096148968
+    },
+    {
+      "component": "layer_0.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.005631009116768837
+    },
+    {
+      "component": "layer_0.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 3.882606267929077
+    },
+    {
+      "component": "layer_1.head_0",
+      "layer": 1,
+      "head": 0,
+      "contribution": -0.01222595851868391
+    },
+    {
+      "component": "layer_1.head_1",
+      "layer": 1,
+      "head": 1,
+      "contribution": 0.015644872561097145
+    },
+    {
+      "component": "layer_1.head_2",
+      "layer": 1,
+      "head": 2,
+      "contribution": 0.02857142686843872
+    },
+    {
+      "component": "layer_1.head_3",
+      "layer": 1,
+      "head": 3,
+      "contribution": 0.028458040207624435
+    },
+    {
+      "component": "layer_1.head_4",
+      "layer": 1,
+      "head": 4,
+      "contribution": 0.051973722875118256
+    },
+    {
+      "component": "layer_1.head_5",
+      "layer": 1,
+      "head": 5,
+      "contribution": 0.09197472780942917
+    },
+    {
+      "component": "layer_1.head_6",
+      "layer": 1,
+      "head": 6,
+      "contribution": -0.022812344133853912
+    },
+    {
+      "component": "layer_1.head_7",
+      "layer": 1,
+      "head": 7,
+      "contribution": 0.07961321622133255
+    },
+    {
+      "component": "layer_1.head_8",
+      "layer": 1,
+      "head": 8,
+      "contribution": -0.010823135264217854
+    },
+    {
+      "component": "layer_1.head_9",
+      "layer": 1,
+      "head": 9,
+      "contribution": -0.03508100286126137
+    },
+    {
+      "component": "layer_1.head_10",
+      "layer": 1,
+      "head": 10,
+      "contribution": 0.04834800213575363
+    },
+    {
+      "component": "layer_1.head_11",
+      "layer": 1,
+      "head": 11,
+      "contribution": -0.023342885076999664
+    },
+    {
+      "component": "layer_1.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.002497997134923935
+    },
+    {
+      "component": "layer_1.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.20360815525054932
+    },
+    {
+      "component": "layer_2.head_0",
+      "layer": 2,
+      "head": 0,
+      "contribution": -0.031238358467817307
+    },
+    {
+      "component": "layer_2.head_1",
+      "layer": 2,
+      "head": 1,
+      "contribution": -0.03280961513519287
+    },
+    {
+      "component": "layer_2.head_2",
+      "layer": 2,
+      "head": 2,
+      "contribution": 0.016074974089860916
+    },
+    {
+      "component": "layer_2.head_3",
+      "layer": 2,
+      "head": 3,
+      "contribution": -0.027355335652828217
+    },
+    {
+      "component": "layer_2.head_4",
+      "layer": 2,
+      "head": 4,
+      "contribution": -0.025598883628845215
+    },
+    {
+      "component": "layer_2.head_5",
+      "layer": 2,
+      "head": 5,
+      "contribution": 0.01690020225942135
+    },
+    {
+      "component": "layer_2.head_6",
+      "layer": 2,
+      "head": 6,
+      "contribution": -0.03551831841468811
+    },
+    {
+      "component": "layer_2.head_7",
+      "layer": 2,
+      "head": 7,
+      "contribution": 0.01099447626620531
+    },
+    {
+      "component": "layer_2.head_8",
+      "layer": 2,
+      "head": 8,
+      "contribution": -0.016699740663170815
+    },
+    {
+      "component": "layer_2.head_9",
+      "layer": 2,
+      "head": 9,
+      "contribution": 0.011641287244856358
+    },
+    {
+      "component": "layer_2.head_10",
+      "layer": 2,
+      "head": 10,
+      "contribution": -0.01485498622059822
+    },
+    {
+      "component": "layer_2.head_11",
+      "layer": 2,
+      "head": 11,
+      "contribution": 0.02825971506536007
+    },
+    {
+      "component": "layer_2.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.025331418961286545
+    },
+    {
+      "component": "layer_2.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.28508448600769043
+    },
+    {
+      "component": "layer_3.head_0",
+      "layer": 3,
+      "head": 0,
+      "contribution": 0.0151812843978405
+    },
+    {
+      "component": "layer_3.head_1",
+      "layer": 3,
+      "head": 1,
+      "contribution": -0.010802537202835083
+    },
+    {
+      "component": "layer_3.head_2",
+      "layer": 3,
+      "head": 2,
+      "contribution": 0.015809783712029457
+    },
+    {
+      "component": "layer_3.head_3",
+      "layer": 3,
+      "head": 3,
+      "contribution": 0.009513825178146362
+    },
+    {
+      "component": "layer_3.head_4",
+      "layer": 3,
+      "head": 4,
+      "contribution": -0.0009532738476991653
+    },
+    {
+      "component": "layer_3.head_5",
+      "layer": 3,
+      "head": 5,
+      "contribution": -0.009782429784536362
+    },
+    {
+      "component": "layer_3.head_6",
+      "layer": 3,
+      "head": 6,
+      "contribution": -0.014016527682542801
+    },
+    {
+      "component": "layer_3.head_7",
+      "layer": 3,
+      "head": 7,
+      "contribution": -0.006815459579229355
+    },
+    {
+      "component": "layer_3.head_8",
+      "layer": 3,
+      "head": 8,
+      "contribution": 0.04872159659862518
+    },
+    {
+      "component": "layer_3.head_9",
+      "layer": 3,
+      "head": 9,
+      "contribution": -0.020067647099494934
+    },
+    {
+      "component": "layer_3.head_10",
+      "layer": 3,
+      "head": 10,
+      "contribution": -0.003081969451159239
+    },
+    {
+      "component": "layer_3.head_11",
+      "layer": 3,
+      "head": 11,
+      "contribution": -0.005703251343220472
+    },
+    {
+      "component": "layer_3.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.01503770612180233
+    },
+    {
+      "component": "layer_3.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.1189693957567215
+    },
+    {
+      "component": "layer_4.head_0",
+      "layer": 4,
+      "head": 0,
+      "contribution": -0.016145046800374985
+    },
+    {
+      "component": "layer_4.head_1",
+      "layer": 4,
+      "head": 1,
+      "contribution": -0.0031024792697280645
+    },
+    {
+      "component": "layer_4.head_2",
+      "layer": 4,
+      "head": 2,
+      "contribution": -0.002417834708467126
+    },
+    {
+      "component": "layer_4.head_3",
+      "layer": 4,
+      "head": 3,
+      "contribution": -0.0040485309436917305
+    },
+    {
+      "component": "layer_4.head_4",
+      "layer": 4,
+      "head": 4,
+      "contribution": 0.0046052029356360435
+    },
+    {
+      "component": "layer_4.head_5",
+      "layer": 4,
+      "head": 5,
+      "contribution": -0.01804278790950775
+    },
+    {
+      "component": "layer_4.head_6",
+      "layer": 4,
+      "head": 6,
+      "contribution": -0.0052804541774094105
+    },
+    {
+      "component": "layer_4.head_7",
+      "layer": 4,
+      "head": 7,
+      "contribution": -0.007324022240936756
+    },
+    {
+      "component": "layer_4.head_8",
+      "layer": 4,
+      "head": 8,
+      "contribution": -0.007381168659776449
+    },
+    {
+      "component": "layer_4.head_9",
+      "layer": 4,
+      "head": 9,
+      "contribution": -0.001026302925311029
+    },
+    {
+      "component": "layer_4.head_10",
+      "layer": 4,
+      "head": 10,
+      "contribution": 0.012672447599470615
+    },
+    {
+      "component": "layer_4.head_11",
+      "layer": 4,
+      "head": 11,
+      "contribution": 0.0013327018823474646
+    },
+    {
+      "component": "layer_4.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.0044076526537537575
+    },
+    {
+      "component": "layer_4.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.07052101194858551
+    },
+    {
+      "component": "layer_5.head_0",
+      "layer": 5,
+      "head": 0,
+      "contribution": 0.039106760174036026
+    },
+    {
+      "component": "layer_5.head_1",
+      "layer": 5,
+      "head": 1,
+      "contribution": 0.0291841272264719
+    },
+    {
+      "component": "layer_5.head_2",
+      "layer": 5,
+      "head": 2,
+      "contribution": 0.0037141828797757626
+    },
+    {
+      "component": "layer_5.head_3",
+      "layer": 5,
+      "head": 3,
+      "contribution": -0.011062809266149998
+    },
+    {
+      "component": "layer_5.head_4",
+      "layer": 5,
+      "head": 4,
+      "contribution": 0.008767902851104736
+    },
+    {
+      "component": "layer_5.head_5",
+      "layer": 5,
+      "head": 5,
+      "contribution": 0.027285486459732056
+    },
+    {
+      "component": "layer_5.head_6",
+      "layer": 5,
+      "head": 6,
+      "contribution": -0.0029131234623491764
+    },
+    {
+      "component": "layer_5.head_7",
+      "layer": 5,
+      "head": 7,
+      "contribution": 0.01199315581470728
+    },
+    {
+      "component": "layer_5.head_8",
+      "layer": 5,
+      "head": 8,
+      "contribution": -0.022493761032819748
+    },
+    {
+      "component": "layer_5.head_9",
+      "layer": 5,
+      "head": 9,
+      "contribution": -0.03514301776885986
+    },
+    {
+      "component": "layer_5.head_10",
+      "layer": 5,
+      "head": 10,
+      "contribution": -0.015153312124311924
+    },
+    {
+      "component": "layer_5.head_11",
+      "layer": 5,
+      "head": 11,
+      "contribution": -0.006777153816074133
+    },
+    {
+      "component": "layer_5.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.004636848345398903
+    },
+    {
+      "component": "layer_5.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06329434365034103
+    },
+    {
+      "component": "layer_6.head_0",
+      "layer": 6,
+      "head": 0,
+      "contribution": -0.004113445989787579
+    },
+    {
+      "component": "layer_6.head_1",
+      "layer": 6,
+      "head": 1,
+      "contribution": 0.0007160445675253868
+    },
+    {
+      "component": "layer_6.head_2",
+      "layer": 6,
+      "head": 2,
+      "contribution": -0.010118035599589348
+    },
+    {
+      "component": "layer_6.head_3",
+      "layer": 6,
+      "head": 3,
+      "contribution": -0.022518547251820564
+    },
+    {
+      "component": "layer_6.head_4",
+      "layer": 6,
+      "head": 4,
+      "contribution": -0.0011927252635359764
+    },
+    {
+      "component": "layer_6.head_5",
+      "layer": 6,
+      "head": 5,
+      "contribution": 0.009134483523666859
+    },
+    {
+      "component": "layer_6.head_6",
+      "layer": 6,
+      "head": 6,
+      "contribution": -0.015244033187627792
+    },
+    {
+      "component": "layer_6.head_7",
+      "layer": 6,
+      "head": 7,
+      "contribution": -0.0015449770726263523
+    },
+    {
+      "component": "layer_6.head_8",
+      "layer": 6,
+      "head": 8,
+      "contribution": -0.011657054536044598
+    },
+    {
+      "component": "layer_6.head_9",
+      "layer": 6,
+      "head": 9,
+      "contribution": -0.019246986135840416
+    },
+    {
+      "component": "layer_6.head_10",
+      "layer": 6,
+      "head": 10,
+      "contribution": -0.0002562568988651037
+    },
+    {
+      "component": "layer_6.head_11",
+      "layer": 6,
+      "head": 11,
+      "contribution": -0.019031137228012085
+    },
+    {
+      "component": "layer_6.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.011542648077011108
+    },
+    {
+      "component": "layer_6.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06834256649017334
+    },
+    {
+      "component": "layer_7.head_0",
+      "layer": 7,
+      "head": 0,
+      "contribution": -0.028508039191365242
+    },
+    {
+      "component": "layer_7.head_1",
+      "layer": 7,
+      "head": 1,
+      "contribution": 0.011534325778484344
+    },
+    {
+      "component": "layer_7.head_2",
+      "layer": 7,
+      "head": 2,
+      "contribution": 0.021234948188066483
+    },
+    {
+      "component": "layer_7.head_3",
+      "layer": 7,
+      "head": 3,
+      "contribution": 0.024205299094319344
+    },
+    {
+      "component": "layer_7.head_4",
+      "layer": 7,
+      "head": 4,
+      "contribution": -0.013940079137682915
+    },
+    {
+      "component": "layer_7.head_5",
+      "layer": 7,
+      "head": 5,
+      "contribution": 0.004509027116000652
+    },
+    {
+      "component": "layer_7.head_6",
+      "layer": 7,
+      "head": 6,
+      "contribution": 0.0311451219022274
+    },
+    {
+      "component": "layer_7.head_7",
+      "layer": 7,
+      "head": 7,
+      "contribution": 0.010883387178182602
+    },
+    {
+      "component": "layer_7.head_8",
+      "layer": 7,
+      "head": 8,
+      "contribution": -0.012990202754735947
+    },
+    {
+      "component": "layer_7.head_9",
+      "layer": 7,
+      "head": 9,
+      "contribution": 0.0220191590487957
+    },
+    {
+      "component": "layer_7.head_10",
+      "layer": 7,
+      "head": 10,
+      "contribution": 0.0018028314225375652
+    },
+    {
+      "component": "layer_7.head_11",
+      "layer": 7,
+      "head": 11,
+      "contribution": 0.020859384909272194
+    },
+    {
+      "component": "layer_7.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.020465686917304993
+    },
+    {
+      "component": "layer_7.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06062650680541992
+    },
+    {
+      "component": "layer_8.head_0",
+      "layer": 8,
+      "head": 0,
+      "contribution": -0.02001808024942875
+    },
+    {
+      "component": "layer_8.head_1",
+      "layer": 8,
+      "head": 1,
+      "contribution": 0.004476404748857021
+    },
+    {
+      "component": "layer_8.head_2",
+      "layer": 8,
+      "head": 2,
+      "contribution": 0.020605649799108505
+    },
+    {
+      "component": "layer_8.head_3",
+      "layer": 8,
+      "head": 3,
+      "contribution": -0.01653962954878807
+    },
+    {
+      "component": "layer_8.head_4",
+      "layer": 8,
+      "head": 4,
+      "contribution": -0.01062226202338934
+    },
+    {
+      "component": "layer_8.head_5",
+      "layer": 8,
+      "head": 5,
+      "contribution": 0.02742769569158554
+    },
+    {
+      "component": "layer_8.head_6",
+      "layer": 8,
+      "head": 6,
+      "contribution": 0.013862602412700653
+    },
+    {
+      "component": "layer_8.head_7",
+      "layer": 8,
+      "head": 7,
+      "contribution": -0.022929560393095016
+    },
+    {
+      "component": "layer_8.head_8",
+      "layer": 8,
+      "head": 8,
+      "contribution": 0.00021500885486602783
+    },
+    {
+      "component": "layer_8.head_9",
+      "layer": 8,
+      "head": 9,
+      "contribution": -0.015301289968192577
+    },
+    {
+      "component": "layer_8.head_10",
+      "layer": 8,
+      "head": 10,
+      "contribution": -0.014315289445221424
+    },
+    {
+      "component": "layer_8.head_11",
+      "layer": 8,
+      "head": 11,
+      "contribution": 0.01781526952981949
+    },
+    {
+      "component": "layer_8.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.043436773121356964
+    },
+    {
+      "component": "layer_8.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.16657419502735138
+    },
+    {
+      "component": "layer_9.head_0",
+      "layer": 9,
+      "head": 0,
+      "contribution": 0.006039856001734734
+    },
+    {
+      "component": "layer_9.head_1",
+      "layer": 9,
+      "head": 1,
+      "contribution": 0.005077516194432974
+    },
+    {
+      "component": "layer_9.head_2",
+      "layer": 9,
+      "head": 2,
+      "contribution": -0.016296323388814926
+    },
+    {
+      "component": "layer_9.head_3",
+      "layer": 9,
+      "head": 3,
+      "contribution": -0.007532576099038124
+    },
+    {
+      "component": "layer_9.head_4",
+      "layer": 9,
+      "head": 4,
+      "contribution": 0.041311219334602356
+    },
+    {
+      "component": "layer_9.head_5",
+      "layer": 9,
+      "head": 5,
+      "contribution": -0.010718120262026787
+    },
+    {
+      "component": "layer_9.head_6",
+      "layer": 9,
+      "head": 6,
+      "contribution": -0.0024076919071376324
+    },
+    {
+      "component": "layer_9.head_7",
+      "layer": 9,
+      "head": 7,
+      "contribution": 0.004932811483740807
+    },
+    {
+      "component": "layer_9.head_8",
+      "layer": 9,
+      "head": 8,
+      "contribution": -0.001076516229659319
+    },
+    {
+      "component": "layer_9.head_9",
+      "layer": 9,
+      "head": 9,
+      "contribution": 0.013033948838710785
+    },
+    {
+      "component": "layer_9.head_10",
+      "layer": 9,
+      "head": 10,
+      "contribution": 0.007737401872873306
+    },
+    {
+      "component": "layer_9.head_11",
+      "layer": 9,
+      "head": 11,
+      "contribution": 0.02437569759786129
+    },
+    {
+      "component": "layer_9.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06601988524198532
+    },
+    {
+      "component": "layer_9.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.2140941619873047
+    },
+    {
+      "component": "layer_10.head_0",
+      "layer": 10,
+      "head": 0,
+      "contribution": -0.006435242481529713
+    },
+    {
+      "component": "layer_10.head_1",
+      "layer": 10,
+      "head": 1,
+      "contribution": -0.0073747034184634686
+    },
+    {
+      "component": "layer_10.head_2",
+      "layer": 10,
+      "head": 2,
+      "contribution": -0.024029258638620377
+    },
+    {
+      "component": "layer_10.head_3",
+      "layer": 10,
+      "head": 3,
+      "contribution": -0.01769927144050598
+    },
+    {
+      "component": "layer_10.head_4",
+      "layer": 10,
+      "head": 4,
+      "contribution": 0.02295004203915596
+    },
+    {
+      "component": "layer_10.head_5",
+      "layer": 10,
+      "head": 5,
+      "contribution": 0.008570129983127117
+    },
+    {
+      "component": "layer_10.head_6",
+      "layer": 10,
+      "head": 6,
+      "contribution": 0.08860807120800018
+    },
+    {
+      "component": "layer_10.head_7",
+      "layer": 10,
+      "head": 7,
+      "contribution": 0.02634422294795513
+    },
+    {
+      "component": "layer_10.head_8",
+      "layer": 10,
+      "head": 8,
+      "contribution": -0.016356999054551125
+    },
+    {
+      "component": "layer_10.head_9",
+      "layer": 10,
+      "head": 9,
+      "contribution": 0.02515873871743679
+    },
+    {
+      "component": "layer_10.head_10",
+      "layer": 10,
+      "head": 10,
+      "contribution": 0.0487365685403347
+    },
+    {
+      "component": "layer_10.head_11",
+      "layer": 10,
+      "head": 11,
+      "contribution": -0.04007598012685776
+    },
+    {
+      "component": "layer_10.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.07169590890407562
+    },
+    {
+      "component": "layer_10.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.5314463376998901
+    },
+    {
+      "component": "layer_11.head_0",
+      "layer": 11,
+      "head": 0,
+      "contribution": -0.010425569489598274
+    },
+    {
+      "component": "layer_11.head_1",
+      "layer": 11,
+      "head": 1,
+      "contribution": -0.09125853329896927
+    },
+    {
+      "component": "layer_11.head_2",
+      "layer": 11,
+      "head": 2,
+      "contribution": 0.03041255474090576
+    },
+    {
+      "component": "layer_11.head_3",
+      "layer": 11,
+      "head": 3,
+      "contribution": 0.013351161032915115
+    },
+    {
+      "component": "layer_11.head_4",
+      "layer": 11,
+      "head": 4,
+      "contribution": -0.09778069704771042
+    },
+    {
+      "component": "layer_11.head_5",
+      "layer": 11,
+      "head": 5,
+      "contribution": -0.013631125912070274
+    },
+    {
+      "component": "layer_11.head_6",
+      "layer": 11,
+      "head": 6,
+      "contribution": -0.0640631914138794
+    },
+    {
+      "component": "layer_11.head_7",
+      "layer": 11,
+      "head": 7,
+      "contribution": 0.015311209484934807
+    },
+    {
+      "component": "layer_11.head_8",
+      "layer": 11,
+      "head": 8,
+      "contribution": -1.3609060049057007
+    },
+    {
+      "component": "layer_11.head_9",
+      "layer": 11,
+      "head": 9,
+      "contribution": 0.018586818128824234
+    },
+    {
+      "component": "layer_11.head_10",
+      "layer": 11,
+      "head": 10,
+      "contribution": -0.02467714436352253
+    },
+    {
+      "component": "layer_11.head_11",
+      "layer": 11,
+      "head": 11,
+      "contribution": 0.037465713918209076
+    },
+    {
+      "component": "layer_11.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.1524919718503952
+    },
+    {
+      "component": "layer_11.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -2.715301036834717
+    },
+    {
+      "component": "ln_f.bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -3.300975799560547
+    }
+  ]
+}

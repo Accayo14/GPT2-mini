@@ -1,0 +1,7283 @@
+{
+  "timestamp_utc": "20260329T105312Z",
+  "model_name": "gpt2",
+  "prompt": "The capital of France is",
+  "position": 4,
+  "target_token_id": 262,
+  "target_token_text": " the",
+  "total_logit": -4.473989009857178,
+  "sum_of_heads": -1.3031407067319378,
+  "sum_of_other_terms": -3.170848581008613,
+  "reconstructed_total": -4.473989287740551,
+  "max_reconstruction_error": 8.58306884765625e-06,
+  "contributions": [
+    {
+      "component": "tok_embed",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.10107086598873138
+    },
+    {
+      "component": "pos_embed",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.012088041752576828
+    },
+    {
+      "component": "layer_0.head_0",
+      "layer": 0,
+      "head": 0,
+      "contribution": -0.009974136017262936
+    },
+    {
+      "component": "layer_0.head_1",
+      "layer": 0,
+      "head": 1,
+      "contribution": -0.024356262758374214
+    },
+    {
+      "component": "layer_0.head_2",
+      "layer": 0,
+      "head": 2,
+      "contribution": 0.003867863677442074
+    },
+    {
+      "component": "layer_0.head_3",
+      "layer": 0,
+      "head": 3,
+      "contribution": -0.012410350143909454
+    },
+    {
+      "component": "layer_0.head_4",
+      "layer": 0,
+      "head": 4,
+      "contribution": -0.015213984996080399
+    },
+    {
+      "component": "layer_0.head_5",
+      "layer": 0,
+      "head": 5,
+      "contribution": -0.01421340275555849
+    },
+    {
+      "component": "layer_0.head_6",
+      "layer": 0,
+      "head": 6,
+      "contribution": 0.016124121844768524
+    },
+    {
+      "component": "layer_0.head_7",
+      "layer": 0,
+      "head": 7,
+      "contribution": -0.01574799418449402
+    },
+    {
+      "component": "layer_0.head_8",
+      "layer": 0,
+      "head": 8,
+      "contribution": -0.013133712112903595
+    },
+    {
+      "component": "layer_0.head_9",
+      "layer": 0,
+      "head": 9,
+      "contribution": 0.017032310366630554
+    },
+    {
+      "component": "layer_0.head_10",
+      "layer": 0,
+      "head": 10,
+      "contribution": 0.016017112880945206
+    },
+    {
+      "component": "layer_0.head_11",
+      "layer": 0,
+      "head": 11,
+      "contribution": 0.0028023268096148968
+    },
+    {
+      "component": "layer_0.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.005631009116768837
+    },
+    {
+      "component": "layer_0.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 3.882606267929077
+    },
+    {
+      "component": "layer_1.head_0",
+      "layer": 1,
+      "head": 0,
+      "contribution": -0.01222595851868391
+    },
+    {
+      "component": "layer_1.head_1",
+      "layer": 1,
+      "head": 1,
+      "contribution": 0.015644872561097145
+    },
+    {
+      "component": "layer_1.head_2",
+      "layer": 1,
+      "head": 2,
+      "contribution": 0.02857142686843872
+    },
+    {
+      "component": "layer_1.head_3",
+      "layer": 1,
+      "head": 3,
+      "contribution": 0.028458040207624435
+    },
+    {
+      "component": "layer_1.head_4",
+      "layer": 1,
+      "head": 4,
+      "contribution": 0.051973722875118256
+    },
+    {
+      "component": "layer_1.head_5",
+      "layer": 1,
+      "head": 5,
+      "contribution": 0.09197472780942917
+    },
+    {
+      "component": "layer_1.head_6",
+      "layer": 1,
+      "head": 6,
+      "contribution": -0.022812344133853912
+    },
+    {
+      "component": "layer_1.head_7",
+      "layer": 1,
+      "head": 7,
+      "contribution": 0.07961321622133255
+    },
+    {
+      "component": "layer_1.head_8",
+      "layer": 1,
+      "head": 8,
+      "contribution": -0.010823135264217854
+    },
+    {
+      "component": "layer_1.head_9",
+      "layer": 1,
+      "head": 9,
+      "contribution": -0.03508100286126137
+    },
+    {
+      "component": "layer_1.head_10",
+      "layer": 1,
+      "head": 10,
+      "contribution": 0.04834800213575363
+    },
+    {
+      "component": "layer_1.head_11",
+      "layer": 1,
+      "head": 11,
+      "contribution": -0.023342885076999664
+    },
+    {
+      "component": "layer_1.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.002497997134923935
+    },
+    {
+      "component": "layer_1.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.20360815525054932
+    },
+    {
+      "component": "layer_2.head_0",
+      "layer": 2,
+      "head": 0,
+      "contribution": -0.031238358467817307
+    },
+    {
+      "component": "layer_2.head_1",
+      "layer": 2,
+      "head": 1,
+      "contribution": -0.03280961513519287
+    },
+    {
+      "component": "layer_2.head_2",
+      "layer": 2,
+      "head": 2,
+      "contribution": 0.016074974089860916
+    },
+    {
+      "component": "layer_2.head_3",
+      "layer": 2,
+      "head": 3,
+      "contribution": -0.027355335652828217
+    },
+    {
+      "component": "layer_2.head_4",
+      "layer": 2,
+      "head": 4,
+      "contribution": -0.025598883628845215
+    },
+    {
+      "component": "layer_2.head_5",
+      "layer": 2,
+      "head": 5,
+      "contribution": 0.01690020225942135
+    },
+    {
+      "component": "layer_2.head_6",
+      "layer": 2,
+      "head": 6,
+      "contribution": -0.03551831841468811
+    },
+    {
+      "component": "layer_2.head_7",
+      "layer": 2,
+      "head": 7,
+      "contribution": 0.01099447626620531
+    },
+    {
+      "component": "layer_2.head_8",
+      "layer": 2,
+      "head": 8,
+      "contribution": -0.016699740663170815
+    },
+    {
+      "component": "layer_2.head_9",
+      "layer": 2,
+      "head": 9,
+      "contribution": 0.011641287244856358
+    },
+    {
+      "component": "layer_2.head_10",
+      "layer": 2,
+      "head": 10,
+      "contribution": -0.01485498622059822
+    },
+    {
+      "component": "layer_2.head_11",
+      "layer": 2,
+      "head": 11,
+      "contribution": 0.02825971506536007
+    },
+    {
+      "component": "layer_2.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.025331418961286545
+    },
+    {
+      "component": "layer_2.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.28508448600769043
+    },
+    {
+      "component": "layer_3.head_0",
+      "layer": 3,
+      "head": 0,
+      "contribution": 0.0151812843978405
+    },
+    {
+      "component": "layer_3.head_1",
+      "layer": 3,
+      "head": 1,
+      "contribution": -0.010802537202835083
+    },
+    {
+      "component": "layer_3.head_2",
+      "layer": 3,
+      "head": 2,
+      "contribution": 0.015809783712029457
+    },
+    {
+      "component": "layer_3.head_3",
+      "layer": 3,
+      "head": 3,
+      "contribution": 0.009513825178146362
+    },
+    {
+      "component": "layer_3.head_4",
+      "layer": 3,
+      "head": 4,
+      "contribution": -0.0009532738476991653
+    },
+    {
+      "component": "layer_3.head_5",
+      "layer": 3,
+      "head": 5,
+      "contribution": -0.009782429784536362
+    },
+    {
+      "component": "layer_3.head_6",
+      "layer": 3,
+      "head": 6,
+      "contribution": -0.014016527682542801
+    },
+    {
+      "component": "layer_3.head_7",
+      "layer": 3,
+      "head": 7,
+      "contribution": -0.006815459579229355
+    },
+    {
+      "component": "layer_3.head_8",
+      "layer": 3,
+      "head": 8,
+      "contribution": 0.04872159659862518
+    },
+    {
+      "component": "layer_3.head_9",
+      "layer": 3,
+      "head": 9,
+      "contribution": -0.020067647099494934
+    },
+    {
+      "component": "layer_3.head_10",
+      "layer": 3,
+      "head": 10,
+      "contribution": -0.003081969451159239
+    },
+    {
+      "component": "layer_3.head_11",
+      "layer": 3,
+      "head": 11,
+      "contribution": -0.005703251343220472
+    },
+    {
+      "component": "layer_3.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.01503770612180233
+    },
+    {
+      "component": "layer_3.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.1189693957567215
+    },
+    {
+      "component": "layer_4.head_0",
+      "layer": 4,
+      "head": 0,
+      "contribution": -0.016145046800374985
+    },
+    {
+      "component": "layer_4.head_1",
+      "layer": 4,
+      "head": 1,
+      "contribution": -0.0031024792697280645
+    },
+    {
+      "component": "layer_4.head_2",
+      "layer": 4,
+      "head": 2,
+      "contribution": -0.002417834708467126
+    },
+    {
+      "component": "layer_4.head_3",
+      "layer": 4,
+      "head": 3,
+      "contribution": -0.0040485309436917305
+    },
+    {
+      "component": "layer_4.head_4",
+      "layer": 4,
+      "head": 4,
+      "contribution": 0.0046052029356360435
+    },
+    {
+      "component": "layer_4.head_5",
+      "layer": 4,
+      "head": 5,
+      "contribution": -0.01804278790950775
+    },
+    {
+      "component": "layer_4.head_6",
+      "layer": 4,
+      "head": 6,
+      "contribution": -0.0052804541774094105
+    },
+    {
+      "component": "layer_4.head_7",
+      "layer": 4,
+      "head": 7,
+      "contribution": -0.007324022240936756
+    },
+    {
+      "component": "layer_4.head_8",
+      "layer": 4,
+      "head": 8,
+      "contribution": -0.007381168659776449
+    },
+    {
+      "component": "layer_4.head_9",
+      "layer": 4,
+      "head": 9,
+      "contribution": -0.001026302925311029
+    },
+    {
+      "component": "layer_4.head_10",
+      "layer": 4,
+      "head": 10,
+      "contribution": 0.012672447599470615
+    },
+    {
+      "component": "layer_4.head_11",
+      "layer": 4,
+      "head": 11,
+      "contribution": 0.0013327018823474646
+    },
+    {
+      "component": "layer_4.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.0044076526537537575
+    },
+    {
+      "component": "layer_4.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.07052101194858551
+    },
+    {
+      "component": "layer_5.head_0",
+      "layer": 5,
+      "head": 0,
+      "contribution": 0.039106760174036026
+    },
+    {
+      "component": "layer_5.head_1",
+      "layer": 5,
+      "head": 1,
+      "contribution": 0.0291841272264719
+    },
+    {
+      "component": "layer_5.head_2",
+      "layer": 5,
+      "head": 2,
+      "contribution": 0.0037141828797757626
+    },
+    {
+      "component": "layer_5.head_3",
+      "layer": 5,
+      "head": 3,
+      "contribution": -0.011062809266149998
+    },
+    {
+      "component": "layer_5.head_4",
+      "layer": 5,
+      "head": 4,
+      "contribution": 0.008767902851104736
+    },
+    {
+      "component": "layer_5.head_5",
+      "layer": 5,
+      "head": 5,
+      "contribution": 0.027285486459732056
+    },
+    {
+      "component": "layer_5.head_6",
+      "layer": 5,
+      "head": 6,
+      "contribution": -0.0029131234623491764
+    },
+    {
+      "component": "layer_5.head_7",
+      "layer": 5,
+      "head": 7,
+      "contribution": 0.01199315581470728
+    },
+    {
+      "component": "layer_5.head_8",
+      "layer": 5,
+      "head": 8,
+      "contribution": -0.022493761032819748
+    },
+    {
+      "component": "layer_5.head_9",
+      "layer": 5,
+      "head": 9,
+      "contribution": -0.03514301776885986
+    },
+    {
+      "component": "layer_5.head_10",
+      "layer": 5,
+      "head": 10,
+      "contribution": -0.015153312124311924
+    },
+    {
+      "component": "layer_5.head_11",
+      "layer": 5,
+      "head": 11,
+      "contribution": -0.006777153816074133
+    },
+    {
+      "component": "layer_5.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": 0.004636848345398903
+    },
+    {
+      "component": "layer_5.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06329434365034103
+    },
+    {
+      "component": "layer_6.head_0",
+      "layer": 6,
+      "head": 0,
+      "contribution": -0.004113445989787579
+    },
+    {
+      "component": "layer_6.head_1",
+      "layer": 6,
+      "head": 1,
+      "contribution": 0.0007160445675253868
+    },
+    {
+      "component": "layer_6.head_2",
+      "layer": 6,
+      "head": 2,
+      "contribution": -0.010118035599589348
+    },
+    {
+      "component": "layer_6.head_3",
+      "layer": 6,
+      "head": 3,
+      "contribution": -0.022518547251820564
+    },
+    {
+      "component": "layer_6.head_4",
+      "layer": 6,
+      "head": 4,
+      "contribution": -0.0011927252635359764
+    },
+    {
+      "component": "layer_6.head_5",
+      "layer": 6,
+      "head": 5,
+      "contribution": 0.009134483523666859
+    },
+    {
+      "component": "layer_6.head_6",
+      "layer": 6,
+      "head": 6,
+      "contribution": -0.015244033187627792
+    },
+    {
+      "component": "layer_6.head_7",
+      "layer": 6,
+      "head": 7,
+      "contribution": -0.0015449770726263523
+    },
+    {
+      "component": "layer_6.head_8",
+      "layer": 6,
+      "head": 8,
+      "contribution": -0.011657054536044598
+    },
+    {
+      "component": "layer_6.head_9",
+      "layer": 6,
+      "head": 9,
+      "contribution": -0.019246986135840416
+    },
+    {
+      "component": "layer_6.head_10",
+      "layer": 6,
+      "head": 10,
+      "contribution": -0.0002562568988651037
+    },
+    {
+      "component": "layer_6.head_11",
+      "layer": 6,
+      "head": 11,
+      "contribution": -0.019031137228012085
+    },
+    {
+      "component": "layer_6.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.011542648077011108
+    },
+    {
+      "component": "layer_6.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06834256649017334
+    },
+    {
+      "component": "layer_7.head_0",
+      "layer": 7,
+      "head": 0,
+      "contribution": -0.028508039191365242
+    },
+    {
+      "component": "layer_7.head_1",
+      "layer": 7,
+      "head": 1,
+      "contribution": 0.011534325778484344
+    },
+    {
+      "component": "layer_7.head_2",
+      "layer": 7,
+      "head": 2,
+      "contribution": 0.021234948188066483
+    },
+    {
+      "component": "layer_7.head_3",
+      "layer": 7,
+      "head": 3,
+      "contribution": 0.024205299094319344
+    },
+    {
+      "component": "layer_7.head_4",
+      "layer": 7,
+      "head": 4,
+      "contribution": -0.013940079137682915
+    },
+    {
+      "component": "layer_7.head_5",
+      "layer": 7,
+      "head": 5,
+      "contribution": 0.004509027116000652
+    },
+    {
+      "component": "layer_7.head_6",
+      "layer": 7,
+      "head": 6,
+      "contribution": 0.0311451219022274
+    },
+    {
+      "component": "layer_7.head_7",
+      "layer": 7,
+      "head": 7,
+      "contribution": 0.010883387178182602
+    },
+    {
+      "component": "layer_7.head_8",
+      "layer": 7,
+      "head": 8,
+      "contribution": -0.012990202754735947
+    },
+    {
+      "component": "layer_7.head_9",
+      "layer": 7,
+      "head": 9,
+      "contribution": 0.0220191590487957
+    },
+    {
+      "component": "layer_7.head_10",
+      "layer": 7,
+      "head": 10,
+      "contribution": 0.0018028314225375652
+    },
+    {
+      "component": "layer_7.head_11",
+      "layer": 7,
+      "head": 11,
+      "contribution": 0.020859384909272194
+    },
+    {
+      "component": "layer_7.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.020465686917304993
+    },
+    {
+      "component": "layer_7.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06062650680541992
+    },
+    {
+      "component": "layer_8.head_0",
+      "layer": 8,
+      "head": 0,
+      "contribution": -0.02001808024942875
+    },
+    {
+      "component": "layer_8.head_1",
+      "layer": 8,
+      "head": 1,
+      "contribution": 0.004476404748857021
+    },
+    {
+      "component": "layer_8.head_2",
+      "layer": 8,
+      "head": 2,
+      "contribution": 0.020605649799108505
+    },
+    {
+      "component": "layer_8.head_3",
+      "layer": 8,
+      "head": 3,
+      "contribution": -0.01653962954878807
+    },
+    {
+      "component": "layer_8.head_4",
+      "layer": 8,
+      "head": 4,
+      "contribution": -0.01062226202338934
+    },
+    {
+      "component": "layer_8.head_5",
+      "layer": 8,
+      "head": 5,
+      "contribution": 0.02742769569158554
+    },
+    {
+      "component": "layer_8.head_6",
+      "layer": 8,
+      "head": 6,
+      "contribution": 0.013862602412700653
+    },
+    {
+      "component": "layer_8.head_7",
+      "layer": 8,
+      "head": 7,
+      "contribution": -0.022929560393095016
+    },
+    {
+      "component": "layer_8.head_8",
+      "layer": 8,
+      "head": 8,
+      "contribution": 0.00021500885486602783
+    },
+    {
+      "component": "layer_8.head_9",
+      "layer": 8,
+      "head": 9,
+      "contribution": -0.015301289968192577
+    },
+    {
+      "component": "layer_8.head_10",
+      "layer": 8,
+      "head": 10,
+      "contribution": -0.014315289445221424
+    },
+    {
+      "component": "layer_8.head_11",
+      "layer": 8,
+      "head": 11,
+      "contribution": 0.01781526952981949
+    },
+    {
+      "component": "layer_8.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.043436773121356964
+    },
+    {
+      "component": "layer_8.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.16657419502735138
+    },
+    {
+      "component": "layer_9.head_0",
+      "layer": 9,
+      "head": 0,
+      "contribution": 0.006039856001734734
+    },
+    {
+      "component": "layer_9.head_1",
+      "layer": 9,
+      "head": 1,
+      "contribution": 0.005077516194432974
+    },
+    {
+      "component": "layer_9.head_2",
+      "layer": 9,
+      "head": 2,
+      "contribution": -0.016296323388814926
+    },
+    {
+      "component": "layer_9.head_3",
+      "layer": 9,
+      "head": 3,
+      "contribution": -0.007532576099038124
+    },
+    {
+      "component": "layer_9.head_4",
+      "layer": 9,
+      "head": 4,
+      "contribution": 0.041311219334602356
+    },
+    {
+      "component": "layer_9.head_5",
+      "layer": 9,
+      "head": 5,
+      "contribution": -0.010718120262026787
+    },
+    {
+      "component": "layer_9.head_6",
+      "layer": 9,
+      "head": 6,
+      "contribution": -0.0024076919071376324
+    },
+    {
+      "component": "layer_9.head_7",
+      "layer": 9,
+      "head": 7,
+      "contribution": 0.004932811483740807
+    },
+    {
+      "component": "layer_9.head_8",
+      "layer": 9,
+      "head": 8,
+      "contribution": -0.001076516229659319
+    },
+    {
+      "component": "layer_9.head_9",
+      "layer": 9,
+      "head": 9,
+      "contribution": 0.013033948838710785
+    },
+    {
+      "component": "layer_9.head_10",
+      "layer": 9,
+      "head": 10,
+      "contribution": 0.007737401872873306
+    },
+    {
+      "component": "layer_9.head_11",
+      "layer": 9,
+      "head": 11,
+      "contribution": 0.02437569759786129
+    },
+    {
+      "component": "layer_9.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.06601988524198532
+    },
+    {
+      "component": "layer_9.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.2140941619873047
+    },
+    {
+      "component": "layer_10.head_0",
+      "layer": 10,
+      "head": 0,
+      "contribution": -0.006435242481529713
+    },
+    {
+      "component": "layer_10.head_1",
+      "layer": 10,
+      "head": 1,
+      "contribution": -0.0073747034184634686
+    },
+    {
+      "component": "layer_10.head_2",
+      "layer": 10,
+      "head": 2,
+      "contribution": -0.024029258638620377
+    },
+    {
+      "component": "layer_10.head_3",
+      "layer": 10,
+      "head": 3,
+      "contribution": -0.01769927144050598
+    },
+    {
+      "component": "layer_10.head_4",
+      "layer": 10,
+      "head": 4,
+      "contribution": 0.02295004203915596
+    },
+    {
+      "component": "layer_10.head_5",
+      "layer": 10,
+      "head": 5,
+      "contribution": 0.008570129983127117
+    },
+    {
+      "component": "layer_10.head_6",
+      "layer": 10,
+      "head": 6,
+      "contribution": 0.08860807120800018
+    },
+    {
+      "component": "layer_10.head_7",
+      "layer": 10,
+      "head": 7,
+      "contribution": 0.02634422294795513
+    },
+    {
+      "component": "layer_10.head_8",
+      "layer": 10,
+      "head": 8,
+      "contribution": -0.016356999054551125
+    },
+    {
+      "component": "layer_10.head_9",
+      "layer": 10,
+      "head": 9,
+      "contribution": 0.02515873871743679
+    },
+    {
+      "component": "layer_10.head_10",
+      "layer": 10,
+      "head": 10,
+      "contribution": 0.0487365685403347
+    },
+    {
+      "component": "layer_10.head_11",
+      "layer": 10,
+      "head": 11,
+      "contribution": -0.04007598012685776
+    },
+    {
+      "component": "layer_10.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.07169590890407562
+    },
+    {
+      "component": "layer_10.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.5314463376998901
+    },
+    {
+      "component": "layer_11.head_0",
+      "layer": 11,
+      "head": 0,
+      "contribution": -0.010425569489598274
+    },
+    {
+      "component": "layer_11.head_1",
+      "layer": 11,
+      "head": 1,
+      "contribution": -0.09125853329896927
+    },
+    {
+      "component": "layer_11.head_2",
+      "layer": 11,
+      "head": 2,
+      "contribution": 0.03041255474090576
+    },
+    {
+      "component": "layer_11.head_3",
+      "layer": 11,
+      "head": 3,
+      "contribution": 0.013351161032915115
+    },
+    {
+      "component": "layer_11.head_4",
+      "layer": 11,
+      "head": 4,
+      "contribution": -0.09778069704771042
+    },
+    {
+      "component": "layer_11.head_5",
+      "layer": 11,
+      "head": 5,
+      "contribution": -0.013631125912070274
+    },
+    {
+      "component": "layer_11.head_6",
+      "layer": 11,
+      "head": 6,
+      "contribution": -0.0640631914138794
+    },
+    {
+      "component": "layer_11.head_7",
+      "layer": 11,
+      "head": 7,
+      "contribution": 0.015311209484934807
+    },
+    {
+      "component": "layer_11.head_8",
+      "layer": 11,
+      "head": 8,
+      "contribution": -1.3609060049057007
+    },
+    {
+      "component": "layer_11.head_9",
+      "layer": 11,
+      "head": 9,
+      "contribution": 0.018586818128824234
+    },
+    {
+      "component": "layer_11.head_10",
+      "layer": 11,
+      "head": 10,
+      "contribution": -0.02467714436352253
+    },
+    {
+      "component": "layer_11.head_11",
+      "layer": 11,
+      "head": 11,
+      "contribution": 0.037465713918209076
+    },
+    {
+      "component": "layer_11.attn_bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -0.1524919718503952
+    },
+    {
+      "component": "layer_11.mlp",
+      "layer": -1,
+      "head": -1,
+      "contribution": -2.715301036834717
+    },
+    {
+      "component": "ln_f.bias",
+      "layer": -1,
+      "head": -1,
+      "contribution": -3.300975799560547
+    }
+  ],
+  "top_boosted_tokens_per_head_mlp": [
+    {
+      "component": "layer_0.head_0",
+      "layer": 0,
+      "head": 0,
+      "token_id": 43317,
+      "token_text": "naires",
+      "logit_boost": 0.010436877608299255
+    },
+    {
+      "component": "layer_0.head_0",
+      "layer": 0,
+      "head": 0,
+      "token_id": 41944,
+      "token_text": "uala",
+      "logit_boost": 0.009754997678101063
+    },
+    {
+      "component": "layer_0.head_0",
+      "layer": 0,
+      "head": 0,
+      "token_id": 27870,
+      "token_text": "anan",
+      "logit_boost": 0.007534201256930828
+    },
+    {
+      "component": "layer_0.head_0",
+      "layer": 0,
+      "head": 0,
+      "token_id": 49267,
+      "token_text": " Pwr",
+      "logit_boost": 0.006922212429344654
+    },
+    {
+      "component": "layer_0.head_0",
+      "layer": 0,
+      "head": 0,
+      "token_id": 37156,
+      "token_text": " Chero",
+      "logit_boost": 0.00619906559586525
+    },
+    {
+      "component": "layer_0.head_1",
+      "layer": 0,
+      "head": 1,
+      "token_id": 24631,
+      "token_text": "ndra",
+      "logit_boost": 0.05539610981941223
+    },
+    {
+      "component": "layer_0.head_1",
+      "layer": 0,
+      "head": 1,
+      "token_id": 42319,
+      "token_text": " RSA",
+      "logit_boost": 0.0474865660071373
+    },
+    {
+      "component": "layer_0.head_1",
+      "layer": 0,
+      "head": 1,
+      "token_id": 39934,
+      "token_text": "unia",
+      "logit_boost": 0.04651334509253502
+    },
+    {
+      "component": "layer_0.head_1",
+      "layer": 0,
+      "head": 1,
+      "token_id": 12769,
+      "token_text": "rin",
+      "logit_boost": 0.04522261396050453
+    },
+    {
+      "component": "layer_0.head_1",
+      "layer": 0,
+      "head": 1,
+      "token_id": 19928,
+      "token_text": " GRE",
+      "logit_boost": 0.04453396052122116
+    },
+    {
+      "component": "layer_0.head_2",
+      "layer": 0,
+      "head": 2,
+      "token_id": 49638,
+      "token_text": "agents",
+      "logit_boost": 0.02610331028699875
+    },
+    {
+      "component": "layer_0.head_2",
+      "layer": 0,
+      "head": 2,
+      "token_id": 17620,
+      "token_text": "channel",
+      "logit_boost": 0.025611817836761475
+    },
+    {
+      "component": "layer_0.head_2",
+      "layer": 0,
+      "head": 2,
+      "token_id": 31370,
+      "token_text": "oji",
+      "logit_boost": 0.02499910444021225
+    },
+    {
+      "component": "layer_0.head_2",
+      "layer": 0,
+      "head": 2,
+      "token_id": 48649,
+      "token_text": "benefit",
+      "logit_boost": 0.02459636703133583
+    },
+    {
+      "component": "layer_0.head_2",
+      "layer": 0,
+      "head": 2,
+      "token_id": 31994,
+      "token_text": "omics",
+      "logit_boost": 0.023795906454324722
+    },
+    {
+      "component": "layer_0.head_3",
+      "layer": 0,
+      "head": 3,
+      "token_id": 25444,
+      "token_text": "oshop",
+      "logit_boost": 0.032837796956300735
+    },
+    {
+      "component": "layer_0.head_3",
+      "layer": 0,
+      "head": 3,
+      "token_id": 1197,
+      "token_text": "thing",
+      "logit_boost": 0.029952578246593475
+    },
+    {
+      "component": "layer_0.head_3",
+      "layer": 0,
+      "head": 3,
+      "token_id": 35346,
+      "token_text": "odder",
+      "logit_boost": 0.028076916933059692
+    },
+    {
+      "component": "layer_0.head_3",
+      "layer": 0,
+      "head": 3,
+      "token_id": 31538,
+      "token_text": "actionDate",
+      "logit_boost": 0.025657428428530693
+    },
+    {
+      "component": "layer_0.head_3",
+      "layer": 0,
+      "head": 3,
+      "token_id": 36341,
+      "token_text": "slave",
+      "logit_boost": 0.02542050927877426
+    },
+    {
+      "component": "layer_0.head_4",
+      "layer": 0,
+      "head": 4,
+      "token_id": 47384,
+      "token_text": "Measure",
+      "logit_boost": 0.013157575391232967
+    },
+    {
+      "component": "layer_0.head_4",
+      "layer": 0,
+      "head": 4,
+      "token_id": 12576,
+      "token_text": "IAL",
+      "logit_boost": 0.012333367019891739
+    },
+    {
+      "component": "layer_0.head_4",
+      "layer": 0,
+      "head": 4,
+      "token_id": 34919,
+      "token_text": "Motor",
+      "logit_boost": 0.010626276955008507
+    },
+    {
+      "component": "layer_0.head_4",
+      "layer": 0,
+      "head": 4,
+      "token_id": 14326,
+      "token_text": "MW",
+      "logit_boost": 0.010423421859741211
+    },
+    {
+      "component": "layer_0.head_4",
+      "layer": 0,
+      "head": 4,
+      "token_id": 1927,
+      "token_text": "ially",
+      "logit_boost": 0.010324317961931229
+    },
+    {
+      "component": "layer_0.head_5",
+      "layer": 0,
+      "head": 5,
+      "token_id": 41559,
+      "token_text": " Guinness",
+      "logit_boost": 0.012703272514045238
+    },
+    {
+      "component": "layer_0.head_5",
+      "layer": 0,
+      "head": 5,
+      "token_id": 38308,
+      "token_text": " Ecc",
+      "logit_boost": 0.0125094810500741
+    },
+    {
+      "component": "layer_0.head_5",
+      "layer": 0,
+      "head": 5,
+      "token_id": 22673,
+      "token_text": " Kun",
+      "logit_boost": 0.010563318617641926
+    },
+    {
+      "component": "layer_0.head_5",
+      "layer": 0,
+      "head": 5,
+      "token_id": 28220,
+      "token_text": " PST",
+      "logit_boost": 0.009630212560296059
+    },
+    {
+      "component": "layer_0.head_5",
+      "layer": 0,
+      "head": 5,
+      "token_id": 32447,
+      "token_text": " Tolkien",
+      "logit_boost": 0.009080188348889351
+    },
+    {
+      "component": "layer_0.head_6",
+      "layer": 0,
+      "head": 6,
+      "token_id": 38182,
+      "token_text": "alm",
+      "logit_boost": 0.05494602024555206
+    },
+    {
+      "component": "layer_0.head_6",
+      "layer": 0,
+      "head": 6,
+      "token_id": 16100,
+      "token_text": "retty",
+      "logit_boost": 0.05219081789255142
+    },
+    {
+      "component": "layer_0.head_6",
+      "layer": 0,
+      "head": 6,
+      "token_id": 31387,
+      "token_text": "ftime",
+      "logit_boost": 0.0499231293797493
+    },
+    {
+      "component": "layer_0.head_6",
+      "layer": 0,
+      "head": 6,
+      "token_id": 4604,
+      "token_text": "lig",
+      "logit_boost": 0.049688324332237244
+    },
+    {
+      "component": "layer_0.head_6",
+      "layer": 0,
+      "head": 6,
+      "token_id": 12392,
+      "token_text": "rator",
+      "logit_boost": 0.04889870062470436
+    },
+    {
+      "component": "layer_0.head_7",
+      "layer": 0,
+      "head": 7,
+      "token_id": 47447,
+      "token_text": " Zeit",
+      "logit_boost": 0.00821236614137888
+    },
+    {
+      "component": "layer_0.head_7",
+      "layer": 0,
+      "head": 7,
+      "token_id": 50179,
+      "token_text": "artifacts",
+      "logit_boost": 0.007441866211593151
+    },
+    {
+      "component": "layer_0.head_7",
+      "layer": 0,
+      "head": 7,
+      "token_id": 18803,
+      "token_text": "士",
+      "logit_boost": 0.006054660305380821
+    },
+    {
+      "component": "layer_0.head_7",
+      "layer": 0,
+      "head": 7,
+      "token_id": 31885,
+      "token_text": " Authent",
+      "logit_boost": 0.00601541344076395
+    },
+    {
+      "component": "layer_0.head_7",
+      "layer": 0,
+      "head": 7,
+      "token_id": 33957,
+      "token_text": " Picks",
+      "logit_boost": 0.005714578554034233
+    },
+    {
+      "component": "layer_0.head_8",
+      "layer": 0,
+      "head": 8,
+      "token_id": 11805,
+      "token_text": "��",
+      "logit_boost": 0.034724485129117966
+    },
+    {
+      "component": "layer_0.head_8",
+      "layer": 0,
+      "head": 8,
+      "token_id": 31576,
+      "token_text": "externalActionCode",
+      "logit_boost": 0.02738293632864952
+    },
+    {
+      "component": "layer_0.head_8",
+      "layer": 0,
+      "head": 8,
+      "token_id": 2731,
+      "token_text": "uel",
+      "logit_boost": 0.02558816410601139
+    },
+    {
+      "component": "layer_0.head_8",
+      "layer": 0,
+      "head": 8,
+      "token_id": 47149,
+      "token_text": "ADS",
+      "logit_boost": 0.023896239697933197
+    },
+    {
+      "component": "layer_0.head_8",
+      "layer": 0,
+      "head": 8,
+      "token_id": 18081,
+      "token_text": "Health",
+      "logit_boost": 0.02386685460805893
+    },
+    {
+      "component": "layer_0.head_9",
+      "layer": 0,
+      "head": 9,
+      "token_id": 21646,
+      "token_text": "gotten",
+      "logit_boost": 0.04872864484786987
+    },
+    {
+      "component": "layer_0.head_9",
+      "layer": 0,
+      "head": 9,
+      "token_id": 28832,
+      "token_text": " Awakening",
+      "logit_boost": 0.04780351370573044
+    },
+    {
+      "component": "layer_0.head_9",
+      "layer": 0,
+      "head": 9,
+      "token_id": 31387,
+      "token_text": "ftime",
+      "logit_boost": 0.047213226556777954
+    },
+    {
+      "component": "layer_0.head_9",
+      "layer": 0,
+      "head": 9,
+      "token_id": 17534,
+      "token_text": "ABLE",
+      "logit_boost": 0.04663902148604393
+    },
+    {
+      "component": "layer_0.head_9",
+      "layer": 0,
+      "head": 9,
+      "token_id": 31424,
+      "token_text": "kefeller",
+      "logit_boost": 0.046218156814575195
+    },
+    {
+      "component": "layer_0.head_10",
+      "layer": 0,
+      "head": 10,
+      "token_id": 21107,
+      "token_text": "rez",
+      "logit_boost": 0.12270098179578781
+    },
+    {
+      "component": "layer_0.head_10",
+      "layer": 0,
+      "head": 10,
+      "token_id": 18115,
+      "token_text": "izoph",
+      "logit_boost": 0.10794005542993546
+    },
+    {
+      "component": "layer_0.head_10",
+      "layer": 0,
+      "head": 10,
+      "token_id": 38250,
+      "token_text": " Skydragon",
+      "logit_boost": 0.10789521783590317
+    },
+    {
+      "component": "layer_0.head_10",
+      "layer": 0,
+      "head": 10,
+      "token_id": 37357,
+      "token_text": "rush",
+      "logit_boost": 0.10748313367366791
+    },
+    {
+      "component": "layer_0.head_10",
+      "layer": 0,
+      "head": 10,
+      "token_id": 36455,
+      "token_text": "sei",
+      "logit_boost": 0.10741855949163437
+    },
+    {
+      "component": "layer_0.head_11",
+      "layer": 0,
+      "head": 11,
+      "token_id": 8497,
+      "token_text": "hesis",
+      "logit_boost": 0.024861900135874748
+    },
+    {
+      "component": "layer_0.head_11",
+      "layer": 0,
+      "head": 11,
+      "token_id": 5165,
+      "token_text": "oving",
+      "logit_boost": 0.022996526211500168
+    },
+    {
+      "component": "layer_0.head_11",
+      "layer": 0,
+      "head": 11,
+      "token_id": 12514,
+      "token_text": "elta",
+      "logit_boost": 0.022494863718748093
+    },
+    {
+      "component": "layer_0.head_11",
+      "layer": 0,
+      "head": 11,
+      "token_id": 37671,
+      "token_text": " reconnect",
+      "logit_boost": 0.02149428054690361
+    },
+    {
+      "component": "layer_0.head_11",
+      "layer": 0,
+      "head": 11,
+      "token_id": 21485,
+      "token_text": "hetical",
+      "logit_boost": 0.021482257172465324
+    },
+    {
+      "component": "layer_0.mlp",
+      "layer": 0,
+      "head": -1,
+      "token_id": 17773,
+      "token_text": " skelet",
+      "logit_boost": 7.946841716766357
+    },
+    {
+      "component": "layer_0.mlp",
+      "layer": 0,
+      "head": -1,
+      "token_id": 11641,
+      "token_text": "aeda",
+      "logit_boost": 7.876016616821289
+    },
+    {
+      "component": "layer_0.mlp",
+      "layer": 0,
+      "head": -1,
+      "token_id": 39666,
+      "token_text": "yip",
+      "logit_boost": 7.61209774017334
+    },
+    {
+      "component": "layer_0.mlp",
+      "layer": 0,
+      "head": -1,
+      "token_id": 41230,
+      "token_text": "govtrack",
+      "logit_boost": 7.534549713134766
+    },
+    {
+      "component": "layer_0.mlp",
+      "layer": 0,
+      "head": -1,
+      "token_id": 3239,
+      "token_text": "ovember",
+      "logit_boost": 7.533847808837891
+    },
+    {
+      "component": "layer_1.head_0",
+      "layer": 1,
+      "head": 0,
+      "token_id": 39666,
+      "token_text": "yip",
+      "logit_boost": 0.08196742832660675
+    },
+    {
+      "component": "layer_1.head_0",
+      "layer": 1,
+      "head": 0,
+      "token_id": 6166,
+      "token_text": " explan",
+      "logit_boost": 0.06584742665290833
+    },
+    {
+      "component": "layer_1.head_0",
+      "layer": 1,
+      "head": 0,
+      "token_id": 5843,
+      "token_text": "uters",
+      "logit_boost": 0.06338941305875778
+    },
+    {
+      "component": "layer_1.head_0",
+      "layer": 1,
+      "head": 0,
+      "token_id": 10269,
+      "token_text": "umbn",
+      "logit_boost": 0.06292791664600372
+    },
+    {
+      "component": "layer_1.head_0",
+      "layer": 1,
+      "head": 0,
+      "token_id": 20473,
+      "token_text": "imon",
+      "logit_boost": 0.06261024624109268
+    },
+    {
+      "component": "layer_1.head_1",
+      "layer": 1,
+      "head": 1,
+      "token_id": 39269,
+      "token_text": " Plants",
+      "logit_boost": 0.10918904095888138
+    },
+    {
+      "component": "layer_1.head_1",
+      "layer": 1,
+      "head": 1,
+      "token_id": 11205,
+      "token_text": "oft",
+      "logit_boost": 0.10313355177640915
+    },
+    {
+      "component": "layer_1.head_1",
+      "layer": 1,
+      "head": 1,
+      "token_id": 28500,
+      "token_text": "Initialized",
+      "logit_boost": 0.10232346504926682
+    },
+    {
+      "component": "layer_1.head_1",
+      "layer": 1,
+      "head": 1,
+      "token_id": 30213,
+      "token_text": " externalToEVAOnly",
+      "logit_boost": 0.09879539906978607
+    },
+    {
+      "component": "layer_1.head_1",
+      "layer": 1,
+      "head": 1,
+      "token_id": 31783,
+      "token_text": " BaseType",
+      "logit_boost": 0.08981968462467194
+    },
+    {
+      "component": "layer_1.head_2",
+      "layer": 1,
+      "head": 2,
+      "token_id": 22903,
+      "token_text": "okia",
+      "logit_boost": 0.13854749500751495
+    },
+    {
+      "component": "layer_1.head_2",
+      "layer": 1,
+      "head": 2,
+      "token_id": 13508,
+      "token_text": "lies",
+      "logit_boost": 0.13765479624271393
+    },
+    {
+      "component": "layer_1.head_2",
+      "layer": 1,
+      "head": 2,
+      "token_id": 654,
+      "token_text": "ings",
+      "logit_boost": 0.13413041830062866
+    },
+    {
+      "component": "layer_1.head_2",
+      "layer": 1,
+      "head": 2,
+      "token_id": 8448,
+      "token_text": "ses",
+      "logit_boost": 0.1289135068655014
+    },
+    {
+      "component": "layer_1.head_2",
+      "layer": 1,
+      "head": 2,
+      "token_id": 39737,
+      "token_text": "quished",
+      "logit_boost": 0.1286923736333847
+    },
+    {
+      "component": "layer_1.head_3",
+      "layer": 1,
+      "head": 3,
+      "token_id": 43660,
+      "token_text": "bernatorial",
+      "logit_boost": 0.10121453553438187
+    },
+    {
+      "component": "layer_1.head_3",
+      "layer": 1,
+      "head": 3,
+      "token_id": 15260,
+      "token_text": " Brady",
+      "logit_boost": 0.09834422916173935
+    },
+    {
+      "component": "layer_1.head_3",
+      "layer": 1,
+      "head": 3,
+      "token_id": 47209,
+      "token_text": " Bastard",
+      "logit_boost": 0.09662298858165741
+    },
+    {
+      "component": "layer_1.head_3",
+      "layer": 1,
+      "head": 3,
+      "token_id": 16881,
+      "token_text": "atinum",
+      "logit_boost": 0.0958472341299057
+    },
+    {
+      "component": "layer_1.head_3",
+      "layer": 1,
+      "head": 3,
+      "token_id": 38137,
+      "token_text": " Maher",
+      "logit_boost": 0.09532112628221512
+    },
+    {
+      "component": "layer_1.head_4",
+      "layer": 1,
+      "head": 4,
+      "token_id": 43408,
+      "token_text": "tymology",
+      "logit_boost": 0.16714155673980713
+    },
+    {
+      "component": "layer_1.head_4",
+      "layer": 1,
+      "head": 4,
+      "token_id": 13732,
+      "token_text": " Nig",
+      "logit_boost": 0.14609183371067047
+    },
+    {
+      "component": "layer_1.head_4",
+      "layer": 1,
+      "head": 4,
+      "token_id": 26235,
+      "token_text": " defaults",
+      "logit_boost": 0.14461259543895721
+    },
+    {
+      "component": "layer_1.head_4",
+      "layer": 1,
+      "head": 4,
+      "token_id": 44733,
+      "token_text": " Bits",
+      "logit_boost": 0.1408044993877411
+    },
+    {
+      "component": "layer_1.head_4",
+      "layer": 1,
+      "head": 4,
+      "token_id": 42424,
+      "token_text": "DragonMagazine",
+      "logit_boost": 0.14026936888694763
+    },
+    {
+      "component": "layer_1.head_5",
+      "layer": 1,
+      "head": 5,
+      "token_id": 43427,
+      "token_text": " Eps",
+      "logit_boost": 0.20095615088939667
+    },
+    {
+      "component": "layer_1.head_5",
+      "layer": 1,
+      "head": 5,
+      "token_id": 36988,
+      "token_text": " Bust",
+      "logit_boost": 0.19062849879264832
+    },
+    {
+      "component": "layer_1.head_5",
+      "layer": 1,
+      "head": 5,
+      "token_id": 36202,
+      "token_text": " Dir",
+      "logit_boost": 0.18549910187721252
+    },
+    {
+      "component": "layer_1.head_5",
+      "layer": 1,
+      "head": 5,
+      "token_id": 46892,
+      "token_text": " Chong",
+      "logit_boost": 0.18531927466392517
+    },
+    {
+      "component": "layer_1.head_5",
+      "layer": 1,
+      "head": 5,
+      "token_id": 3944,
+      "token_text": " Bel",
+      "logit_boost": 0.1827644258737564
+    },
+    {
+      "component": "layer_1.head_6",
+      "layer": 1,
+      "head": 6,
+      "token_id": 28153,
+      "token_text": "eer",
+      "logit_boost": 0.10557645559310913
+    },
+    {
+      "component": "layer_1.head_6",
+      "layer": 1,
+      "head": 6,
+      "token_id": 49782,
+      "token_text": "geist",
+      "logit_boost": 0.10136726498603821
+    },
+    {
+      "component": "layer_1.head_6",
+      "layer": 1,
+      "head": 6,
+      "token_id": 1260,
+      "token_text": "erest",
+      "logit_boost": 0.09279967099428177
+    },
+    {
+      "component": "layer_1.head_6",
+      "layer": 1,
+      "head": 6,
+      "token_id": 2715,
+      "token_text": "ctor",
+      "logit_boost": 0.08914202451705933
+    },
+    {
+      "component": "layer_1.head_6",
+      "layer": 1,
+      "head": 6,
+      "token_id": 23996,
+      "token_text": "arten",
+      "logit_boost": 0.08736041188240051
+    },
+    {
+      "component": "layer_1.head_7",
+      "layer": 1,
+      "head": 7,
+      "token_id": 47958,
+      "token_text": " Whitman",
+      "logit_boost": 0.21291185915470123
+    },
+    {
+      "component": "layer_1.head_7",
+      "layer": 1,
+      "head": 7,
+      "token_id": 45263,
+      "token_text": " Ambrose",
+      "logit_boost": 0.20227022469043732
+    },
+    {
+      "component": "layer_1.head_7",
+      "layer": 1,
+      "head": 7,
+      "token_id": 15755,
+      "token_text": " millenn",
+      "logit_boost": 0.19110454618930817
+    },
+    {
+      "component": "layer_1.head_7",
+      "layer": 1,
+      "head": 7,
+      "token_id": 45268,
+      "token_text": "enser",
+      "logit_boost": 0.1901272088289261
+    },
+    {
+      "component": "layer_1.head_7",
+      "layer": 1,
+      "head": 7,
+      "token_id": 45348,
+      "token_text": " Cheong",
+      "logit_boost": 0.19010072946548462
+    },
+    {
+      "component": "layer_1.head_8",
+      "layer": 1,
+      "head": 8,
+      "token_id": 45321,
+      "token_text": "pmwiki",
+      "logit_boost": 0.15243278443813324
+    },
+    {
+      "component": "layer_1.head_8",
+      "layer": 1,
+      "head": 8,
+      "token_id": 18674,
+      "token_text": "venge",
+      "logit_boost": 0.12147034704685211
+    },
+    {
+      "component": "layer_1.head_8",
+      "layer": 1,
+      "head": 8,
+      "token_id": 47205,
+      "token_text": "allows",
+      "logit_boost": 0.10899370908737183
+    },
+    {
+      "component": "layer_1.head_8",
+      "layer": 1,
+      "head": 8,
+      "token_id": 37889,
+      "token_text": " STATS",
+      "logit_boost": 0.10664097219705582
+    },
+    {
+      "component": "layer_1.head_8",
+      "layer": 1,
+      "head": 8,
+      "token_id": 32861,
+      "token_text": "videos",
+      "logit_boost": 0.10564553737640381
+    },
+    {
+      "component": "layer_1.head_9",
+      "layer": 1,
+      "head": 9,
+      "token_id": 7992,
+      "token_text": "ibilities",
+      "logit_boost": 0.08323897421360016
+    },
+    {
+      "component": "layer_1.head_9",
+      "layer": 1,
+      "head": 9,
+      "token_id": 40793,
+      "token_text": "pots",
+      "logit_boost": 0.08287792652845383
+    },
+    {
+      "component": "layer_1.head_9",
+      "layer": 1,
+      "head": 9,
+      "token_id": 47097,
+      "token_text": "owe",
+      "logit_boost": 0.07979066669940948
+    },
+    {
+      "component": "layer_1.head_9",
+      "layer": 1,
+      "head": 9,
+      "token_id": 39666,
+      "token_text": "yip",
+      "logit_boost": 0.07907930016517639
+    },
+    {
+      "component": "layer_1.head_9",
+      "layer": 1,
+      "head": 9,
+      "token_id": 6710,
+      "token_text": "anwhile",
+      "logit_boost": 0.07835083454847336
+    },
+    {
+      "component": "layer_1.head_10",
+      "layer": 1,
+      "head": 10,
+      "token_id": 49859,
+      "token_text": " Rosenthal",
+      "logit_boost": 0.16188772022724152
+    },
+    {
+      "component": "layer_1.head_10",
+      "layer": 1,
+      "head": 10,
+      "token_id": 13761,
+      "token_text": "eem",
+      "logit_boost": 0.15309251844882965
+    },
+    {
+      "component": "layer_1.head_10",
+      "layer": 1,
+      "head": 10,
+      "token_id": 5541,
+      "token_text": "xual",
+      "logit_boost": 0.15117335319519043
+    },
+    {
+      "component": "layer_1.head_10",
+      "layer": 1,
+      "head": 10,
+      "token_id": 39666,
+      "token_text": "yip",
+      "logit_boost": 0.1480080634355545
+    },
+    {
+      "component": "layer_1.head_10",
+      "layer": 1,
+      "head": 10,
+      "token_id": 255,
+      "token_text": "�",
+      "logit_boost": 0.1427413821220398
+    },
+    {
+      "component": "layer_1.head_11",
+      "layer": 1,
+      "head": 11,
+      "token_id": 19956,
+      "token_text": "folk",
+      "logit_boost": 0.054982081055641174
+    },
+    {
+      "component": "layer_1.head_11",
+      "layer": 1,
+      "head": 11,
+      "token_id": 47095,
+      "token_text": "knit",
+      "logit_boost": 0.05262836813926697
+    },
+    {
+      "component": "layer_1.head_11",
+      "layer": 1,
+      "head": 11,
+      "token_id": 47866,
+      "token_text": "govern",
+      "logit_boost": 0.052339836955070496
+    },
+    {
+      "component": "layer_1.head_11",
+      "layer": 1,
+      "head": 11,
+      "token_id": 25207,
+      "token_text": "Constructed",
+      "logit_boost": 0.05202879011631012
+    },
+    {
+      "component": "layer_1.head_11",
+      "layer": 1,
+      "head": 11,
+      "token_id": 30210,
+      "token_text": " guiActiveUnfocused",
+      "logit_boost": 0.05016319826245308
+    },
+    {
+      "component": "layer_1.mlp",
+      "layer": 1,
+      "head": -1,
+      "token_id": 290,
+      "token_text": " and",
+      "logit_boost": 0.04289247840642929
+    },
+    {
+      "component": "layer_1.mlp",
+      "layer": 1,
+      "head": -1,
+      "token_id": 287,
+      "token_text": " in",
+      "logit_boost": 0.030327655375003815
+    },
+    {
+      "component": "layer_1.mlp",
+      "layer": 1,
+      "head": -1,
+      "token_id": 13,
+      "token_text": ".",
+      "logit_boost": 0.01592560112476349
+    },
+    {
+      "component": "layer_1.mlp",
+      "layer": 1,
+      "head": -1,
+      "token_id": 319,
+      "token_text": " on",
+      "logit_boost": 0.012235462665557861
+    },
+    {
+      "component": "layer_1.mlp",
+      "layer": 1,
+      "head": -1,
+      "token_id": 329,
+      "token_text": " for",
+      "logit_boost": 0.0007788985967636108
+    },
+    {
+      "component": "layer_2.head_0",
+      "layer": 2,
+      "head": 0,
+      "token_id": 41382,
+      "token_text": "termination",
+      "logit_boost": 0.03169886767864227
+    },
+    {
+      "component": "layer_2.head_0",
+      "layer": 2,
+      "head": 0,
+      "token_id": 1087,
+      "token_text": "cent",
+      "logit_boost": 0.02365703321993351
+    },
+    {
+      "component": "layer_2.head_0",
+      "layer": 2,
+      "head": 0,
+      "token_id": 45710,
+      "token_text": "PLA",
+      "logit_boost": 0.023178830742836
+    },
+    {
+      "component": "layer_2.head_0",
+      "layer": 2,
+      "head": 0,
+      "token_id": 34509,
+      "token_text": "LIN",
+      "logit_boost": 0.021445967257022858
+    },
+    {
+      "component": "layer_2.head_0",
+      "layer": 2,
+      "head": 0,
+      "token_id": 39803,
+      "token_text": "soType",
+      "logit_boost": 0.02102869190275669
+    },
+    {
+      "component": "layer_2.head_1",
+      "layer": 2,
+      "head": 1,
+      "token_id": 28149,
+      "token_text": "umbing",
+      "logit_boost": 0.037868767976760864
+    },
+    {
+      "component": "layer_2.head_1",
+      "layer": 2,
+      "head": 1,
+      "token_id": 157,
+      "token_text": "�",
+      "logit_boost": 0.022627348080277443
+    },
+    {
+      "component": "layer_2.head_1",
+      "layer": 2,
+      "head": 1,
+      "token_id": 35076,
+      "token_text": "utra",
+      "logit_boost": 0.02235903963446617
+    },
+    {
+      "component": "layer_2.head_1",
+      "layer": 2,
+      "head": 1,
+      "token_id": 4612,
+      "token_text": "inct",
+      "logit_boost": 0.021437717601656914
+    },
+    {
+      "component": "layer_2.head_1",
+      "layer": 2,
+      "head": 1,
+      "token_id": 5374,
+      "token_text": "och",
+      "logit_boost": 0.02115320973098278
+    },
+    {
+      "component": "layer_2.head_2",
+      "layer": 2,
+      "head": 2,
+      "token_id": 46673,
+      "token_text": " outnumbered",
+      "logit_boost": 0.046650663018226624
+    },
+    {
+      "component": "layer_2.head_2",
+      "layer": 2,
+      "head": 2,
+      "token_id": 39789,
+      "token_text": " Quantity",
+      "logit_boost": 0.04589032381772995
+    },
+    {
+      "component": "layer_2.head_2",
+      "layer": 2,
+      "head": 2,
+      "token_id": 34503,
+      "token_text": " appropriation",
+      "logit_boost": 0.0455825999379158
+    },
+    {
+      "component": "layer_2.head_2",
+      "layer": 2,
+      "head": 2,
+      "token_id": 13938,
+      "token_text": " admission",
+      "logit_boost": 0.0437716469168663
+    },
+    {
+      "component": "layer_2.head_2",
+      "layer": 2,
+      "head": 2,
+      "token_id": 33713,
+      "token_text": " overrun",
+      "logit_boost": 0.04263106733560562
+    },
+    {
+      "component": "layer_2.head_3",
+      "layer": 2,
+      "head": 3,
+      "token_id": 43769,
+      "token_text": "��",
+      "logit_boost": 0.02832713909447193
+    },
+    {
+      "component": "layer_2.head_3",
+      "layer": 2,
+      "head": 3,
+      "token_id": 23329,
+      "token_text": "��",
+      "logit_boost": 0.02114638313651085
+    },
+    {
+      "component": "layer_2.head_3",
+      "layer": 2,
+      "head": 3,
+      "token_id": 29632,
+      "token_text": " rubble",
+      "logit_boost": 0.01631559245288372
+    },
+    {
+      "component": "layer_2.head_3",
+      "layer": 2,
+      "head": 3,
+      "token_id": 22768,
+      "token_text": " annex",
+      "logit_boost": 0.015994271263480186
+    },
+    {
+      "component": "layer_2.head_3",
+      "layer": 2,
+      "head": 3,
+      "token_id": 38767,
+      "token_text": "culosis",
+      "logit_boost": 0.014053216204047203
+    },
+    {
+      "component": "layer_2.head_4",
+      "layer": 2,
+      "head": 4,
+      "token_id": 20470,
+      "token_text": "cry",
+      "logit_boost": 0.0269075408577919
+    },
+    {
+      "component": "layer_2.head_4",
+      "layer": 2,
+      "head": 4,
+      "token_id": 39441,
+      "token_text": " McDonnell",
+      "logit_boost": 0.023771416395902634
+    },
+    {
+      "component": "layer_2.head_4",
+      "layer": 2,
+      "head": 4,
+      "token_id": 46552,
+      "token_text": " Kimmel",
+      "logit_boost": 0.02227742411196232
+    },
+    {
+      "component": "layer_2.head_4",
+      "layer": 2,
+      "head": 4,
+      "token_id": 7828,
+      "token_text": "olars",
+      "logit_boost": 0.018677372485399246
+    },
+    {
+      "component": "layer_2.head_4",
+      "layer": 2,
+      "head": 4,
+      "token_id": 2020,
+      "token_text": "selves",
+      "logit_boost": 0.018281016498804092
+    },
+    {
+      "component": "layer_2.head_5",
+      "layer": 2,
+      "head": 5,
+      "token_id": 46052,
+      "token_text": "aeus",
+      "logit_boost": 0.09111284464597702
+    },
+    {
+      "component": "layer_2.head_5",
+      "layer": 2,
+      "head": 5,
+      "token_id": 8520,
+      "token_text": "erved",
+      "logit_boost": 0.0890330821275711
+    },
+    {
+      "component": "layer_2.head_5",
+      "layer": 2,
+      "head": 5,
+      "token_id": 19930,
+      "token_text": "LP",
+      "logit_boost": 0.08733511716127396
+    },
+    {
+      "component": "layer_2.head_5",
+      "layer": 2,
+      "head": 5,
+      "token_id": 16590,
+      "token_text": "ichi",
+      "logit_boost": 0.08583813160657883
+    },
+    {
+      "component": "layer_2.head_5",
+      "layer": 2,
+      "head": 5,
+      "token_id": 26998,
+      "token_text": "メ",
+      "logit_boost": 0.0851328894495964
+    },
+    {
+      "component": "layer_2.head_6",
+      "layer": 2,
+      "head": 6,
+      "token_id": 38686,
+      "token_text": "igl",
+      "logit_boost": 0.0474502369761467
+    },
+    {
+      "component": "layer_2.head_6",
+      "layer": 2,
+      "head": 6,
+      "token_id": 23063,
+      "token_text": "ku",
+      "logit_boost": 0.04658205062150955
+    },
+    {
+      "component": "layer_2.head_6",
+      "layer": 2,
+      "head": 6,
+      "token_id": 2527,
+      "token_text": "clus",
+      "logit_boost": 0.045165054500103
+    },
+    {
+      "component": "layer_2.head_6",
+      "layer": 2,
+      "head": 6,
+      "token_id": 33995,
+      "token_text": " Shiva",
+      "logit_boost": 0.044263411313295364
+    },
+    {
+      "component": "layer_2.head_6",
+      "layer": 2,
+      "head": 6,
+      "token_id": 42951,
+      "token_text": "mins",
+      "logit_boost": 0.04410608857870102
+    },
+    {
+      "component": "layer_2.head_7",
+      "layer": 2,
+      "head": 7,
+      "token_id": 14654,
+      "token_text": " Flynn",
+      "logit_boost": 0.051726095378398895
+    },
+    {
+      "component": "layer_2.head_7",
+      "layer": 2,
+      "head": 7,
+      "token_id": 10160,
+      "token_text": " trave",
+      "logit_boost": 0.05079207941889763
+    },
+    {
+      "component": "layer_2.head_7",
+      "layer": 2,
+      "head": 7,
+      "token_id": 5353,
+      "token_text": " interests",
+      "logit_boost": 0.050711147487163544
+    },
+    {
+      "component": "layer_2.head_7",
+      "layer": 2,
+      "head": 7,
+      "token_id": 23806,
+      "token_text": "ottesville",
+      "logit_boost": 0.04941404610872269
+    },
+    {
+      "component": "layer_2.head_7",
+      "layer": 2,
+      "head": 7,
+      "token_id": 14287,
+      "token_text": " neighborhoods",
+      "logit_boost": 0.04924260452389717
+    },
+    {
+      "component": "layer_2.head_8",
+      "layer": 2,
+      "head": 8,
+      "token_id": 14775,
+      "token_text": "mouth",
+      "logit_boost": 0.07112359255552292
+    },
+    {
+      "component": "layer_2.head_8",
+      "layer": 2,
+      "head": 8,
+      "token_id": 46998,
+      "token_text": "urses",
+      "logit_boost": 0.06862205266952515
+    },
+    {
+      "component": "layer_2.head_8",
+      "layer": 2,
+      "head": 8,
+      "token_id": 47918,
+      "token_text": "Lie",
+      "logit_boost": 0.06402115523815155
+    },
+    {
+      "component": "layer_2.head_8",
+      "layer": 2,
+      "head": 8,
+      "token_id": 46831,
+      "token_text": " Toast",
+      "logit_boost": 0.06279660016298294
+    },
+    {
+      "component": "layer_2.head_8",
+      "layer": 2,
+      "head": 8,
+      "token_id": 16564,
+      "token_text": "pic",
+      "logit_boost": 0.06070937588810921
+    },
+    {
+      "component": "layer_2.head_9",
+      "layer": 2,
+      "head": 9,
+      "token_id": 13404,
+      "token_text": " trains",
+      "logit_boost": 0.05194735527038574
+    },
+    {
+      "component": "layer_2.head_9",
+      "layer": 2,
+      "head": 9,
+      "token_id": 23390,
+      "token_text": " cyclists",
+      "logit_boost": 0.05028216540813446
+    },
+    {
+      "component": "layer_2.head_9",
+      "layer": 2,
+      "head": 9,
+      "token_id": 24154,
+      "token_text": " Corey",
+      "logit_boost": 0.05013619363307953
+    },
+    {
+      "component": "layer_2.head_9",
+      "layer": 2,
+      "head": 9,
+      "token_id": 42229,
+      "token_text": " Brach",
+      "logit_boost": 0.04954209178686142
+    },
+    {
+      "component": "layer_2.head_9",
+      "layer": 2,
+      "head": 9,
+      "token_id": 47528,
+      "token_text": " Swanson",
+      "logit_boost": 0.04910924658179283
+    },
+    {
+      "component": "layer_2.head_10",
+      "layer": 2,
+      "head": 10,
+      "token_id": 20875,
+      "token_text": " afterward",
+      "logit_boost": 0.028298676013946533
+    },
+    {
+      "component": "layer_2.head_10",
+      "layer": 2,
+      "head": 10,
+      "token_id": 34335,
+      "token_text": " contag",
+      "logit_boost": 0.026312146335840225
+    },
+    {
+      "component": "layer_2.head_10",
+      "layer": 2,
+      "head": 10,
+      "token_id": 12979,
+      "token_text": " afterwards",
+      "logit_boost": 0.02584574557840824
+    },
+    {
+      "component": "layer_2.head_10",
+      "layer": 2,
+      "head": 10,
+      "token_id": 33175,
+      "token_text": "vana",
+      "logit_boost": 0.02542404644191265
+    },
+    {
+      "component": "layer_2.head_10",
+      "layer": 2,
+      "head": 10,
+      "token_id": 37932,
+      "token_text": " Chow",
+      "logit_boost": 0.02412090077996254
+    },
+    {
+      "component": "layer_2.head_11",
+      "layer": 2,
+      "head": 11,
+      "token_id": 43299,
+      "token_text": "ecast",
+      "logit_boost": 0.07957766205072403
+    },
+    {
+      "component": "layer_2.head_11",
+      "layer": 2,
+      "head": 11,
+      "token_id": 39563,
+      "token_text": "shock",
+      "logit_boost": 0.0753447636961937
+    },
+    {
+      "component": "layer_2.head_11",
+      "layer": 2,
+      "head": 11,
+      "token_id": 20066,
+      "token_text": "aris",
+      "logit_boost": 0.07499223947525024
+    },
+    {
+      "component": "layer_2.head_11",
+      "layer": 2,
+      "head": 11,
+      "token_id": 42311,
+      "token_text": "arnaev",
+      "logit_boost": 0.07460873574018478
+    },
+    {
+      "component": "layer_2.head_11",
+      "layer": 2,
+      "head": 11,
+      "token_id": 49147,
+      "token_text": " cradle",
+      "logit_boost": 0.07234112173318863
+    },
+    {
+      "component": "layer_2.mlp",
+      "layer": 2,
+      "head": -1,
+      "token_id": 11,
+      "token_text": ",",
+      "logit_boost": 0.38089999556541443
+    },
+    {
+      "component": "layer_2.mlp",
+      "layer": 2,
+      "head": -1,
+      "token_id": 287,
+      "token_text": " in",
+      "logit_boost": 0.380770742893219
+    },
+    {
+      "component": "layer_2.mlp",
+      "layer": 2,
+      "head": -1,
+      "token_id": 286,
+      "token_text": " of",
+      "logit_boost": 0.3390312194824219
+    },
+    {
+      "component": "layer_2.mlp",
+      "layer": 2,
+      "head": -1,
+      "token_id": 290,
+      "token_text": " and",
+      "logit_boost": 0.3352644145488739
+    },
+    {
+      "component": "layer_2.mlp",
+      "layer": 2,
+      "head": -1,
+      "token_id": 319,
+      "token_text": " on",
+      "logit_boost": 0.3238453269004822
+    },
+    {
+      "component": "layer_3.head_0",
+      "layer": 3,
+      "head": 0,
+      "token_id": 9287,
+      "token_text": "perty",
+      "logit_boost": 0.053458575159311295
+    },
+    {
+      "component": "layer_3.head_0",
+      "layer": 3,
+      "head": 0,
+      "token_id": 36252,
+      "token_text": "ETHOD",
+      "logit_boost": 0.05299318581819534
+    },
+    {
+      "component": "layer_3.head_0",
+      "layer": 3,
+      "head": 0,
+      "token_id": 12676,
+      "token_text": "ombies",
+      "logit_boost": 0.0524880588054657
+    },
+    {
+      "component": "layer_3.head_0",
+      "layer": 3,
+      "head": 0,
+      "token_id": 43708,
+      "token_text": "IRO",
+      "logit_boost": 0.05191819369792938
+    },
+    {
+      "component": "layer_3.head_0",
+      "layer": 3,
+      "head": 0,
+      "token_id": 42915,
+      "token_text": "xtap",
+      "logit_boost": 0.051636017858982086
+    },
+    {
+      "component": "layer_3.head_1",
+      "layer": 3,
+      "head": 1,
+      "token_id": 8544,
+      "token_text": "ptions",
+      "logit_boost": 0.027858948335051537
+    },
+    {
+      "component": "layer_3.head_1",
+      "layer": 3,
+      "head": 1,
+      "token_id": 18425,
+      "token_text": "adian",
+      "logit_boost": 0.02402125671505928
+    },
+    {
+      "component": "layer_3.head_1",
+      "layer": 3,
+      "head": 1,
+      "token_id": 4063,
+      "token_text": "pir",
+      "logit_boost": 0.023993374779820442
+    },
+    {
+      "component": "layer_3.head_1",
+      "layer": 3,
+      "head": 1,
+      "token_id": 8516,
+      "token_text": "rows",
+      "logit_boost": 0.02333090454339981
+    },
+    {
+      "component": "layer_3.head_1",
+      "layer": 3,
+      "head": 1,
+      "token_id": 29289,
+      "token_text": "layer",
+      "logit_boost": 0.023253241553902626
+    },
+    {
+      "component": "layer_3.head_2",
+      "layer": 3,
+      "head": 2,
+      "token_id": 17473,
+      "token_text": " contrace",
+      "logit_boost": 0.04944887012243271
+    },
+    {
+      "component": "layer_3.head_2",
+      "layer": 3,
+      "head": 2,
+      "token_id": 8102,
+      "token_text": "abis",
+      "logit_boost": 0.0480927899479866
+    },
+    {
+      "component": "layer_3.head_2",
+      "layer": 3,
+      "head": 2,
+      "token_id": 47829,
+      "token_text": " remission",
+      "logit_boost": 0.04730333387851715
+    },
+    {
+      "component": "layer_3.head_2",
+      "layer": 3,
+      "head": 2,
+      "token_id": 47614,
+      "token_text": " Nanto",
+      "logit_boost": 0.04705401137471199
+    },
+    {
+      "component": "layer_3.head_2",
+      "layer": 3,
+      "head": 2,
+      "token_id": 19028,
+      "token_text": "utenberg",
+      "logit_boost": 0.04652213305234909
+    },
+    {
+      "component": "layer_3.head_3",
+      "layer": 3,
+      "head": 3,
+      "token_id": 39013,
+      "token_text": " Garg",
+      "logit_boost": 0.03040209412574768
+    },
+    {
+      "component": "layer_3.head_3",
+      "layer": 3,
+      "head": 3,
+      "token_id": 24503,
+      "token_text": "morph",
+      "logit_boost": 0.029107127338647842
+    },
+    {
+      "component": "layer_3.head_3",
+      "layer": 3,
+      "head": 3,
+      "token_id": 45692,
+      "token_text": "س",
+      "logit_boost": 0.026767203584313393
+    },
+    {
+      "component": "layer_3.head_3",
+      "layer": 3,
+      "head": 3,
+      "token_id": 37987,
+      "token_text": "ogie",
+      "logit_boost": 0.026292074471712112
+    },
+    {
+      "component": "layer_3.head_3",
+      "layer": 3,
+      "head": 3,
+      "token_id": 15562,
+      "token_text": "Incre",
+      "logit_boost": 0.026054073125123978
+    },
+    {
+      "component": "layer_3.head_4",
+      "layer": 3,
+      "head": 4,
+      "token_id": 32288,
+      "token_text": "regor",
+      "logit_boost": 0.038667723536491394
+    },
+    {
+      "component": "layer_3.head_4",
+      "layer": 3,
+      "head": 4,
+      "token_id": 26523,
+      "token_text": "ionic",
+      "logit_boost": 0.03840953856706619
+    },
+    {
+      "component": "layer_3.head_4",
+      "layer": 3,
+      "head": 4,
+      "token_id": 15512,
+      "token_text": "ilight",
+      "logit_boost": 0.037932127714157104
+    },
+    {
+      "component": "layer_3.head_4",
+      "layer": 3,
+      "head": 4,
+      "token_id": 40561,
+      "token_text": "apego",
+      "logit_boost": 0.03560516983270645
+    },
+    {
+      "component": "layer_3.head_4",
+      "layer": 3,
+      "head": 4,
+      "token_id": 26818,
+      "token_text": "vine",
+      "logit_boost": 0.035446904599666595
+    },
+    {
+      "component": "layer_3.head_5",
+      "layer": 3,
+      "head": 5,
+      "token_id": 36890,
+      "token_text": "lite",
+      "logit_boost": 0.00609962921589613
+    },
+    {
+      "component": "layer_3.head_5",
+      "layer": 3,
+      "head": 5,
+      "token_id": 24631,
+      "token_text": "ndra",
+      "logit_boost": 0.00596648408100009
+    },
+    {
+      "component": "layer_3.head_5",
+      "layer": 3,
+      "head": 5,
+      "token_id": 6137,
+      "token_text": "arters",
+      "logit_boost": 0.00573409628123045
+    },
+    {
+      "component": "layer_3.head_5",
+      "layer": 3,
+      "head": 5,
+      "token_id": 22596,
+      "token_text": " Apart",
+      "logit_boost": 0.005581408739089966
+    },
+    {
+      "component": "layer_3.head_5",
+      "layer": 3,
+      "head": 5,
+      "token_id": 47256,
+      "token_text": " Phi",
+      "logit_boost": 0.005034660454839468
+    },
+    {
+      "component": "layer_3.head_6",
+      "layer": 3,
+      "head": 6,
+      "token_id": 34174,
+      "token_text": "arat",
+      "logit_boost": 0.019276823848485947
+    },
+    {
+      "component": "layer_3.head_6",
+      "layer": 3,
+      "head": 6,
+      "token_id": 12738,
+      "token_text": " dece",
+      "logit_boost": 0.01774446666240692
+    },
+    {
+      "component": "layer_3.head_6",
+      "layer": 3,
+      "head": 6,
+      "token_id": 15292,
+      "token_text": " fest",
+      "logit_boost": 0.016873402521014214
+    },
+    {
+      "component": "layer_3.head_6",
+      "layer": 3,
+      "head": 6,
+      "token_id": 38230,
+      "token_text": " Ai",
+      "logit_boost": 0.01642855815589428
+    },
+    {
+      "component": "layer_3.head_6",
+      "layer": 3,
+      "head": 6,
+      "token_id": 13291,
+      "token_text": " href",
+      "logit_boost": 0.016001887619495392
+    },
+    {
+      "component": "layer_3.head_7",
+      "layer": 3,
+      "head": 7,
+      "token_id": 4932,
+      "token_text": " Guard",
+      "logit_boost": 0.018291551619768143
+    },
+    {
+      "component": "layer_3.head_7",
+      "layer": 3,
+      "head": 7,
+      "token_id": 44908,
+      "token_text": "izens",
+      "logit_boost": 0.017931988462805748
+    },
+    {
+      "component": "layer_3.head_7",
+      "layer": 3,
+      "head": 7,
+      "token_id": 42307,
+      "token_text": " Rivals",
+      "logit_boost": 0.017840469256043434
+    },
+    {
+      "component": "layer_3.head_7",
+      "layer": 3,
+      "head": 7,
+      "token_id": 6962,
+      "token_text": "ayers",
+      "logit_boost": 0.017416756600141525
+    },
+    {
+      "component": "layer_3.head_7",
+      "layer": 3,
+      "head": 7,
+      "token_id": 48994,
+      "token_text": " Corridor",
+      "logit_boost": 0.01657932810485363
+    },
+    {
+      "component": "layer_3.head_8",
+      "layer": 3,
+      "head": 8,
+      "token_id": 41716,
+      "token_text": " phased",
+      "logit_boost": 0.07062747329473495
+    },
+    {
+      "component": "layer_3.head_8",
+      "layer": 3,
+      "head": 8,
+      "token_id": 50011,
+      "token_text": " briefs",
+      "logit_boost": 0.0705951452255249
+    },
+    {
+      "component": "layer_3.head_8",
+      "layer": 3,
+      "head": 8,
+      "token_id": 41096,
+      "token_text": " reperto",
+      "logit_boost": 0.06930671632289886
+    },
+    {
+      "component": "layer_3.head_8",
+      "layer": 3,
+      "head": 8,
+      "token_id": 48210,
+      "token_text": " Ago",
+      "logit_boost": 0.06841128319501877
+    },
+    {
+      "component": "layer_3.head_8",
+      "layer": 3,
+      "head": 8,
+      "token_id": 32559,
+      "token_text": " Cul",
+      "logit_boost": 0.06840018182992935
+    },
+    {
+      "component": "layer_3.head_9",
+      "layer": 3,
+      "head": 9,
+      "token_id": 44555,
+      "token_text": " Archdemon",
+      "logit_boost": 0.00619885791093111
+    },
+    {
+      "component": "layer_3.head_9",
+      "layer": 3,
+      "head": 9,
+      "token_id": 12889,
+      "token_text": "JP",
+      "logit_boost": 0.005544567480683327
+    },
+    {
+      "component": "layer_3.head_9",
+      "layer": 3,
+      "head": 9,
+      "token_id": 27415,
+      "token_text": "ARS",
+      "logit_boost": 0.005508358124643564
+    },
+    {
+      "component": "layer_3.head_9",
+      "layer": 3,
+      "head": 9,
+      "token_id": 21579,
+      "token_text": " Emir",
+      "logit_boost": 0.0050119804218411446
+    },
+    {
+      "component": "layer_3.head_9",
+      "layer": 3,
+      "head": 9,
+      "token_id": 44490,
+      "token_text": "Sales",
+      "logit_boost": 0.003654762636870146
+    },
+    {
+      "component": "layer_3.head_10",
+      "layer": 3,
+      "head": 10,
+      "token_id": 11966,
+      "token_text": " Marketable",
+      "logit_boost": 0.021646318957209587
+    },
+    {
+      "component": "layer_3.head_10",
+      "layer": 3,
+      "head": 10,
+      "token_id": 11411,
+      "token_text": " destro",
+      "logit_boost": 0.021331477910280228
+    },
+    {
+      "component": "layer_3.head_10",
+      "layer": 3,
+      "head": 10,
+      "token_id": 43394,
+      "token_text": " CLSID",
+      "logit_boost": 0.0207505039870739
+    },
+    {
+      "component": "layer_3.head_10",
+      "layer": 3,
+      "head": 10,
+      "token_id": 48723,
+      "token_text": " Haitian",
+      "logit_boost": 0.019938267767429352
+    },
+    {
+      "component": "layer_3.head_10",
+      "layer": 3,
+      "head": 10,
+      "token_id": 18163,
+      "token_text": " suscept",
+      "logit_boost": 0.019835371524095535
+    },
+    {
+      "component": "layer_3.head_11",
+      "layer": 3,
+      "head": 11,
+      "token_id": 36481,
+      "token_text": "ertodd",
+      "logit_boost": 0.02375943586230278
+    },
+    {
+      "component": "layer_3.head_11",
+      "layer": 3,
+      "head": 11,
+      "token_id": 50076,
+      "token_text": "ilts",
+      "logit_boost": 0.02223173901438713
+    },
+    {
+      "component": "layer_3.head_11",
+      "layer": 3,
+      "head": 11,
+      "token_id": 30394,
+      "token_text": "tsky",
+      "logit_boost": 0.022042714059352875
+    },
+    {
+      "component": "layer_3.head_11",
+      "layer": 3,
+      "head": 11,
+      "token_id": 49916,
+      "token_text": "chev",
+      "logit_boost": 0.021731799468398094
+    },
+    {
+      "component": "layer_3.head_11",
+      "layer": 3,
+      "head": 11,
+      "token_id": 1905,
+      "token_text": "iety",
+      "logit_boost": 0.021616635844111443
+    },
+    {
+      "component": "layer_3.mlp",
+      "layer": 3,
+      "head": -1,
+      "token_id": 290,
+      "token_text": " and",
+      "logit_boost": 0.13102443516254425
+    },
+    {
+      "component": "layer_3.mlp",
+      "layer": 3,
+      "head": -1,
+      "token_id": 11,
+      "token_text": ",",
+      "logit_boost": 0.12974116206169128
+    },
+    {
+      "component": "layer_3.mlp",
+      "layer": 3,
+      "head": -1,
+      "token_id": 13,
+      "token_text": ".",
+      "logit_boost": 0.12013640999794006
+    },
+    {
+      "component": "layer_3.mlp",
+      "layer": 3,
+      "head": -1,
+      "token_id": 284,
+      "token_text": " to",
+      "logit_boost": 0.12006521970033646
+    },
+    {
+      "component": "layer_3.mlp",
+      "layer": 3,
+      "head": -1,
+      "token_id": 287,
+      "token_text": " in",
+      "logit_boost": 0.11995718628168106
+    },
+    {
+      "component": "layer_4.head_0",
+      "layer": 4,
+      "head": 0,
+      "token_id": 31739,
+      "token_text": "dylib",
+      "logit_boost": 0.007852936163544655
+    },
+    {
+      "component": "layer_4.head_0",
+      "layer": 4,
+      "head": 0,
+      "token_id": 31199,
+      "token_text": "Liber",
+      "logit_boost": 0.007265693508088589
+    },
+    {
+      "component": "layer_4.head_0",
+      "layer": 4,
+      "head": 0,
+      "token_id": 19496,
+      "token_text": "bach",
+      "logit_boost": 0.006218891590833664
+    },
+    {
+      "component": "layer_4.head_0",
+      "layer": 4,
+      "head": 0,
+      "token_id": 35237,
+      "token_text": "inus",
+      "logit_boost": 0.006138223689049482
+    },
+    {
+      "component": "layer_4.head_0",
+      "layer": 4,
+      "head": 0,
+      "token_id": 24806,
+      "token_text": "ェ",
+      "logit_boost": 0.006100134924054146
+    },
+    {
+      "component": "layer_4.head_1",
+      "layer": 4,
+      "head": 1,
+      "token_id": 47265,
+      "token_text": "ombo",
+      "logit_boost": 0.016476646065711975
+    },
+    {
+      "component": "layer_4.head_1",
+      "layer": 4,
+      "head": 1,
+      "token_id": 36970,
+      "token_text": "Charges",
+      "logit_boost": 0.014826612547039986
+    },
+    {
+      "component": "layer_4.head_1",
+      "layer": 4,
+      "head": 1,
+      "token_id": 49565,
+      "token_text": " curfew",
+      "logit_boost": 0.01282075047492981
+    },
+    {
+      "component": "layer_4.head_1",
+      "layer": 4,
+      "head": 1,
+      "token_id": 49643,
+      "token_text": "DERR",
+      "logit_boost": 0.011965456418693066
+    },
+    {
+      "component": "layer_4.head_1",
+      "layer": 4,
+      "head": 1,
+      "token_id": 41538,
+      "token_text": "Magikarp",
+      "logit_boost": 0.011350571177899837
+    },
+    {
+      "component": "layer_4.head_2",
+      "layer": 4,
+      "head": 2,
+      "token_id": 3302,
+      "token_text": " achie",
+      "logit_boost": 0.019483959302306175
+    },
+    {
+      "component": "layer_4.head_2",
+      "layer": 4,
+      "head": 2,
+      "token_id": 47929,
+      "token_text": " vantage",
+      "logit_boost": 0.018054112792015076
+    },
+    {
+      "component": "layer_4.head_2",
+      "layer": 4,
+      "head": 2,
+      "token_id": 48123,
+      "token_text": "Reward",
+      "logit_boost": 0.01804482936859131
+    },
+    {
+      "component": "layer_4.head_2",
+      "layer": 4,
+      "head": 2,
+      "token_id": 46824,
+      "token_text": " Immunity",
+      "logit_boost": 0.017922502011060715
+    },
+    {
+      "component": "layer_4.head_2",
+      "layer": 4,
+      "head": 2,
+      "token_id": 16989,
+      "token_text": " immunity",
+      "logit_boost": 0.017658021301031113
+    },
+    {
+      "component": "layer_4.head_3",
+      "layer": 4,
+      "head": 3,
+      "token_id": 37531,
+      "token_text": "esthetic",
+      "logit_boost": 0.013028066605329514
+    },
+    {
+      "component": "layer_4.head_3",
+      "layer": 4,
+      "head": 3,
+      "token_id": 39817,
+      "token_text": " POLITICO",
+      "logit_boost": 0.012653427198529243
+    },
+    {
+      "component": "layer_4.head_3",
+      "layer": 4,
+      "head": 3,
+      "token_id": 30676,
+      "token_text": " plur",
+      "logit_boost": 0.012581993825733662
+    },
+    {
+      "component": "layer_4.head_3",
+      "layer": 4,
+      "head": 3,
+      "token_id": 5217,
+      "token_text": "ctors",
+      "logit_boost": 0.012329223565757275
+    },
+    {
+      "component": "layer_4.head_3",
+      "layer": 4,
+      "head": 3,
+      "token_id": 37507,
+      "token_text": "edes",
+      "logit_boost": 0.012244848534464836
+    },
+    {
+      "component": "layer_4.head_4",
+      "layer": 4,
+      "head": 4,
+      "token_id": 49997,
+      "token_text": "ahime",
+      "logit_boost": 0.031738199293613434
+    },
+    {
+      "component": "layer_4.head_4",
+      "layer": 4,
+      "head": 4,
+      "token_id": 38032,
+      "token_text": "peria",
+      "logit_boost": 0.03159747272729874
+    },
+    {
+      "component": "layer_4.head_4",
+      "layer": 4,
+      "head": 4,
+      "token_id": 23556,
+      "token_text": "otle",
+      "logit_boost": 0.031185025349259377
+    },
+    {
+      "component": "layer_4.head_4",
+      "layer": 4,
+      "head": 4,
+      "token_id": 41037,
+      "token_text": "fen",
+      "logit_boost": 0.03095736913383007
+    },
+    {
+      "component": "layer_4.head_4",
+      "layer": 4,
+      "head": 4,
+      "token_id": 26440,
+      "token_text": "prus",
+      "logit_boost": 0.03085515648126602
+    },
+    {
+      "component": "layer_4.head_5",
+      "layer": 4,
+      "head": 5,
+      "token_id": 41538,
+      "token_text": "Magikarp",
+      "logit_boost": 0.005497512873262167
+    },
+    {
+      "component": "layer_4.head_5",
+      "layer": 4,
+      "head": 5,
+      "token_id": 46403,
+      "token_text": " Tome",
+      "logit_boost": 0.001280362717807293
+    },
+    {
+      "component": "layer_4.head_5",
+      "layer": 4,
+      "head": 5,
+      "token_id": 32849,
+      "token_text": "�",
+      "logit_boost": 0.0010738112032413483
+    },
+    {
+      "component": "layer_4.head_5",
+      "layer": 4,
+      "head": 5,
+      "token_id": 49969,
+      "token_text": " Mercenary",
+      "logit_boost": 0.0009426099713891745
+    },
+    {
+      "component": "layer_4.head_5",
+      "layer": 4,
+      "head": 5,
+      "token_id": 43399,
+      "token_text": " Torrent",
+      "logit_boost": 0.00013340264558792114
+    },
+    {
+      "component": "layer_4.head_6",
+      "layer": 4,
+      "head": 6,
+      "token_id": 7168,
+      "token_text": "ixel",
+      "logit_boost": 0.035222943872213364
+    },
+    {
+      "component": "layer_4.head_6",
+      "layer": 4,
+      "head": 6,
+      "token_id": 15290,
+      "token_text": " mock",
+      "logit_boost": 0.034476593136787415
+    },
+    {
+      "component": "layer_4.head_6",
+      "layer": 4,
+      "head": 6,
+      "token_id": 43691,
+      "token_text": "ossibility",
+      "logit_boost": 0.03408508747816086
+    },
+    {
+      "component": "layer_4.head_6",
+      "layer": 4,
+      "head": 6,
+      "token_id": 41369,
+      "token_text": " prototyp",
+      "logit_boost": 0.03405990079045296
+    },
+    {
+      "component": "layer_4.head_6",
+      "layer": 4,
+      "head": 6,
+      "token_id": 14810,
+      "token_text": "ixels",
+      "logit_boost": 0.032913628965616226
+    },
+    {
+      "component": "layer_4.head_7",
+      "layer": 4,
+      "head": 7,
+      "token_id": 16201,
+      "token_text": "ktop",
+      "logit_boost": 0.013960340060293674
+    },
+    {
+      "component": "layer_4.head_7",
+      "layer": 4,
+      "head": 7,
+      "token_id": 43052,
+      "token_text": " É",
+      "logit_boost": 0.01374545507133007
+    },
+    {
+      "component": "layer_4.head_7",
+      "layer": 4,
+      "head": 7,
+      "token_id": 33653,
+      "token_text": " Bhar",
+      "logit_boost": 0.01247352547943592
+    },
+    {
+      "component": "layer_4.head_7",
+      "layer": 4,
+      "head": 7,
+      "token_id": 33087,
+      "token_text": "rolet",
+      "logit_boost": 0.012071060948073864
+    },
+    {
+      "component": "layer_4.head_7",
+      "layer": 4,
+      "head": 7,
+      "token_id": 5099,
+      "token_text": "�",
+      "logit_boost": 0.01131096389144659
+    },
+    {
+      "component": "layer_4.head_8",
+      "layer": 4,
+      "head": 8,
+      "token_id": 5829,
+      "token_text": "cean",
+      "logit_boost": 0.008204769343137741
+    },
+    {
+      "component": "layer_4.head_8",
+      "layer": 4,
+      "head": 8,
+      "token_id": 23369,
+      "token_text": " Eden",
+      "logit_boost": 0.00810136366635561
+    },
+    {
+      "component": "layer_4.head_8",
+      "layer": 4,
+      "head": 8,
+      "token_id": 44500,
+      "token_text": " Sana",
+      "logit_boost": 0.0069414908066391945
+    },
+    {
+      "component": "layer_4.head_8",
+      "layer": 4,
+      "head": 8,
+      "token_id": 38720,
+      "token_text": "icho",
+      "logit_boost": 0.0068847439251840115
+    },
+    {
+      "component": "layer_4.head_8",
+      "layer": 4,
+      "head": 8,
+      "token_id": 6860,
+      "token_text": "amental",
+      "logit_boost": 0.006804374977946281
+    },
+    {
+      "component": "layer_4.head_9",
+      "layer": 4,
+      "head": 9,
+      "token_id": 16368,
+      "token_text": "ambers",
+      "logit_boost": 0.016487861052155495
+    },
+    {
+      "component": "layer_4.head_9",
+      "layer": 4,
+      "head": 9,
+      "token_id": 46638,
+      "token_text": " dives",
+      "logit_boost": 0.0164632685482502
+    },
+    {
+      "component": "layer_4.head_9",
+      "layer": 4,
+      "head": 9,
+      "token_id": 38271,
+      "token_text": "aucuses",
+      "logit_boost": 0.016442924737930298
+    },
+    {
+      "component": "layer_4.head_9",
+      "layer": 4,
+      "head": 9,
+      "token_id": 46888,
+      "token_text": "NK",
+      "logit_boost": 0.015515487641096115
+    },
+    {
+      "component": "layer_4.head_9",
+      "layer": 4,
+      "head": 9,
+      "token_id": 13254,
+      "token_text": "isen",
+      "logit_boost": 0.015461606904864311
+    },
+    {
+      "component": "layer_4.head_10",
+      "layer": 4,
+      "head": 10,
+      "token_id": 12845,
+      "token_text": "etheless",
+      "logit_boost": 0.034618448466062546
+    },
+    {
+      "component": "layer_4.head_10",
+      "layer": 4,
+      "head": 10,
+      "token_id": 40978,
+      "token_text": "reth",
+      "logit_boost": 0.034335698932409286
+    },
+    {
+      "component": "layer_4.head_10",
+      "layer": 4,
+      "head": 10,
+      "token_id": 2155,
+      "token_text": " rul",
+      "logit_boost": 0.03399185091257095
+    },
+    {
+      "component": "layer_4.head_10",
+      "layer": 4,
+      "head": 10,
+      "token_id": 658,
+      "token_text": "ents",
+      "logit_boost": 0.03350084647536278
+    },
+    {
+      "component": "layer_4.head_10",
+      "layer": 4,
+      "head": 10,
+      "token_id": 3836,
+      "token_text": "edom",
+      "logit_boost": 0.03258057311177254
+    },
+    {
+      "component": "layer_4.head_11",
+      "layer": 4,
+      "head": 11,
+      "token_id": 48469,
+      "token_text": " Bleach",
+      "logit_boost": 0.019442081451416016
+    },
+    {
+      "component": "layer_4.head_11",
+      "layer": 4,
+      "head": 11,
+      "token_id": 28031,
+      "token_text": "brance",
+      "logit_boost": 0.01836920529603958
+    },
+    {
+      "component": "layer_4.head_11",
+      "layer": 4,
+      "head": 11,
+      "token_id": 22757,
+      "token_text": "�醒",
+      "logit_boost": 0.01729651913046837
+    },
+    {
+      "component": "layer_4.head_11",
+      "layer": 4,
+      "head": 11,
+      "token_id": 49120,
+      "token_text": " Glacier",
+      "logit_boost": 0.01706804148852825
+    },
+    {
+      "component": "layer_4.head_11",
+      "layer": 4,
+      "head": 11,
+      "token_id": 31708,
+      "token_text": "ーン",
+      "logit_boost": 0.016767393797636032
+    },
+    {
+      "component": "layer_4.mlp",
+      "layer": 4,
+      "head": -1,
+      "token_id": 1501,
+      "token_text": "arn",
+      "logit_boost": 0.08727850764989853
+    },
+    {
+      "component": "layer_4.mlp",
+      "layer": 4,
+      "head": -1,
+      "token_id": 661,
+      "token_text": " people",
+      "logit_boost": 0.08516838401556015
+    },
+    {
+      "component": "layer_4.mlp",
+      "layer": 4,
+      "head": -1,
+      "token_id": 11121,
+      "token_text": "charg",
+      "logit_boost": 0.08513516187667847
+    },
+    {
+      "component": "layer_4.mlp",
+      "layer": 4,
+      "head": -1,
+      "token_id": 723,
+      "token_text": "ual",
+      "logit_boost": 0.08359620720148087
+    },
+    {
+      "component": "layer_4.mlp",
+      "layer": 4,
+      "head": -1,
+      "token_id": 321,
+      "token_text": "am",
+      "logit_boost": 0.0820559561252594
+    },
+    {
+      "component": "layer_5.head_0",
+      "layer": 5,
+      "head": 0,
+      "token_id": 29447,
+      "token_text": "Interstitial",
+      "logit_boost": 0.08645248413085938
+    },
+    {
+      "component": "layer_5.head_0",
+      "layer": 5,
+      "head": 0,
+      "token_id": 2200,
+      "token_text": "RE",
+      "logit_boost": 0.08607132732868195
+    },
+    {
+      "component": "layer_5.head_0",
+      "layer": 5,
+      "head": 0,
+      "token_id": 42660,
+      "token_text": " WARN",
+      "logit_boost": 0.08578110486268997
+    },
+    {
+      "component": "layer_5.head_0",
+      "layer": 5,
+      "head": 0,
+      "token_id": 19423,
+      "token_text": "nels",
+      "logit_boost": 0.08526740223169327
+    },
+    {
+      "component": "layer_5.head_0",
+      "layer": 5,
+      "head": 0,
+      "token_id": 36764,
+      "token_text": "agonists",
+      "logit_boost": 0.08241614699363708
+    },
+    {
+      "component": "layer_5.head_1",
+      "layer": 5,
+      "head": 1,
+      "token_id": 29112,
+      "token_text": " twentieth",
+      "logit_boost": 0.07027553021907806
+    },
+    {
+      "component": "layer_5.head_1",
+      "layer": 5,
+      "head": 1,
+      "token_id": 22109,
+      "token_text": "itous",
+      "logit_boost": 0.06827092915773392
+    },
+    {
+      "component": "layer_5.head_1",
+      "layer": 5,
+      "head": 1,
+      "token_id": 13952,
+      "token_text": " spare",
+      "logit_boost": 0.06699298322200775
+    },
+    {
+      "component": "layer_5.head_1",
+      "layer": 5,
+      "head": 1,
+      "token_id": 3131,
+      "token_text": " extra",
+      "logit_boost": 0.06497544050216675
+    },
+    {
+      "component": "layer_5.head_1",
+      "layer": 5,
+      "head": 1,
+      "token_id": 23212,
+      "token_text": " ultr",
+      "logit_boost": 0.06475023925304413
+    },
+    {
+      "component": "layer_5.head_2",
+      "layer": 5,
+      "head": 2,
+      "token_id": 7017,
+      "token_text": " goods",
+      "logit_boost": 0.021905073896050453
+    },
+    {
+      "component": "layer_5.head_2",
+      "layer": 5,
+      "head": 2,
+      "token_id": 41909,
+      "token_text": "adr",
+      "logit_boost": 0.021038895472884178
+    },
+    {
+      "component": "layer_5.head_2",
+      "layer": 5,
+      "head": 2,
+      "token_id": 28153,
+      "token_text": "eer",
+      "logit_boost": 0.020428501069545746
+    },
+    {
+      "component": "layer_5.head_2",
+      "layer": 5,
+      "head": 2,
+      "token_id": 36825,
+      "token_text": "awed",
+      "logit_boost": 0.02041076496243477
+    },
+    {
+      "component": "layer_5.head_2",
+      "layer": 5,
+      "head": 2,
+      "token_id": 44208,
+      "token_text": "ِ",
+      "logit_boost": 0.02021091617643833
+    },
+    {
+      "component": "layer_5.head_3",
+      "layer": 5,
+      "head": 3,
+      "token_id": 27796,
+      "token_text": "ovy",
+      "logit_boost": 0.010627401992678642
+    },
+    {
+      "component": "layer_5.head_3",
+      "layer": 5,
+      "head": 3,
+      "token_id": 11647,
+      "token_text": "merce",
+      "logit_boost": 0.010408665984869003
+    },
+    {
+      "component": "layer_5.head_3",
+      "layer": 5,
+      "head": 3,
+      "token_id": 463,
+      "token_text": "ud",
+      "logit_boost": 0.009108467027544975
+    },
+    {
+      "component": "layer_5.head_3",
+      "layer": 5,
+      "head": 3,
+      "token_id": 16589,
+      "token_text": " ],",
+      "logit_boost": 0.009071949869394302
+    },
+    {
+      "component": "layer_5.head_3",
+      "layer": 5,
+      "head": 3,
+      "token_id": 26792,
+      "token_text": "inges",
+      "logit_boost": 0.008951748721301556
+    },
+    {
+      "component": "layer_5.head_4",
+      "layer": 5,
+      "head": 4,
+      "token_id": 34565,
+      "token_text": "worn",
+      "logit_boost": 0.03006177395582199
+    },
+    {
+      "component": "layer_5.head_4",
+      "layer": 5,
+      "head": 4,
+      "token_id": 8623,
+      "token_text": "onder",
+      "logit_boost": 0.02936733327805996
+    },
+    {
+      "component": "layer_5.head_4",
+      "layer": 5,
+      "head": 4,
+      "token_id": 22460,
+      "token_text": "ificate",
+      "logit_boost": 0.028016429394483566
+    },
+    {
+      "component": "layer_5.head_4",
+      "layer": 5,
+      "head": 4,
+      "token_id": 10695,
+      "token_text": "hire",
+      "logit_boost": 0.027953065931797028
+    },
+    {
+      "component": "layer_5.head_4",
+      "layer": 5,
+      "head": 4,
+      "token_id": 26576,
+      "token_text": "ACA",
+      "logit_boost": 0.027690064162015915
+    },
+    {
+      "component": "layer_5.head_5",
+      "layer": 5,
+      "head": 5,
+      "token_id": 17429,
+      "token_text": "UTC",
+      "logit_boost": 0.08640861511230469
+    },
+    {
+      "component": "layer_5.head_5",
+      "layer": 5,
+      "head": 5,
+      "token_id": 25925,
+      "token_text": "flush",
+      "logit_boost": 0.07425769418478012
+    },
+    {
+      "component": "layer_5.head_5",
+      "layer": 5,
+      "head": 5,
+      "token_id": 23614,
+      "token_text": "覚醒",
+      "logit_boost": 0.07226865738630295
+    },
+    {
+      "component": "layer_5.head_5",
+      "layer": 5,
+      "head": 5,
+      "token_id": 31204,
+      "token_text": "��",
+      "logit_boost": 0.07191739231348038
+    },
+    {
+      "component": "layer_5.head_5",
+      "layer": 5,
+      "head": 5,
+      "token_id": 41957,
+      "token_text": "IDA",
+      "logit_boost": 0.07084174454212189
+    },
+    {
+      "component": "layer_5.head_6",
+      "layer": 5,
+      "head": 6,
+      "token_id": 37846,
+      "token_text": "CHR",
+      "logit_boost": 0.024078641086816788
+    },
+    {
+      "component": "layer_5.head_6",
+      "layer": 5,
+      "head": 6,
+      "token_id": 38638,
+      "token_text": "Í",
+      "logit_boost": 0.020687690004706383
+    },
+    {
+      "component": "layer_5.head_6",
+      "layer": 5,
+      "head": 6,
+      "token_id": 25552,
+      "token_text": "AGES",
+      "logit_boost": 0.01971348375082016
+    },
+    {
+      "component": "layer_5.head_6",
+      "layer": 5,
+      "head": 6,
+      "token_id": 47246,
+      "token_text": "aez",
+      "logit_boost": 0.01938699558377266
+    },
+    {
+      "component": "layer_5.head_6",
+      "layer": 5,
+      "head": 6,
+      "token_id": 34892,
+      "token_text": "ZA",
+      "logit_boost": 0.018847821280360222
+    },
+    {
+      "component": "layer_5.head_7",
+      "layer": 5,
+      "head": 7,
+      "token_id": 2609,
+      "token_text": " charg",
+      "logit_boost": 0.034417007118463516
+    },
+    {
+      "component": "layer_5.head_7",
+      "layer": 5,
+      "head": 7,
+      "token_id": 20043,
+      "token_text": "chet",
+      "logit_boost": 0.033868107944726944
+    },
+    {
+      "component": "layer_5.head_7",
+      "layer": 5,
+      "head": 7,
+      "token_id": 17510,
+      "token_text": " sync",
+      "logit_boost": 0.03229162469506264
+    },
+    {
+      "component": "layer_5.head_7",
+      "layer": 5,
+      "head": 7,
+      "token_id": 49363,
+      "token_text": " Ü",
+      "logit_boost": 0.03209546208381653
+    },
+    {
+      "component": "layer_5.head_7",
+      "layer": 5,
+      "head": 7,
+      "token_id": 45059,
+      "token_text": "chenko",
+      "logit_boost": 0.0318777970969677
+    },
+    {
+      "component": "layer_5.head_8",
+      "layer": 5,
+      "head": 8,
+      "token_id": 35523,
+      "token_text": "Thumbnail",
+      "logit_boost": 0.05287613347172737
+    },
+    {
+      "component": "layer_5.head_8",
+      "layer": 5,
+      "head": 8,
+      "token_id": 13849,
+      "token_text": "matic",
+      "logit_boost": 0.0510343536734581
+    },
+    {
+      "component": "layer_5.head_8",
+      "layer": 5,
+      "head": 8,
+      "token_id": 45996,
+      "token_text": " Marse",
+      "logit_boost": 0.04831957072019577
+    },
+    {
+      "component": "layer_5.head_8",
+      "layer": 5,
+      "head": 8,
+      "token_id": 48454,
+      "token_text": "redo",
+      "logit_boost": 0.04728344455361366
+    },
+    {
+      "component": "layer_5.head_8",
+      "layer": 5,
+      "head": 8,
+      "token_id": 15763,
+      "token_text": "root",
+      "logit_boost": 0.046165142208337784
+    },
+    {
+      "component": "layer_5.head_9",
+      "layer": 5,
+      "head": 9,
+      "token_id": 22341,
+      "token_text": "irtual",
+      "logit_boost": 0.05193612352013588
+    },
+    {
+      "component": "layer_5.head_9",
+      "layer": 5,
+      "head": 9,
+      "token_id": 38739,
+      "token_text": " Regina",
+      "logit_boost": 0.04750290513038635
+    },
+    {
+      "component": "layer_5.head_9",
+      "layer": 5,
+      "head": 9,
+      "token_id": 49214,
+      "token_text": " Uriel",
+      "logit_boost": 0.04718279093503952
+    },
+    {
+      "component": "layer_5.head_9",
+      "layer": 5,
+      "head": 9,
+      "token_id": 31021,
+      "token_text": " Urug",
+      "logit_boost": 0.04545334726572037
+    },
+    {
+      "component": "layer_5.head_9",
+      "layer": 5,
+      "head": 9,
+      "token_id": 23729,
+      "token_text": " Malt",
+      "logit_boost": 0.04463522881269455
+    },
+    {
+      "component": "layer_5.head_10",
+      "layer": 5,
+      "head": 10,
+      "token_id": 44916,
+      "token_text": "ネ",
+      "logit_boost": 0.014299510978162289
+    },
+    {
+      "component": "layer_5.head_10",
+      "layer": 5,
+      "head": 10,
+      "token_id": 9407,
+      "token_text": "abeth",
+      "logit_boost": 0.01291678287088871
+    },
+    {
+      "component": "layer_5.head_10",
+      "layer": 5,
+      "head": 10,
+      "token_id": 20115,
+      "token_text": "マ",
+      "logit_boost": 0.012891659513115883
+    },
+    {
+      "component": "layer_5.head_10",
+      "layer": 5,
+      "head": 10,
+      "token_id": 45617,
+      "token_text": "�",
+      "logit_boost": 0.011971928179264069
+    },
+    {
+      "component": "layer_5.head_10",
+      "layer": 5,
+      "head": 10,
+      "token_id": 29312,
+      "token_text": "FFFF",
+      "logit_boost": 0.01183751504868269
+    },
+    {
+      "component": "layer_5.head_11",
+      "layer": 5,
+      "head": 11,
+      "token_id": 11935,
+      "token_text": "lihood",
+      "logit_boost": 0.025194717571139336
+    },
+    {
+      "component": "layer_5.head_11",
+      "layer": 5,
+      "head": 11,
+      "token_id": 33968,
+      "token_text": "yss",
+      "logit_boost": 0.024384554475545883
+    },
+    {
+      "component": "layer_5.head_11",
+      "layer": 5,
+      "head": 11,
+      "token_id": 41380,
+      "token_text": "natureconservancy",
+      "logit_boost": 0.024307891726493835
+    },
+    {
+      "component": "layer_5.head_11",
+      "layer": 5,
+      "head": 11,
+      "token_id": 42538,
+      "token_text": "IDES",
+      "logit_boost": 0.022116608917713165
+    },
+    {
+      "component": "layer_5.head_11",
+      "layer": 5,
+      "head": 11,
+      "token_id": 47061,
+      "token_text": " Robotics",
+      "logit_boost": 0.02210693061351776
+    },
+    {
+      "component": "layer_5.mlp",
+      "layer": 5,
+      "head": -1,
+      "token_id": 47733,
+      "token_text": "Mot",
+      "logit_boost": 0.014141615480184555
+    },
+    {
+      "component": "layer_5.mlp",
+      "layer": 5,
+      "head": -1,
+      "token_id": 33889,
+      "token_text": " Hels",
+      "logit_boost": 0.009232189506292343
+    },
+    {
+      "component": "layer_5.mlp",
+      "layer": 5,
+      "head": -1,
+      "token_id": 28799,
+      "token_text": " Sic",
+      "logit_boost": 0.006044924259185791
+    },
+    {
+      "component": "layer_5.mlp",
+      "layer": 5,
+      "head": -1,
+      "token_id": 34841,
+      "token_text": " Spiel",
+      "logit_boost": 0.00263997633010149
+    },
+    {
+      "component": "layer_5.mlp",
+      "layer": 5,
+      "head": -1,
+      "token_id": 4935,
+      "token_text": " Project",
+      "logit_boost": 0.002600553911179304
+    },
+    {
+      "component": "layer_6.head_0",
+      "layer": 6,
+      "head": 0,
+      "token_id": 28410,
+      "token_text": "HUD",
+      "logit_boost": 0.01729741320014
+    },
+    {
+      "component": "layer_6.head_0",
+      "layer": 6,
+      "head": 0,
+      "token_id": 32589,
+      "token_text": "antha",
+      "logit_boost": 0.016301915049552917
+    },
+    {
+      "component": "layer_6.head_0",
+      "layer": 6,
+      "head": 0,
+      "token_id": 25503,
+      "token_text": " FG",
+      "logit_boost": 0.01503745000809431
+    },
+    {
+      "component": "layer_6.head_0",
+      "layer": 6,
+      "head": 0,
+      "token_id": 49506,
+      "token_text": "dq",
+      "logit_boost": 0.01479240320622921
+    },
+    {
+      "component": "layer_6.head_0",
+      "layer": 6,
+      "head": 0,
+      "token_id": 32679,
+      "token_text": "urban",
+      "logit_boost": 0.014460127800703049
+    },
+    {
+      "component": "layer_6.head_1",
+      "layer": 6,
+      "head": 1,
+      "token_id": 7927,
+      "token_text": " vice",
+      "logit_boost": 0.022781984880566597
+    },
+    {
+      "component": "layer_6.head_1",
+      "layer": 6,
+      "head": 1,
+      "token_id": 1538,
+      "token_text": "ional",
+      "logit_boost": 0.02228837087750435
+    },
+    {
+      "component": "layer_6.head_1",
+      "layer": 6,
+      "head": 1,
+      "token_id": 47615,
+      "token_text": "ociate",
+      "logit_boost": 0.020824678242206573
+    },
+    {
+      "component": "layer_6.head_1",
+      "layer": 6,
+      "head": 1,
+      "token_id": 44782,
+      "token_text": " trivia",
+      "logit_boost": 0.020590731874108315
+    },
+    {
+      "component": "layer_6.head_1",
+      "layer": 6,
+      "head": 1,
+      "token_id": 20136,
+      "token_text": " curiosity",
+      "logit_boost": 0.020196357741951942
+    },
+    {
+      "component": "layer_6.head_2",
+      "layer": 6,
+      "head": 2,
+      "token_id": 48022,
+      "token_text": "ucha",
+      "logit_boost": 0.03269804269075394
+    },
+    {
+      "component": "layer_6.head_2",
+      "layer": 6,
+      "head": 2,
+      "token_id": 20686,
+      "token_text": "itures",
+      "logit_boost": 0.031201381236314774
+    },
+    {
+      "component": "layer_6.head_2",
+      "layer": 6,
+      "head": 2,
+      "token_id": 11655,
+      "token_text": "aneous",
+      "logit_boost": 0.029835468158125877
+    },
+    {
+      "component": "layer_6.head_2",
+      "layer": 6,
+      "head": 2,
+      "token_id": 13481,
+      "token_text": "iao",
+      "logit_boost": 0.02963125891983509
+    },
+    {
+      "component": "layer_6.head_2",
+      "layer": 6,
+      "head": 2,
+      "token_id": 8480,
+      "token_text": "aska",
+      "logit_boost": 0.02873828634619713
+    },
+    {
+      "component": "layer_6.head_3",
+      "layer": 6,
+      "head": 3,
+      "token_id": 33419,
+      "token_text": "atu",
+      "logit_boost": 0.006861407775431871
+    },
+    {
+      "component": "layer_6.head_3",
+      "layer": 6,
+      "head": 3,
+      "token_id": 27399,
+      "token_text": "cu",
+      "logit_boost": 0.00603932049125433
+    },
+    {
+      "component": "layer_6.head_3",
+      "layer": 6,
+      "head": 3,
+      "token_id": 45532,
+      "token_text": "WER",
+      "logit_boost": 0.003707156516611576
+    },
+    {
+      "component": "layer_6.head_3",
+      "layer": 6,
+      "head": 3,
+      "token_id": 14967,
+      "token_text": "Tim",
+      "logit_boost": 0.003616172820329666
+    },
+    {
+      "component": "layer_6.head_3",
+      "layer": 6,
+      "head": 3,
+      "token_id": 33665,
+      "token_text": "material",
+      "logit_boost": 0.0033767709974199533
+    },
+    {
+      "component": "layer_6.head_4",
+      "layer": 6,
+      "head": 4,
+      "token_id": 23118,
+      "token_text": "verages",
+      "logit_boost": 0.015968335792422295
+    },
+    {
+      "component": "layer_6.head_4",
+      "layer": 6,
+      "head": 4,
+      "token_id": 5485,
+      "token_text": " shape",
+      "logit_boost": 0.014372872188687325
+    },
+    {
+      "component": "layer_6.head_4",
+      "layer": 6,
+      "head": 4,
+      "token_id": 47095,
+      "token_text": "knit",
+      "logit_boost": 0.013910548761487007
+    },
+    {
+      "component": "layer_6.head_4",
+      "layer": 6,
+      "head": 4,
+      "token_id": 32746,
+      "token_text": " smoot",
+      "logit_boost": 0.013590320013463497
+    },
+    {
+      "component": "layer_6.head_4",
+      "layer": 6,
+      "head": 4,
+      "token_id": 17024,
+      "token_text": "umbers",
+      "logit_boost": 0.01322376262396574
+    },
+    {
+      "component": "layer_6.head_5",
+      "layer": 6,
+      "head": 5,
+      "token_id": 37541,
+      "token_text": "ibaba",
+      "logit_boost": 0.034127071499824524
+    },
+    {
+      "component": "layer_6.head_5",
+      "layer": 6,
+      "head": 5,
+      "token_id": 34656,
+      "token_text": "owder",
+      "logit_boost": 0.031462717801332474
+    },
+    {
+      "component": "layer_6.head_5",
+      "layer": 6,
+      "head": 5,
+      "token_id": 15666,
+      "token_text": "ourt",
+      "logit_boost": 0.030686335638165474
+    },
+    {
+      "component": "layer_6.head_5",
+      "layer": 6,
+      "head": 5,
+      "token_id": 8911,
+      "token_text": "anchester",
+      "logit_boost": 0.030567295849323273
+    },
+    {
+      "component": "layer_6.head_5",
+      "layer": 6,
+      "head": 5,
+      "token_id": 45251,
+      "token_text": "Population",
+      "logit_boost": 0.02874526008963585
+    },
+    {
+      "component": "layer_6.head_6",
+      "layer": 6,
+      "head": 6,
+      "token_id": 17538,
+      "token_text": "aiden",
+      "logit_boost": 0.03358163312077522
+    },
+    {
+      "component": "layer_6.head_6",
+      "layer": 6,
+      "head": 6,
+      "token_id": 12044,
+      "token_text": "stra",
+      "logit_boost": 0.030734535306692123
+    },
+    {
+      "component": "layer_6.head_6",
+      "layer": 6,
+      "head": 6,
+      "token_id": 1940,
+      "token_text": "ald",
+      "logit_boost": 0.03014245629310608
+    },
+    {
+      "component": "layer_6.head_6",
+      "layer": 6,
+      "head": 6,
+      "token_id": 36387,
+      "token_text": "intestinal",
+      "logit_boost": 0.029966427013278008
+    },
+    {
+      "component": "layer_6.head_6",
+      "layer": 6,
+      "head": 6,
+      "token_id": 26586,
+      "token_text": "warts",
+      "logit_boost": 0.02992497757077217
+    },
+    {
+      "component": "layer_6.head_7",
+      "layer": 6,
+      "head": 7,
+      "token_id": 29528,
+      "token_text": "ulp",
+      "logit_boost": 0.03176773339509964
+    },
+    {
+      "component": "layer_6.head_7",
+      "layer": 6,
+      "head": 7,
+      "token_id": 25337,
+      "token_text": "ynes",
+      "logit_boost": 0.030271682888269424
+    },
+    {
+      "component": "layer_6.head_7",
+      "layer": 6,
+      "head": 7,
+      "token_id": 44299,
+      "token_text": "azo",
+      "logit_boost": 0.029215402901172638
+    },
+    {
+      "component": "layer_6.head_7",
+      "layer": 6,
+      "head": 7,
+      "token_id": 43120,
+      "token_text": "uca",
+      "logit_boost": 0.028388353064656258
+    },
+    {
+      "component": "layer_6.head_7",
+      "layer": 6,
+      "head": 7,
+      "token_id": 3836,
+      "token_text": "edom",
+      "logit_boost": 0.02735585719347
+    },
+    {
+      "component": "layer_6.head_8",
+      "layer": 6,
+      "head": 8,
+      "token_id": 35659,
+      "token_text": " Equity",
+      "logit_boost": 0.005271641071885824
+    },
+    {
+      "component": "layer_6.head_8",
+      "layer": 6,
+      "head": 8,
+      "token_id": 46283,
+      "token_text": " notoriety",
+      "logit_boost": 0.0045392513275146484
+    },
+    {
+      "component": "layer_6.head_8",
+      "layer": 6,
+      "head": 8,
+      "token_id": 36929,
+      "token_text": " sidx",
+      "logit_boost": 0.004005957394838333
+    },
+    {
+      "component": "layer_6.head_8",
+      "layer": 6,
+      "head": 8,
+      "token_id": 37732,
+      "token_text": " Writers",
+      "logit_boost": 0.0033232965506613255
+    },
+    {
+      "component": "layer_6.head_8",
+      "layer": 6,
+      "head": 8,
+      "token_id": 16117,
+      "token_text": " fame",
+      "logit_boost": 0.0032728342339396477
+    },
+    {
+      "component": "layer_6.head_9",
+      "layer": 6,
+      "head": 9,
+      "token_id": 39908,
+      "token_text": "♥",
+      "logit_boost": 0.03358980268239975
+    },
+    {
+      "component": "layer_6.head_9",
+      "layer": 6,
+      "head": 9,
+      "token_id": 33106,
+      "token_text": "activated",
+      "logit_boost": 0.03197619691491127
+    },
+    {
+      "component": "layer_6.head_9",
+      "layer": 6,
+      "head": 9,
+      "token_id": 12631,
+      "token_text": " constitu",
+      "logit_boost": 0.0304354727268219
+    },
+    {
+      "component": "layer_6.head_9",
+      "layer": 6,
+      "head": 9,
+      "token_id": 42000,
+      "token_text": " hemor",
+      "logit_boost": 0.029630521312355995
+    },
+    {
+      "component": "layer_6.head_9",
+      "layer": 6,
+      "head": 9,
+      "token_id": 28073,
+      "token_text": "rame",
+      "logit_boost": 0.029502592980861664
+    },
+    {
+      "component": "layer_6.head_10",
+      "layer": 6,
+      "head": 10,
+      "token_id": 11974,
+      "token_text": " Tradable",
+      "logit_boost": 0.036869898438453674
+    },
+    {
+      "component": "layer_6.head_10",
+      "layer": 6,
+      "head": 10,
+      "token_id": 39996,
+      "token_text": "addons",
+      "logit_boost": 0.034124426543712616
+    },
+    {
+      "component": "layer_6.head_10",
+      "layer": 6,
+      "head": 10,
+      "token_id": 27813,
+      "token_text": "Package",
+      "logit_boost": 0.030308673158288002
+    },
+    {
+      "component": "layer_6.head_10",
+      "layer": 6,
+      "head": 10,
+      "token_id": 25282,
+      "token_text": " Bundle",
+      "logit_boost": 0.03010483831167221
+    },
+    {
+      "component": "layer_6.head_10",
+      "layer": 6,
+      "head": 10,
+      "token_id": 3429,
+      "token_text": "apter",
+      "logit_boost": 0.029980871826410294
+    },
+    {
+      "component": "layer_6.head_11",
+      "layer": 6,
+      "head": 11,
+      "token_id": 18476,
+      "token_text": " predecessor",
+      "logit_boost": 0.009595319628715515
+    },
+    {
+      "component": "layer_6.head_11",
+      "layer": 6,
+      "head": 11,
+      "token_id": 6432,
+      "token_text": "terday",
+      "logit_boost": 0.007009950466454029
+    },
+    {
+      "component": "layer_6.head_11",
+      "layer": 6,
+      "head": 11,
+      "token_id": 16880,
+      "token_text": " Tap",
+      "logit_boost": 0.006811642087996006
+    },
+    {
+      "component": "layer_6.head_11",
+      "layer": 6,
+      "head": 11,
+      "token_id": 31536,
+      "token_text": "displayText",
+      "logit_boost": 0.006725778803229332
+    },
+    {
+      "component": "layer_6.head_11",
+      "layer": 6,
+      "head": 11,
+      "token_id": 33931,
+      "token_text": "osate",
+      "logit_boost": 0.006664581596851349
+    },
+    {
+      "component": "layer_6.mlp",
+      "layer": 6,
+      "head": -1,
+      "token_id": 9724,
+      "token_text": " Cond",
+      "logit_boost": -0.028190143406391144
+    },
+    {
+      "component": "layer_6.mlp",
+      "layer": 6,
+      "head": -1,
+      "token_id": 2927,
+      "token_text": " coll",
+      "logit_boost": -0.03136340528726578
+    },
+    {
+      "component": "layer_6.mlp",
+      "layer": 6,
+      "head": -1,
+      "token_id": 19853,
+      "token_text": " Mons",
+      "logit_boost": -0.03327159211039543
+    },
+    {
+      "component": "layer_6.mlp",
+      "layer": 6,
+      "head": -1,
+      "token_id": 1006,
+      "token_text": " ref",
+      "logit_boost": -0.03361520916223526
+    },
+    {
+      "component": "layer_6.mlp",
+      "layer": 6,
+      "head": -1,
+      "token_id": 39708,
+      "token_text": " Conrad",
+      "logit_boost": -0.033759720623493195
+    },
+    {
+      "component": "layer_7.head_0",
+      "layer": 7,
+      "head": 0,
+      "token_id": 43204,
+      "token_text": " Ventura",
+      "logit_boost": 0.005107981618493795
+    },
+    {
+      "component": "layer_7.head_0",
+      "layer": 7,
+      "head": 0,
+      "token_id": 38641,
+      "token_text": " Verse",
+      "logit_boost": 0.0022686757147312164
+    },
+    {
+      "component": "layer_7.head_0",
+      "layer": 7,
+      "head": 0,
+      "token_id": 32145,
+      "token_text": " Dodd",
+      "logit_boost": 0.00013215141370892525
+    },
+    {
+      "component": "layer_7.head_0",
+      "layer": 7,
+      "head": 0,
+      "token_id": 42535,
+      "token_text": "}}}",
+      "logit_boost": -7.264711894094944e-05
+    },
+    {
+      "component": "layer_7.head_0",
+      "layer": 7,
+      "head": 0,
+      "token_id": 41167,
+      "token_text": " Hermes",
+      "logit_boost": -0.00034500425681471825
+    },
+    {
+      "component": "layer_7.head_1",
+      "layer": 7,
+      "head": 1,
+      "token_id": 39688,
+      "token_text": "Origin",
+      "logit_boost": 0.03558241203427315
+    },
+    {
+      "component": "layer_7.head_1",
+      "layer": 7,
+      "head": 1,
+      "token_id": 37632,
+      "token_text": " IPS",
+      "logit_boost": 0.034931737929582596
+    },
+    {
+      "component": "layer_7.head_1",
+      "layer": 7,
+      "head": 1,
+      "token_id": 43166,
+      "token_text": " Ct",
+      "logit_boost": 0.03384502977132797
+    },
+    {
+      "component": "layer_7.head_1",
+      "layer": 7,
+      "head": 1,
+      "token_id": 32458,
+      "token_text": " Inferno",
+      "logit_boost": 0.033447250723838806
+    },
+    {
+      "component": "layer_7.head_1",
+      "layer": 7,
+      "head": 1,
+      "token_id": 10300,
+      "token_text": "ouri",
+      "logit_boost": 0.03334687650203705
+    },
+    {
+      "component": "layer_7.head_2",
+      "layer": 7,
+      "head": 2,
+      "token_id": 25323,
+      "token_text": "worm",
+      "logit_boost": 0.054415859282016754
+    },
+    {
+      "component": "layer_7.head_2",
+      "layer": 7,
+      "head": 2,
+      "token_id": 26615,
+      "token_text": "haw",
+      "logit_boost": 0.05368565395474434
+    },
+    {
+      "component": "layer_7.head_2",
+      "layer": 7,
+      "head": 2,
+      "token_id": 2480,
+      "token_text": "iple",
+      "logit_boost": 0.05309542268514633
+    },
+    {
+      "component": "layer_7.head_2",
+      "layer": 7,
+      "head": 2,
+      "token_id": 15817,
+      "token_text": "uscript",
+      "logit_boost": 0.05252296105027199
+    },
+    {
+      "component": "layer_7.head_2",
+      "layer": 7,
+      "head": 2,
+      "token_id": 8046,
+      "token_text": " fault",
+      "logit_boost": 0.05213351547718048
+    },
+    {
+      "component": "layer_7.head_3",
+      "layer": 7,
+      "head": 3,
+      "token_id": 42376,
+      "token_text": "othal",
+      "logit_boost": 0.057891737669706345
+    },
+    {
+      "component": "layer_7.head_3",
+      "layer": 7,
+      "head": 3,
+      "token_id": 30921,
+      "token_text": "atha",
+      "logit_boost": 0.056284621357917786
+    },
+    {
+      "component": "layer_7.head_3",
+      "layer": 7,
+      "head": 3,
+      "token_id": 26504,
+      "token_text": "redd",
+      "logit_boost": 0.055093035101890564
+    },
+    {
+      "component": "layer_7.head_3",
+      "layer": 7,
+      "head": 3,
+      "token_id": 48429,
+      "token_text": "rieg",
+      "logit_boost": 0.054052405059337616
+    },
+    {
+      "component": "layer_7.head_3",
+      "layer": 7,
+      "head": 3,
+      "token_id": 23767,
+      "token_text": " Tactics",
+      "logit_boost": 0.05387994647026062
+    },
+    {
+      "component": "layer_7.head_4",
+      "layer": 7,
+      "head": 4,
+      "token_id": 40644,
+      "token_text": " Huntington",
+      "logit_boost": 0.01707407832145691
+    },
+    {
+      "component": "layer_7.head_4",
+      "layer": 7,
+      "head": 4,
+      "token_id": 48527,
+      "token_text": "76561",
+      "logit_boost": 0.016859108582139015
+    },
+    {
+      "component": "layer_7.head_4",
+      "layer": 7,
+      "head": 4,
+      "token_id": 36648,
+      "token_text": "erella",
+      "logit_boost": 0.016543179750442505
+    },
+    {
+      "component": "layer_7.head_4",
+      "layer": 7,
+      "head": 4,
+      "token_id": 10399,
+      "token_text": " centers",
+      "logit_boost": 0.016237540170550346
+    },
+    {
+      "component": "layer_7.head_4",
+      "layer": 7,
+      "head": 4,
+      "token_id": 47999,
+      "token_text": " clipboard",
+      "logit_boost": 0.016188185662031174
+    },
+    {
+      "component": "layer_7.head_5",
+      "layer": 7,
+      "head": 5,
+      "token_id": 33087,
+      "token_text": "rolet",
+      "logit_boost": 0.03016672469675541
+    },
+    {
+      "component": "layer_7.head_5",
+      "layer": 7,
+      "head": 5,
+      "token_id": 29767,
+      "token_text": "WN",
+      "logit_boost": 0.026841996237635612
+    },
+    {
+      "component": "layer_7.head_5",
+      "layer": 7,
+      "head": 5,
+      "token_id": 16630,
+      "token_text": "GN",
+      "logit_boost": 0.026462513953447342
+    },
+    {
+      "component": "layer_7.head_5",
+      "layer": 7,
+      "head": 5,
+      "token_id": 23296,
+      "token_text": "ttle",
+      "logit_boost": 0.026408500969409943
+    },
+    {
+      "component": "layer_7.head_5",
+      "layer": 7,
+      "head": 5,
+      "token_id": 14636,
+      "token_text": "kh",
+      "logit_boost": 0.02628769353032112
+    },
+    {
+      "component": "layer_7.head_6",
+      "layer": 7,
+      "head": 6,
+      "token_id": 43618,
+      "token_text": " trance",
+      "logit_boost": 0.06190863996744156
+    },
+    {
+      "component": "layer_7.head_6",
+      "layer": 7,
+      "head": 6,
+      "token_id": 27335,
+      "token_text": " poorest",
+      "logit_boost": 0.06183592975139618
+    },
+    {
+      "component": "layer_7.head_6",
+      "layer": 7,
+      "head": 6,
+      "token_id": 41215,
+      "token_text": "conservancy",
+      "logit_boost": 0.06150835007429123
+    },
+    {
+      "component": "layer_7.head_6",
+      "layer": 7,
+      "head": 6,
+      "token_id": 32782,
+      "token_text": "POST",
+      "logit_boost": 0.06131827086210251
+    },
+    {
+      "component": "layer_7.head_6",
+      "layer": 7,
+      "head": 6,
+      "token_id": 5883,
+      "token_text": "UM",
+      "logit_boost": 0.06103266775608063
+    },
+    {
+      "component": "layer_7.head_7",
+      "layer": 7,
+      "head": 7,
+      "token_id": 33641,
+      "token_text": "glers",
+      "logit_boost": 0.03191514313220978
+    },
+    {
+      "component": "layer_7.head_7",
+      "layer": 7,
+      "head": 7,
+      "token_id": 42952,
+      "token_text": " Toro",
+      "logit_boost": 0.03072306513786316
+    },
+    {
+      "component": "layer_7.head_7",
+      "layer": 7,
+      "head": 7,
+      "token_id": 39374,
+      "token_text": "�士",
+      "logit_boost": 0.02955394983291626
+    },
+    {
+      "component": "layer_7.head_7",
+      "layer": 7,
+      "head": 7,
+      "token_id": 38183,
+      "token_text": " Canter",
+      "logit_boost": 0.029411297291517258
+    },
+    {
+      "component": "layer_7.head_7",
+      "layer": 7,
+      "head": 7,
+      "token_id": 45877,
+      "token_text": " RTX",
+      "logit_boost": 0.02898305654525757
+    },
+    {
+      "component": "layer_7.head_8",
+      "layer": 7,
+      "head": 8,
+      "token_id": 37929,
+      "token_text": "️",
+      "logit_boost": 0.009225844405591488
+    },
+    {
+      "component": "layer_7.head_8",
+      "layer": 7,
+      "head": 8,
+      "token_id": 46256,
+      "token_text": "�",
+      "logit_boost": 0.007203133311122656
+    },
+    {
+      "component": "layer_7.head_8",
+      "layer": 7,
+      "head": 8,
+      "token_id": 44944,
+      "token_text": "laugh",
+      "logit_boost": 0.006143693812191486
+    },
+    {
+      "component": "layer_7.head_8",
+      "layer": 7,
+      "head": 8,
+      "token_id": 21118,
+      "token_text": "aunder",
+      "logit_boost": 0.006056005600839853
+    },
+    {
+      "component": "layer_7.head_8",
+      "layer": 7,
+      "head": 8,
+      "token_id": 27422,
+      "token_text": "}.",
+      "logit_boost": 0.0059449924156069756
+    },
+    {
+      "component": "layer_7.head_9",
+      "layer": 7,
+      "head": 9,
+      "token_id": 19491,
+      "token_text": "rities",
+      "logit_boost": 0.062296465039253235
+    },
+    {
+      "component": "layer_7.head_9",
+      "layer": 7,
+      "head": 9,
+      "token_id": 25132,
+      "token_text": "ulet",
+      "logit_boost": 0.05912557244300842
+    },
+    {
+      "component": "layer_7.head_9",
+      "layer": 7,
+      "head": 9,
+      "token_id": 11647,
+      "token_text": "merce",
+      "logit_boost": 0.05857500433921814
+    },
+    {
+      "component": "layer_7.head_9",
+      "layer": 7,
+      "head": 9,
+      "token_id": 29421,
+      "token_text": "ocent",
+      "logit_boost": 0.05820365995168686
+    },
+    {
+      "component": "layer_7.head_9",
+      "layer": 7,
+      "head": 9,
+      "token_id": 32238,
+      "token_text": "agogue",
+      "logit_boost": 0.05495992675423622
+    },
+    {
+      "component": "layer_7.head_10",
+      "layer": 7,
+      "head": 10,
+      "token_id": 28117,
+      "token_text": "eenth",
+      "logit_boost": 0.032687488943338394
+    },
+    {
+      "component": "layer_7.head_10",
+      "layer": 7,
+      "head": 10,
+      "token_id": 46516,
+      "token_text": "ersen",
+      "logit_boost": 0.0311608724296093
+    },
+    {
+      "component": "layer_7.head_10",
+      "layer": 7,
+      "head": 10,
+      "token_id": 41798,
+      "token_text": " Simulation",
+      "logit_boost": 0.030844412744045258
+    },
+    {
+      "component": "layer_7.head_10",
+      "layer": 7,
+      "head": 10,
+      "token_id": 42607,
+      "token_text": " Levant",
+      "logit_boost": 0.03026604652404785
+    },
+    {
+      "component": "layer_7.head_10",
+      "layer": 7,
+      "head": 10,
+      "token_id": 35824,
+      "token_text": "ilian",
+      "logit_boost": 0.029794856905937195
+    },
+    {
+      "component": "layer_7.head_11",
+      "layer": 7,
+      "head": 11,
+      "token_id": 42202,
+      "token_text": "GoldMagikarp",
+      "logit_boost": 0.057385556399822235
+    },
+    {
+      "component": "layer_7.head_11",
+      "layer": 7,
+      "head": 11,
+      "token_id": 35269,
+      "token_text": "otaur",
+      "logit_boost": 0.05556342005729675
+    },
+    {
+      "component": "layer_7.head_11",
+      "layer": 7,
+      "head": 11,
+      "token_id": 39811,
+      "token_text": "soDeliveryDate",
+      "logit_boost": 0.05416397750377655
+    },
+    {
+      "component": "layer_7.head_11",
+      "layer": 7,
+      "head": 11,
+      "token_id": 20621,
+      "token_text": "akespe",
+      "logit_boost": 0.0523526631295681
+    },
+    {
+      "component": "layer_7.head_11",
+      "layer": 7,
+      "head": 11,
+      "token_id": 10739,
+      "token_text": "ovie",
+      "logit_boost": 0.052032582461833954
+    },
+    {
+      "component": "layer_7.mlp",
+      "layer": 7,
+      "head": -1,
+      "token_id": 48261,
+      "token_text": "‎",
+      "logit_boost": -0.01390061341226101
+    },
+    {
+      "component": "layer_7.mlp",
+      "layer": 7,
+      "head": -1,
+      "token_id": 27630,
+      "token_text": "EMA",
+      "logit_boost": -0.016803905367851257
+    },
+    {
+      "component": "layer_7.mlp",
+      "layer": 7,
+      "head": -1,
+      "token_id": 35942,
+      "token_text": "én",
+      "logit_boost": -0.022638564929366112
+    },
+    {
+      "component": "layer_7.mlp",
+      "layer": 7,
+      "head": -1,
+      "token_id": 16239,
+      "token_text": "wick",
+      "logit_boost": -0.023776903748512268
+    },
+    {
+      "component": "layer_7.mlp",
+      "layer": 7,
+      "head": -1,
+      "token_id": 30200,
+      "token_text": " apprehend",
+      "logit_boost": -0.023837579414248466
+    },
+    {
+      "component": "layer_8.head_0",
+      "layer": 8,
+      "head": 0,
+      "token_id": 41508,
+      "token_text": "Wars",
+      "logit_boost": 0.02099187858402729
+    },
+    {
+      "component": "layer_8.head_0",
+      "layer": 8,
+      "head": 0,
+      "token_id": 49513,
+      "token_text": "DCS",
+      "logit_boost": 0.015055184252560139
+    },
+    {
+      "component": "layer_8.head_0",
+      "layer": 8,
+      "head": 0,
+      "token_id": 11379,
+      "token_text": "fold",
+      "logit_boost": 0.013930468820035458
+    },
+    {
+      "component": "layer_8.head_0",
+      "layer": 8,
+      "head": 0,
+      "token_id": 46954,
+      "token_text": "RPG",
+      "logit_boost": 0.01071127038449049
+    },
+    {
+      "component": "layer_8.head_0",
+      "layer": 8,
+      "head": 0,
+      "token_id": 30421,
+      "token_text": " commissions",
+      "logit_boost": 0.010317465290427208
+    },
+    {
+      "component": "layer_8.head_1",
+      "layer": 8,
+      "head": 1,
+      "token_id": 5950,
+      "token_text": "dule",
+      "logit_boost": 0.04082033783197403
+    },
+    {
+      "component": "layer_8.head_1",
+      "layer": 8,
+      "head": 1,
+      "token_id": 2278,
+      "token_text": " period",
+      "logit_boost": 0.039000254124403
+    },
+    {
+      "component": "layer_8.head_1",
+      "layer": 8,
+      "head": 1,
+      "token_id": 11941,
+      "token_text": " privilege",
+      "logit_boost": 0.03823482245206833
+    },
+    {
+      "component": "layer_8.head_1",
+      "layer": 8,
+      "head": 1,
+      "token_id": 36275,
+      "token_text": " saturation",
+      "logit_boost": 0.03751775994896889
+    },
+    {
+      "component": "layer_8.head_1",
+      "layer": 8,
+      "head": 1,
+      "token_id": 1449,
+      "token_text": " bre",
+      "logit_boost": 0.03700379282236099
+    },
+    {
+      "component": "layer_8.head_2",
+      "layer": 8,
+      "head": 2,
+      "token_id": 42178,
+      "token_text": "uers",
+      "logit_boost": 0.055689726024866104
+    },
+    {
+      "component": "layer_8.head_2",
+      "layer": 8,
+      "head": 2,
+      "token_id": 120,
+      "token_text": "�",
+      "logit_boost": 0.054827816784381866
+    },
+    {
+      "component": "layer_8.head_2",
+      "layer": 8,
+      "head": 2,
+      "token_id": 49224,
+      "token_text": "hiba",
+      "logit_boost": 0.05323391407728195
+    },
+    {
+      "component": "layer_8.head_2",
+      "layer": 8,
+      "head": 2,
+      "token_id": 19628,
+      "token_text": "fty",
+      "logit_boost": 0.05205482989549637
+    },
+    {
+      "component": "layer_8.head_2",
+      "layer": 8,
+      "head": 2,
+      "token_id": 15573,
+      "token_text": "uer",
+      "logit_boost": 0.0520443469285965
+    },
+    {
+      "component": "layer_8.head_3",
+      "layer": 8,
+      "head": 3,
+      "token_id": 47485,
+      "token_text": " Dickinson",
+      "logit_boost": 0.03168568015098572
+    },
+    {
+      "component": "layer_8.head_3",
+      "layer": 8,
+      "head": 3,
+      "token_id": 28117,
+      "token_text": "eenth",
+      "logit_boost": 0.023648390546441078
+    },
+    {
+      "component": "layer_8.head_3",
+      "layer": 8,
+      "head": 3,
+      "token_id": 29009,
+      "token_text": "OTA",
+      "logit_boost": 0.021126532927155495
+    },
+    {
+      "component": "layer_8.head_3",
+      "layer": 8,
+      "head": 3,
+      "token_id": 49597,
+      "token_text": "NEWS",
+      "logit_boost": 0.020912207663059235
+    },
+    {
+      "component": "layer_8.head_3",
+      "layer": 8,
+      "head": 3,
+      "token_id": 33291,
+      "token_text": "OTOS",
+      "logit_boost": 0.020170915871858597
+    },
+    {
+      "component": "layer_8.head_4",
+      "layer": 8,
+      "head": 4,
+      "token_id": 31424,
+      "token_text": "kefeller",
+      "logit_boost": 0.03256809338927269
+    },
+    {
+      "component": "layer_8.head_4",
+      "layer": 8,
+      "head": 4,
+      "token_id": 47667,
+      "token_text": "CDC",
+      "logit_boost": 0.028293879702687263
+    },
+    {
+      "component": "layer_8.head_4",
+      "layer": 8,
+      "head": 4,
+      "token_id": 31032,
+      "token_text": "SpaceEngineers",
+      "logit_boost": 0.025750989094376564
+    },
+    {
+      "component": "layer_8.head_4",
+      "layer": 8,
+      "head": 4,
+      "token_id": 14796,
+      "token_text": "ilateral",
+      "logit_boost": 0.02346576191484928
+    },
+    {
+      "component": "layer_8.head_4",
+      "layer": 8,
+      "head": 4,
+      "token_id": 29660,
+      "token_text": "ifact",
+      "logit_boost": 0.02320525050163269
+    },
+    {
+      "component": "layer_8.head_5",
+      "layer": 8,
+      "head": 5,
+      "token_id": 49546,
+      "token_text": "将",
+      "logit_boost": 0.045987870544195175
+    },
+    {
+      "component": "layer_8.head_5",
+      "layer": 8,
+      "head": 5,
+      "token_id": 7173,
+      "token_text": " closely",
+      "logit_boost": 0.04565592482686043
+    },
+    {
+      "component": "layer_8.head_5",
+      "layer": 8,
+      "head": 5,
+      "token_id": 16879,
+      "token_text": "HER",
+      "logit_boost": 0.04419761896133423
+    },
+    {
+      "component": "layer_8.head_5",
+      "layer": 8,
+      "head": 5,
+      "token_id": 21250,
+      "token_text": "THER",
+      "logit_boost": 0.0441121943295002
+    },
+    {
+      "component": "layer_8.head_5",
+      "layer": 8,
+      "head": 5,
+      "token_id": 42637,
+      "token_text": "女",
+      "logit_boost": 0.04378503933548927
+    },
+    {
+      "component": "layer_8.head_6",
+      "layer": 8,
+      "head": 6,
+      "token_id": 31204,
+      "token_text": "��",
+      "logit_boost": 0.045728057622909546
+    },
+    {
+      "component": "layer_8.head_6",
+      "layer": 8,
+      "head": 6,
+      "token_id": 6408,
+      "token_text": "��",
+      "logit_boost": 0.040373899042606354
+    },
+    {
+      "component": "layer_8.head_6",
+      "layer": 8,
+      "head": 6,
+      "token_id": 16419,
+      "token_text": "issance",
+      "logit_boost": 0.039798274636268616
+    },
+    {
+      "component": "layer_8.head_6",
+      "layer": 8,
+      "head": 6,
+      "token_id": 17845,
+      "token_text": "swer",
+      "logit_boost": 0.03976907581090927
+    },
+    {
+      "component": "layer_8.head_6",
+      "layer": 8,
+      "head": 6,
+      "token_id": 32238,
+      "token_text": "agogue",
+      "logit_boost": 0.039424728602170944
+    },
+    {
+      "component": "layer_8.head_7",
+      "layer": 8,
+      "head": 7,
+      "token_id": 35579,
+      "token_text": " Mechdragon",
+      "logit_boost": 0.022759875282645226
+    },
+    {
+      "component": "layer_8.head_7",
+      "layer": 8,
+      "head": 7,
+      "token_id": 12374,
+      "token_text": "ettings",
+      "logit_boost": 0.013960360549390316
+    },
+    {
+      "component": "layer_8.head_7",
+      "layer": 8,
+      "head": 7,
+      "token_id": 45396,
+      "token_text": "itech",
+      "logit_boost": 0.013084633275866508
+    },
+    {
+      "component": "layer_8.head_7",
+      "layer": 8,
+      "head": 7,
+      "token_id": 46457,
+      "token_text": "odon",
+      "logit_boost": 0.01294318214058876
+    },
+    {
+      "component": "layer_8.head_7",
+      "layer": 8,
+      "head": 7,
+      "token_id": 47324,
+      "token_text": " originals",
+      "logit_boost": 0.012132275849580765
+    },
+    {
+      "component": "layer_8.head_8",
+      "layer": 8,
+      "head": 8,
+      "token_id": 39666,
+      "token_text": "yip",
+      "logit_boost": 0.031591158360242844
+    },
+    {
+      "component": "layer_8.head_8",
+      "layer": 8,
+      "head": 8,
+      "token_id": 49409,
+      "token_text": " Parables",
+      "logit_boost": 0.027416642755270004
+    },
+    {
+      "component": "layer_8.head_8",
+      "layer": 8,
+      "head": 8,
+      "token_id": 19049,
+      "token_text": "龍�",
+      "logit_boost": 0.025441911071538925
+    },
+    {
+      "component": "layer_8.head_8",
+      "layer": 8,
+      "head": 8,
+      "token_id": 44359,
+      "token_text": "¢",
+      "logit_boost": 0.024853132665157318
+    },
+    {
+      "component": "layer_8.head_8",
+      "layer": 8,
+      "head": 8,
+      "token_id": 40832,
+      "token_text": "xus",
+      "logit_boost": 0.024466969072818756
+    },
+    {
+      "component": "layer_8.head_9",
+      "layer": 8,
+      "head": 9,
+      "token_id": 40674,
+      "token_text": "Else",
+      "logit_boost": 0.019779453054070473
+    },
+    {
+      "component": "layer_8.head_9",
+      "layer": 8,
+      "head": 9,
+      "token_id": 49892,
+      "token_text": " Shant",
+      "logit_boost": 0.018460605293512344
+    },
+    {
+      "component": "layer_8.head_9",
+      "layer": 8,
+      "head": 9,
+      "token_id": 28038,
+      "token_text": " Ans",
+      "logit_boost": 0.017371587455272675
+    },
+    {
+      "component": "layer_8.head_9",
+      "layer": 8,
+      "head": 9,
+      "token_id": 23329,
+      "token_text": "��",
+      "logit_boost": 0.01720413751900196
+    },
+    {
+      "component": "layer_8.head_9",
+      "layer": 8,
+      "head": 9,
+      "token_id": 47432,
+      "token_text": " 神",
+      "logit_boost": 0.01686239242553711
+    },
+    {
+      "component": "layer_8.head_10",
+      "layer": 8,
+      "head": 10,
+      "token_id": 5049,
+      "token_text": "illa",
+      "logit_boost": 0.03520970046520233
+    },
+    {
+      "component": "layer_8.head_10",
+      "layer": 8,
+      "head": 10,
+      "token_id": 20621,
+      "token_text": "akespe",
+      "logit_boost": 0.03402429819107056
+    },
+    {
+      "component": "layer_8.head_10",
+      "layer": 8,
+      "head": 10,
+      "token_id": 841,
+      "token_text": "ublic",
+      "logit_boost": 0.03292961046099663
+    },
+    {
+      "component": "layer_8.head_10",
+      "layer": 8,
+      "head": 10,
+      "token_id": 38521,
+      "token_text": "inse",
+      "logit_boost": 0.03229513019323349
+    },
+    {
+      "component": "layer_8.head_10",
+      "layer": 8,
+      "head": 10,
+      "token_id": 31263,
+      "token_text": "ulkan",
+      "logit_boost": 0.03162769973278046
+    },
+    {
+      "component": "layer_8.head_11",
+      "layer": 8,
+      "head": 11,
+      "token_id": 3800,
+      "token_text": " stage",
+      "logit_boost": 0.05043157562613487
+    },
+    {
+      "component": "layer_8.head_11",
+      "layer": 8,
+      "head": 11,
+      "token_id": 6977,
+      "token_text": " fashion",
+      "logit_boost": 0.05030464008450508
+    },
+    {
+      "component": "layer_8.head_11",
+      "layer": 8,
+      "head": 11,
+      "token_id": 15149,
+      "token_text": " cryptoc",
+      "logit_boost": 0.0492989718914032
+    },
+    {
+      "component": "layer_8.head_11",
+      "layer": 8,
+      "head": 11,
+      "token_id": 39387,
+      "token_text": " sweats",
+      "logit_boost": 0.04877378046512604
+    },
+    {
+      "component": "layer_8.head_11",
+      "layer": 8,
+      "head": 11,
+      "token_id": 13827,
+      "token_text": "iga",
+      "logit_boost": 0.04868730902671814
+    },
+    {
+      "component": "layer_8.mlp",
+      "layer": 8,
+      "head": -1,
+      "token_id": 3304,
+      "token_text": "vey",
+      "logit_boost": -0.10539223253726959
+    },
+    {
+      "component": "layer_8.mlp",
+      "layer": 8,
+      "head": -1,
+      "token_id": 1151,
+      "token_text": "vent",
+      "logit_boost": -0.10567118227481842
+    },
+    {
+      "component": "layer_8.mlp",
+      "layer": 8,
+      "head": -1,
+      "token_id": 9853,
+      "token_text": " counts",
+      "logit_boost": -0.10997242480516434
+    },
+    {
+      "component": "layer_8.mlp",
+      "layer": 8,
+      "head": -1,
+      "token_id": 7785,
+      "token_text": "var",
+      "logit_boost": -0.1102014109492302
+    },
+    {
+      "component": "layer_8.mlp",
+      "layer": 8,
+      "head": -1,
+      "token_id": 725,
+      "token_text": " comm",
+      "logit_boost": -0.11106035113334656
+    },
+    {
+      "component": "layer_9.head_0",
+      "layer": 9,
+      "head": 0,
+      "token_id": 23706,
+      "token_text": "ricks",
+      "logit_boost": 0.0479964055120945
+    },
+    {
+      "component": "layer_9.head_0",
+      "layer": 9,
+      "head": 0,
+      "token_id": 9145,
+      "token_text": "omy",
+      "logit_boost": 0.04757968708872795
+    },
+    {
+      "component": "layer_9.head_0",
+      "layer": 9,
+      "head": 0,
+      "token_id": 15249,
+      "token_text": "igger",
+      "logit_boost": 0.04695384204387665
+    },
+    {
+      "component": "layer_9.head_0",
+      "layer": 9,
+      "head": 0,
+      "token_id": 44381,
+      "token_text": "ogi",
+      "logit_boost": 0.04651021212339401
+    },
+    {
+      "component": "layer_9.head_0",
+      "layer": 9,
+      "head": 0,
+      "token_id": 3766,
+      "token_text": "raq",
+      "logit_boost": 0.04584638029336929
+    },
+    {
+      "component": "layer_9.head_1",
+      "layer": 9,
+      "head": 1,
+      "token_id": 7990,
+      "token_text": "ocument",
+      "logit_boost": 0.051193103194236755
+    },
+    {
+      "component": "layer_9.head_1",
+      "layer": 9,
+      "head": 1,
+      "token_id": 18198,
+      "token_text": "ovich",
+      "logit_boost": 0.050811320543289185
+    },
+    {
+      "component": "layer_9.head_1",
+      "layer": 9,
+      "head": 1,
+      "token_id": 31994,
+      "token_text": "omics",
+      "logit_boost": 0.046951353549957275
+    },
+    {
+      "component": "layer_9.head_1",
+      "layer": 9,
+      "head": 1,
+      "token_id": 44448,
+      "token_text": "ierrez",
+      "logit_boost": 0.046218208968639374
+    },
+    {
+      "component": "layer_9.head_1",
+      "layer": 9,
+      "head": 1,
+      "token_id": 47025,
+      "token_text": " Inher",
+      "logit_boost": 0.04582730680704117
+    },
+    {
+      "component": "layer_9.head_2",
+      "layer": 9,
+      "head": 2,
+      "token_id": 33585,
+      "token_text": " mitigation",
+      "logit_boost": 0.004649586044251919
+    },
+    {
+      "component": "layer_9.head_2",
+      "layer": 9,
+      "head": 2,
+      "token_id": 6996,
+      "token_text": "erry",
+      "logit_boost": 0.004550741985440254
+    },
+    {
+      "component": "layer_9.head_2",
+      "layer": 9,
+      "head": 2,
+      "token_id": 50123,
+      "token_text": "Jr",
+      "logit_boost": 0.001481411512941122
+    },
+    {
+      "component": "layer_9.head_2",
+      "layer": 9,
+      "head": 2,
+      "token_id": 42446,
+      "token_text": "ISION",
+      "logit_boost": 0.0013132104650139809
+    },
+    {
+      "component": "layer_9.head_2",
+      "layer": 9,
+      "head": 2,
+      "token_id": 29713,
+      "token_text": " Belfast",
+      "logit_boost": 0.001118844491429627
+    },
+    {
+      "component": "layer_9.head_3",
+      "layer": 9,
+      "head": 3,
+      "token_id": 48457,
+      "token_text": "フォ",
+      "logit_boost": 0.02654281258583069
+    },
+    {
+      "component": "layer_9.head_3",
+      "layer": 9,
+      "head": 3,
+      "token_id": 45435,
+      "token_text": "ッド",
+      "logit_boost": 0.023631146177649498
+    },
+    {
+      "component": "layer_9.head_3",
+      "layer": 9,
+      "head": 3,
+      "token_id": 31576,
+      "token_text": "externalActionCode",
+      "logit_boost": 0.02276579663157463
+    },
+    {
+      "component": "layer_9.head_3",
+      "layer": 9,
+      "head": 3,
+      "token_id": 37662,
+      "token_text": "ォ",
+      "logit_boost": 0.021422645077109337
+    },
+    {
+      "component": "layer_9.head_3",
+      "layer": 9,
+      "head": 3,
+      "token_id": 20336,
+      "token_text": " Gutenberg",
+      "logit_boost": 0.0209309421479702
+    },
+    {
+      "component": "layer_9.head_4",
+      "layer": 9,
+      "head": 4,
+      "token_id": 9821,
+      "token_text": "rones",
+      "logit_boost": 0.10648128390312195
+    },
+    {
+      "component": "layer_9.head_4",
+      "layer": 9,
+      "head": 4,
+      "token_id": 21629,
+      "token_text": "enary",
+      "logit_boost": 0.10559087246656418
+    },
+    {
+      "component": "layer_9.head_4",
+      "layer": 9,
+      "head": 4,
+      "token_id": 17300,
+      "token_text": "onies",
+      "logit_boost": 0.10275723040103912
+    },
+    {
+      "component": "layer_9.head_4",
+      "layer": 9,
+      "head": 4,
+      "token_id": 1647,
+      "token_text": "ony",
+      "logit_boost": 0.10151269286870956
+    },
+    {
+      "component": "layer_9.head_4",
+      "layer": 9,
+      "head": 4,
+      "token_id": 28558,
+      "token_text": "eny",
+      "logit_boost": 0.09775614738464355
+    },
+    {
+      "component": "layer_9.head_5",
+      "layer": 9,
+      "head": 5,
+      "token_id": 43670,
+      "token_text": " Kitt",
+      "logit_boost": 0.03167098015546799
+    },
+    {
+      "component": "layer_9.head_5",
+      "layer": 9,
+      "head": 5,
+      "token_id": 49292,
+      "token_text": " Polk",
+      "logit_boost": 0.03102516010403633
+    },
+    {
+      "component": "layer_9.head_5",
+      "layer": 9,
+      "head": 5,
+      "token_id": 34842,
+      "token_text": " isEnabled",
+      "logit_boost": 0.029160305857658386
+    },
+    {
+      "component": "layer_9.head_5",
+      "layer": 9,
+      "head": 5,
+      "token_id": 47550,
+      "token_text": " STA",
+      "logit_boost": 0.028976716101169586
+    },
+    {
+      "component": "layer_9.head_5",
+      "layer": 9,
+      "head": 5,
+      "token_id": 9983,
+      "token_text": " Staff",
+      "logit_boost": 0.02859022095799446
+    },
+    {
+      "component": "layer_9.head_6",
+      "layer": 9,
+      "head": 6,
+      "token_id": 35672,
+      "token_text": " reel",
+      "logit_boost": 0.048892322927713394
+    },
+    {
+      "component": "layer_9.head_6",
+      "layer": 9,
+      "head": 6,
+      "token_id": 13177,
+      "token_text": " nodd",
+      "logit_boost": 0.04815811291337013
+    },
+    {
+      "component": "layer_9.head_6",
+      "layer": 9,
+      "head": 6,
+      "token_id": 28326,
+      "token_text": " FML",
+      "logit_boost": 0.04600990191102028
+    },
+    {
+      "component": "layer_9.head_6",
+      "layer": 9,
+      "head": 6,
+      "token_id": 45423,
+      "token_text": " equate",
+      "logit_boost": 0.04421371966600418
+    },
+    {
+      "component": "layer_9.head_6",
+      "layer": 9,
+      "head": 6,
+      "token_id": 38535,
+      "token_text": "ashtra",
+      "logit_boost": 0.04394528269767761
+    },
+    {
+      "component": "layer_9.head_7",
+      "layer": 9,
+      "head": 7,
+      "token_id": 41097,
+      "token_text": "ioch",
+      "logit_boost": 0.04209986701607704
+    },
+    {
+      "component": "layer_9.head_7",
+      "layer": 9,
+      "head": 7,
+      "token_id": 40914,
+      "token_text": "rx",
+      "logit_boost": 0.039417944848537445
+    },
+    {
+      "component": "layer_9.head_7",
+      "layer": 9,
+      "head": 7,
+      "token_id": 39816,
+      "token_text": "CG",
+      "logit_boost": 0.03894917294383049
+    },
+    {
+      "component": "layer_9.head_7",
+      "layer": 9,
+      "head": 7,
+      "token_id": 44003,
+      "token_text": " Guth",
+      "logit_boost": 0.038387201726436615
+    },
+    {
+      "component": "layer_9.head_7",
+      "layer": 9,
+      "head": 7,
+      "token_id": 21700,
+      "token_text": "ipeg",
+      "logit_boost": 0.038273103535175323
+    },
+    {
+      "component": "layer_9.head_8",
+      "layer": 9,
+      "head": 8,
+      "token_id": 20235,
+      "token_text": "bane",
+      "logit_boost": 0.032868821173906326
+    },
+    {
+      "component": "layer_9.head_8",
+      "layer": 9,
+      "head": 8,
+      "token_id": 17957,
+      "token_text": "utory",
+      "logit_boost": 0.02759561873972416
+    },
+    {
+      "component": "layer_9.head_8",
+      "layer": 9,
+      "head": 8,
+      "token_id": 48193,
+      "token_text": "@#&",
+      "logit_boost": 0.026910450309515
+    },
+    {
+      "component": "layer_9.head_8",
+      "layer": 9,
+      "head": 8,
+      "token_id": 35430,
+      "token_text": "());",
+      "logit_boost": 0.025851132348179817
+    },
+    {
+      "component": "layer_9.head_8",
+      "layer": 9,
+      "head": 8,
+      "token_id": 40242,
+      "token_text": "BuyableInstoreAndOnline",
+      "logit_boost": 0.025760533288121223
+    },
+    {
+      "component": "layer_9.head_9",
+      "layer": 9,
+      "head": 9,
+      "token_id": 29659,
+      "token_text": "バ",
+      "logit_boost": 0.05975204333662987
+    },
+    {
+      "component": "layer_9.head_9",
+      "layer": 9,
+      "head": 9,
+      "token_id": 48995,
+      "token_text": "milo",
+      "logit_boost": 0.058855749666690826
+    },
+    {
+      "component": "layer_9.head_9",
+      "layer": 9,
+      "head": 9,
+      "token_id": 44686,
+      "token_text": "ーティ",
+      "logit_boost": 0.05856504291296005
+    },
+    {
+      "component": "layer_9.head_9",
+      "layer": 9,
+      "head": 9,
+      "token_id": 15661,
+      "token_text": "シ",
+      "logit_boost": 0.057978250086307526
+    },
+    {
+      "component": "layer_9.head_9",
+      "layer": 9,
+      "head": 9,
+      "token_id": 42637,
+      "token_text": "女",
+      "logit_boost": 0.05768119543790817
+    },
+    {
+      "component": "layer_9.head_10",
+      "layer": 9,
+      "head": 10,
+      "token_id": 7076,
+      "token_text": "gery",
+      "logit_boost": 0.031459953635931015
+    },
+    {
+      "component": "layer_9.head_10",
+      "layer": 9,
+      "head": 10,
+      "token_id": 24899,
+      "token_text": "buster",
+      "logit_boost": 0.03067982941865921
+    },
+    {
+      "component": "layer_9.head_10",
+      "layer": 9,
+      "head": 10,
+      "token_id": 30433,
+      "token_text": "utsche",
+      "logit_boost": 0.03015095181763172
+    },
+    {
+      "component": "layer_9.head_10",
+      "layer": 9,
+      "head": 10,
+      "token_id": 17586,
+      "token_text": " overturn",
+      "logit_boost": 0.028950903564691544
+    },
+    {
+      "component": "layer_9.head_10",
+      "layer": 9,
+      "head": 10,
+      "token_id": 700,
+      "token_text": "urn",
+      "logit_boost": 0.02889544889330864
+    },
+    {
+      "component": "layer_9.head_11",
+      "layer": 9,
+      "head": 11,
+      "token_id": 40031,
+      "token_text": "staking",
+      "logit_boost": 0.07373823970556259
+    },
+    {
+      "component": "layer_9.head_11",
+      "layer": 9,
+      "head": 11,
+      "token_id": 3364,
+      "token_text": "king",
+      "logit_boost": 0.07226943969726562
+    },
+    {
+      "component": "layer_9.head_11",
+      "layer": 9,
+      "head": 11,
+      "token_id": 26939,
+      "token_text": "ivation",
+      "logit_boost": 0.07222215831279755
+    },
+    {
+      "component": "layer_9.head_11",
+      "layer": 9,
+      "head": 11,
+      "token_id": 32346,
+      "token_text": "ocious",
+      "logit_boost": 0.071566142141819
+    },
+    {
+      "component": "layer_9.head_11",
+      "layer": 9,
+      "head": 11,
+      "token_id": 19532,
+      "token_text": "sure",
+      "logit_boost": 0.07061145454645157
+    },
+    {
+      "component": "layer_9.mlp",
+      "layer": 9,
+      "head": -1,
+      "token_id": 2379,
+      "token_text": "medi",
+      "logit_boost": -0.14072027802467346
+    },
+    {
+      "component": "layer_9.mlp",
+      "layer": 9,
+      "head": -1,
+      "token_id": 932,
+      "token_text": " hel",
+      "logit_boost": -0.14459314942359924
+    },
+    {
+      "component": "layer_9.mlp",
+      "layer": 9,
+      "head": -1,
+      "token_id": 25357,
+      "token_text": " vi",
+      "logit_boost": -0.14720918238162994
+    },
+    {
+      "component": "layer_9.mlp",
+      "layer": 9,
+      "head": -1,
+      "token_id": 27834,
+      "token_text": " Evangel",
+      "logit_boost": -0.14737582206726074
+    },
+    {
+      "component": "layer_9.mlp",
+      "layer": 9,
+      "head": -1,
+      "token_id": 33889,
+      "token_text": " Hels",
+      "logit_boost": -0.1490374058485031
+    },
+    {
+      "component": "layer_10.head_0",
+      "layer": 10,
+      "head": 0,
+      "token_id": 25698,
+      "token_text": "=\"#",
+      "logit_boost": 0.048486076295375824
+    },
+    {
+      "component": "layer_10.head_0",
+      "layer": 10,
+      "head": 0,
+      "token_id": 23483,
+      "token_text": "Hop",
+      "logit_boost": 0.047285761684179306
+    },
+    {
+      "component": "layer_10.head_0",
+      "layer": 10,
+      "head": 0,
+      "token_id": 37912,
+      "token_text": " Emin",
+      "logit_boost": 0.04404500499367714
+    },
+    {
+      "component": "layer_10.head_0",
+      "layer": 10,
+      "head": 0,
+      "token_id": 48527,
+      "token_text": "76561",
+      "logit_boost": 0.042377736419439316
+    },
+    {
+      "component": "layer_10.head_0",
+      "layer": 10,
+      "head": 0,
+      "token_id": 47987,
+      "token_text": "代",
+      "logit_boost": 0.04204506054520607
+    },
+    {
+      "component": "layer_10.head_1",
+      "layer": 10,
+      "head": 1,
+      "token_id": 44354,
+      "token_text": "aido",
+      "logit_boost": 0.05764327570796013
+    },
+    {
+      "component": "layer_10.head_1",
+      "layer": 10,
+      "head": 1,
+      "token_id": 35526,
+      "token_text": " disarm",
+      "logit_boost": 0.05604637414216995
+    },
+    {
+      "component": "layer_10.head_1",
+      "layer": 10,
+      "head": 1,
+      "token_id": 18312,
+      "token_text": "raged",
+      "logit_boost": 0.05548785999417305
+    },
+    {
+      "component": "layer_10.head_1",
+      "layer": 10,
+      "head": 1,
+      "token_id": 3448,
+      "token_text": "pri",
+      "logit_boost": 0.05528854578733444
+    },
+    {
+      "component": "layer_10.head_1",
+      "layer": 10,
+      "head": 1,
+      "token_id": 34903,
+      "token_text": " intimidate",
+      "logit_boost": 0.05455145612359047
+    },
+    {
+      "component": "layer_10.head_2",
+      "layer": 10,
+      "head": 2,
+      "token_id": 38317,
+      "token_text": " Jord",
+      "logit_boost": 0.04977506771683693
+    },
+    {
+      "component": "layer_10.head_2",
+      "layer": 10,
+      "head": 2,
+      "token_id": 41010,
+      "token_text": " Pasadena",
+      "logit_boost": 0.04447122663259506
+    },
+    {
+      "component": "layer_10.head_2",
+      "layer": 10,
+      "head": 2,
+      "token_id": 42651,
+      "token_text": " Elephant",
+      "logit_boost": 0.044162675738334656
+    },
+    {
+      "component": "layer_10.head_2",
+      "layer": 10,
+      "head": 2,
+      "token_id": 45350,
+      "token_text": " Pryor",
+      "logit_boost": 0.040979206562042236
+    },
+    {
+      "component": "layer_10.head_2",
+      "layer": 10,
+      "head": 2,
+      "token_id": 41448,
+      "token_text": " billboard",
+      "logit_boost": 0.04095282778143883
+    },
+    {
+      "component": "layer_10.head_3",
+      "layer": 10,
+      "head": 3,
+      "token_id": 37333,
+      "token_text": "suff",
+      "logit_boost": 0.03424878418445587
+    },
+    {
+      "component": "layer_10.head_3",
+      "layer": 10,
+      "head": 3,
+      "token_id": 45897,
+      "token_text": "hap",
+      "logit_boost": 0.033762503415346146
+    },
+    {
+      "component": "layer_10.head_3",
+      "layer": 10,
+      "head": 3,
+      "token_id": 24631,
+      "token_text": "ndra",
+      "logit_boost": 0.03293561935424805
+    },
+    {
+      "component": "layer_10.head_3",
+      "layer": 10,
+      "head": 3,
+      "token_id": 25587,
+      "token_text": "cause",
+      "logit_boost": 0.029827546328306198
+    },
+    {
+      "component": "layer_10.head_3",
+      "layer": 10,
+      "head": 3,
+      "token_id": 21569,
+      "token_text": "India",
+      "logit_boost": 0.02974400296807289
+    },
+    {
+      "component": "layer_10.head_4",
+      "layer": 10,
+      "head": 4,
+      "token_id": 13600,
+      "token_text": " Hispan",
+      "logit_boost": 0.06992033869028091
+    },
+    {
+      "component": "layer_10.head_4",
+      "layer": 10,
+      "head": 4,
+      "token_id": 45225,
+      "token_text": " climates",
+      "logit_boost": 0.06385868787765503
+    },
+    {
+      "component": "layer_10.head_4",
+      "layer": 10,
+      "head": 4,
+      "token_id": 35308,
+      "token_text": " habitats",
+      "logit_boost": 0.06350716203451157
+    },
+    {
+      "component": "layer_10.head_4",
+      "layer": 10,
+      "head": 4,
+      "token_id": 32422,
+      "token_text": " Galile",
+      "logit_boost": 0.06337116658687592
+    },
+    {
+      "component": "layer_10.head_4",
+      "layer": 10,
+      "head": 4,
+      "token_id": 28472,
+      "token_text": " infl",
+      "logit_boost": 0.0619468167424202
+    },
+    {
+      "component": "layer_10.head_5",
+      "layer": 10,
+      "head": 5,
+      "token_id": 42165,
+      "token_text": "anooga",
+      "logit_boost": 0.05982039496302605
+    },
+    {
+      "component": "layer_10.head_5",
+      "layer": 10,
+      "head": 5,
+      "token_id": 2505,
+      "token_text": "lier",
+      "logit_boost": 0.05453932285308838
+    },
+    {
+      "component": "layer_10.head_5",
+      "layer": 10,
+      "head": 5,
+      "token_id": 41382,
+      "token_text": "termination",
+      "logit_boost": 0.04868817329406738
+    },
+    {
+      "component": "layer_10.head_5",
+      "layer": 10,
+      "head": 5,
+      "token_id": 19325,
+      "token_text": "idy",
+      "logit_boost": 0.047501496970653534
+    },
+    {
+      "component": "layer_10.head_5",
+      "layer": 10,
+      "head": 5,
+      "token_id": 49869,
+      "token_text": "cham",
+      "logit_boost": 0.046420834958553314
+    },
+    {
+      "component": "layer_10.head_6",
+      "layer": 10,
+      "head": 6,
+      "token_id": 33547,
+      "token_text": "aneers",
+      "logit_boost": 0.1590251624584198
+    },
+    {
+      "component": "layer_10.head_6",
+      "layer": 10,
+      "head": 6,
+      "token_id": 34255,
+      "token_text": "Discussion",
+      "logit_boost": 0.15572737157344818
+    },
+    {
+      "component": "layer_10.head_6",
+      "layer": 10,
+      "head": 6,
+      "token_id": 46368,
+      "token_text": "adoes",
+      "logit_boost": 0.14703510701656342
+    },
+    {
+      "component": "layer_10.head_6",
+      "layer": 10,
+      "head": 6,
+      "token_id": 45563,
+      "token_text": "ⓘ",
+      "logit_boost": 0.14652308821678162
+    },
+    {
+      "component": "layer_10.head_6",
+      "layer": 10,
+      "head": 6,
+      "token_id": 42165,
+      "token_text": "anooga",
+      "logit_boost": 0.14575304090976715
+    },
+    {
+      "component": "layer_10.head_7",
+      "layer": 10,
+      "head": 7,
+      "token_id": 39333,
+      "token_text": "��",
+      "logit_boost": 0.13595500588417053
+    },
+    {
+      "component": "layer_10.head_7",
+      "layer": 10,
+      "head": 7,
+      "token_id": 43545,
+      "token_text": "ilk",
+      "logit_boost": 0.12139114737510681
+    },
+    {
+      "component": "layer_10.head_7",
+      "layer": 10,
+      "head": 7,
+      "token_id": 24001,
+      "token_text": "ブ",
+      "logit_boost": 0.1191924512386322
+    },
+    {
+      "component": "layer_10.head_7",
+      "layer": 10,
+      "head": 7,
+      "token_id": 29741,
+      "token_text": "jun",
+      "logit_boost": 0.11579583585262299
+    },
+    {
+      "component": "layer_10.head_7",
+      "layer": 10,
+      "head": 7,
+      "token_id": 44686,
+      "token_text": "ーティ",
+      "logit_boost": 0.11557767540216446
+    },
+    {
+      "component": "layer_10.head_8",
+      "layer": 10,
+      "head": 8,
+      "token_id": 45785,
+      "token_text": "ivot",
+      "logit_boost": 0.04261622950434685
+    },
+    {
+      "component": "layer_10.head_8",
+      "layer": 10,
+      "head": 8,
+      "token_id": 48539,
+      "token_text": "daq",
+      "logit_boost": 0.0402672216296196
+    },
+    {
+      "component": "layer_10.head_8",
+      "layer": 10,
+      "head": 8,
+      "token_id": 5204,
+      "token_text": " calcul",
+      "logit_boost": 0.03757455572485924
+    },
+    {
+      "component": "layer_10.head_8",
+      "layer": 10,
+      "head": 8,
+      "token_id": 4989,
+      "token_text": "ynam",
+      "logit_boost": 0.03705574572086334
+    },
+    {
+      "component": "layer_10.head_8",
+      "layer": 10,
+      "head": 8,
+      "token_id": 44531,
+      "token_text": "krit",
+      "logit_boost": 0.03678826987743378
+    },
+    {
+      "component": "layer_10.head_9",
+      "layer": 10,
+      "head": 9,
+      "token_id": 1014,
+      "token_text": "way",
+      "logit_boost": 0.057744428515434265
+    },
+    {
+      "component": "layer_10.head_9",
+      "layer": 10,
+      "head": 9,
+      "token_id": 23648,
+      "token_text": " Plate",
+      "logit_boost": 0.0568913035094738
+    },
+    {
+      "component": "layer_10.head_9",
+      "layer": 10,
+      "head": 9,
+      "token_id": 19729,
+      "token_text": "monton",
+      "logit_boost": 0.054267965257167816
+    },
+    {
+      "component": "layer_10.head_9",
+      "layer": 10,
+      "head": 9,
+      "token_id": 42084,
+      "token_text": "arbon",
+      "logit_boost": 0.05395946651697159
+    },
+    {
+      "component": "layer_10.head_9",
+      "layer": 10,
+      "head": 9,
+      "token_id": 18047,
+      "token_text": "oxic",
+      "logit_boost": 0.05394607409834862
+    },
+    {
+      "component": "layer_10.head_10",
+      "layer": 10,
+      "head": 10,
+      "token_id": 31402,
+      "token_text": " linger",
+      "logit_boost": 0.09590649604797363
+    },
+    {
+      "component": "layer_10.head_10",
+      "layer": 10,
+      "head": 10,
+      "token_id": 36887,
+      "token_text": " Clown",
+      "logit_boost": 0.09582624584436417
+    },
+    {
+      "component": "layer_10.head_10",
+      "layer": 10,
+      "head": 10,
+      "token_id": 29160,
+      "token_text": "wagen",
+      "logit_boost": 0.09554953873157501
+    },
+    {
+      "component": "layer_10.head_10",
+      "layer": 10,
+      "head": 10,
+      "token_id": 23072,
+      "token_text": " Brist",
+      "logit_boost": 0.08838024735450745
+    },
+    {
+      "component": "layer_10.head_10",
+      "layer": 10,
+      "head": 10,
+      "token_id": 11355,
+      "token_text": "vernment",
+      "logit_boost": 0.08837812393903732
+    },
+    {
+      "component": "layer_10.head_11",
+      "layer": 10,
+      "head": 11,
+      "token_id": 14602,
+      "token_text": "ripp",
+      "logit_boost": -0.01329055055975914
+    },
+    {
+      "component": "layer_10.head_11",
+      "layer": 10,
+      "head": 11,
+      "token_id": 688,
+      "token_text": "ild",
+      "logit_boost": -0.01361012551933527
+    },
+    {
+      "component": "layer_10.head_11",
+      "layer": 10,
+      "head": 11,
+      "token_id": 33786,
+      "token_text": "alach",
+      "logit_boost": -0.01469364669173956
+    },
+    {
+      "component": "layer_10.head_11",
+      "layer": 10,
+      "head": 11,
+      "token_id": 3697,
+      "token_text": "FL",
+      "logit_boost": -0.01609736494719982
+    },
+    {
+      "component": "layer_10.head_11",
+      "layer": 10,
+      "head": 11,
+      "token_id": 25857,
+      "token_text": "ipation",
+      "logit_boost": -0.016324862837791443
+    },
+    {
+      "component": "layer_10.mlp",
+      "layer": 10,
+      "head": -1,
+      "token_id": 2768,
+      "token_text": "lev",
+      "logit_boost": -0.504258394241333
+    },
+    {
+      "component": "layer_10.mlp",
+      "layer": 10,
+      "head": -1,
+      "token_id": 40180,
+      "token_text": "dor",
+      "logit_boost": -0.5078072547912598
+    },
+    {
+      "component": "layer_10.mlp",
+      "layer": 10,
+      "head": -1,
+      "token_id": 26762,
+      "token_text": "ibo",
+      "logit_boost": -0.5100980401039124
+    },
+    {
+      "component": "layer_10.mlp",
+      "layer": 10,
+      "head": -1,
+      "token_id": 46057,
+      "token_text": "pez",
+      "logit_boost": -0.5103738307952881
+    },
+    {
+      "component": "layer_10.mlp",
+      "layer": 10,
+      "head": -1,
+      "token_id": 25519,
+      "token_text": " Anders",
+      "logit_boost": -0.512697696685791
+    },
+    {
+      "component": "layer_11.head_0",
+      "layer": 11,
+      "head": 0,
+      "token_id": 35641,
+      "token_text": "yg",
+      "logit_boost": 0.07679528743028641
+    },
+    {
+      "component": "layer_11.head_0",
+      "layer": 11,
+      "head": 0,
+      "token_id": 4612,
+      "token_text": "inct",
+      "logit_boost": 0.07332821935415268
+    },
+    {
+      "component": "layer_11.head_0",
+      "layer": 11,
+      "head": 0,
+      "token_id": 33968,
+      "token_text": "yss",
+      "logit_boost": 0.0638900175690651
+    },
+    {
+      "component": "layer_11.head_0",
+      "layer": 11,
+      "head": 0,
+      "token_id": 873,
+      "token_text": "ics",
+      "logit_boost": 0.06143922731280327
+    },
+    {
+      "component": "layer_11.head_0",
+      "layer": 11,
+      "head": 0,
+      "token_id": 17035,
+      "token_text": "igion",
+      "logit_boost": 0.06137416884303093
+    },
+    {
+      "component": "layer_11.head_1",
+      "layer": 11,
+      "head": 1,
+      "token_id": 44664,
+      "token_text": " Ribbon",
+      "logit_boost": 0.07058535516262054
+    },
+    {
+      "component": "layer_11.head_1",
+      "layer": 11,
+      "head": 1,
+      "token_id": 11174,
+      "token_text": "apolis",
+      "logit_boost": 0.06725907325744629
+    },
+    {
+      "component": "layer_11.head_1",
+      "layer": 11,
+      "head": 1,
+      "token_id": 39996,
+      "token_text": "addons",
+      "logit_boost": 0.06378322839736938
+    },
+    {
+      "component": "layer_11.head_1",
+      "layer": 11,
+      "head": 1,
+      "token_id": 31693,
+      "token_text": " Hort",
+      "logit_boost": 0.05924072861671448
+    },
+    {
+      "component": "layer_11.head_1",
+      "layer": 11,
+      "head": 1,
+      "token_id": 28419,
+      "token_text": " Throne",
+      "logit_boost": 0.05878092721104622
+    },
+    {
+      "component": "layer_11.head_2",
+      "layer": 11,
+      "head": 2,
+      "token_id": 5319,
+      "token_text": "cknow",
+      "logit_boost": 0.15222495794296265
+    },
+    {
+      "component": "layer_11.head_2",
+      "layer": 11,
+      "head": 2,
+      "token_id": 15431,
+      "token_text": "Republic",
+      "logit_boost": 0.140415221452713
+    },
+    {
+      "component": "layer_11.head_2",
+      "layer": 11,
+      "head": 2,
+      "token_id": 47939,
+      "token_text": " Annotations",
+      "logit_boost": 0.1372973471879959
+    },
+    {
+      "component": "layer_11.head_2",
+      "layer": 11,
+      "head": 2,
+      "token_id": 25002,
+      "token_text": "gae",
+      "logit_boost": 0.1370754837989807
+    },
+    {
+      "component": "layer_11.head_2",
+      "layer": 11,
+      "head": 2,
+      "token_id": 22997,
+      "token_text": "ゴン",
+      "logit_boost": 0.13496170938014984
+    },
+    {
+      "component": "layer_11.head_3",
+      "layer": 11,
+      "head": 3,
+      "token_id": 13758,
+      "token_text": "lict",
+      "logit_boost": 0.046204790472984314
+    },
+    {
+      "component": "layer_11.head_3",
+      "layer": 11,
+      "head": 3,
+      "token_id": 22997,
+      "token_text": "ゴン",
+      "logit_boost": 0.043762028217315674
+    },
+    {
+      "component": "layer_11.head_3",
+      "layer": 11,
+      "head": 3,
+      "token_id": 43353,
+      "token_text": "ール",
+      "logit_boost": 0.04366128891706467
+    },
+    {
+      "component": "layer_11.head_3",
+      "layer": 11,
+      "head": 3,
+      "token_id": 46090,
+      "token_text": "gha",
+      "logit_boost": 0.04161790385842323
+    },
+    {
+      "component": "layer_11.head_3",
+      "layer": 11,
+      "head": 3,
+      "token_id": 18575,
+      "token_text": " mosque",
+      "logit_boost": 0.03932415321469307
+    },
+    {
+      "component": "layer_11.head_4",
+      "layer": 11,
+      "head": 4,
+      "token_id": 11693,
+      "token_text": "cha",
+      "logit_boost": 0.030775755643844604
+    },
+    {
+      "component": "layer_11.head_4",
+      "layer": 11,
+      "head": 4,
+      "token_id": 10316,
+      "token_text": "reek",
+      "logit_boost": 0.025337714701890945
+    },
+    {
+      "component": "layer_11.head_4",
+      "layer": 11,
+      "head": 4,
+      "token_id": 21238,
+      "token_text": "antry",
+      "logit_boost": 0.022048169746994972
+    },
+    {
+      "component": "layer_11.head_4",
+      "layer": 11,
+      "head": 4,
+      "token_id": 17529,
+      "token_text": "station",
+      "logit_boost": 0.020838698372244835
+    },
+    {
+      "component": "layer_11.head_4",
+      "layer": 11,
+      "head": 4,
+      "token_id": 49228,
+      "token_text": "ministic",
+      "logit_boost": 0.020443063229322433
+    },
+    {
+      "component": "layer_11.head_5",
+      "layer": 11,
+      "head": 5,
+      "token_id": 46714,
+      "token_text": "rats",
+      "logit_boost": 0.06788552552461624
+    },
+    {
+      "component": "layer_11.head_5",
+      "layer": 11,
+      "head": 5,
+      "token_id": 44718,
+      "token_text": "auga",
+      "logit_boost": 0.06140561029314995
+    },
+    {
+      "component": "layer_11.head_5",
+      "layer": 11,
+      "head": 5,
+      "token_id": 31032,
+      "token_text": "SpaceEngineers",
+      "logit_boost": 0.05788999795913696
+    },
+    {
+      "component": "layer_11.head_5",
+      "layer": 11,
+      "head": 5,
+      "token_id": 36346,
+      "token_text": "tackle",
+      "logit_boost": 0.05337604135274887
+    },
+    {
+      "component": "layer_11.head_5",
+      "layer": 11,
+      "head": 5,
+      "token_id": 11585,
+      "token_text": "eatures",
+      "logit_boost": 0.05193791538476944
+    },
+    {
+      "component": "layer_11.head_6",
+      "layer": 11,
+      "head": 6,
+      "token_id": 31884,
+      "token_text": "oran",
+      "logit_boost": 0.09722785651683807
+    },
+    {
+      "component": "layer_11.head_6",
+      "layer": 11,
+      "head": 6,
+      "token_id": 46138,
+      "token_text": "oward",
+      "logit_boost": 0.09331116080284119
+    },
+    {
+      "component": "layer_11.head_6",
+      "layer": 11,
+      "head": 6,
+      "token_id": 36169,
+      "token_text": " ILCS",
+      "logit_boost": 0.09244570881128311
+    },
+    {
+      "component": "layer_11.head_6",
+      "layer": 11,
+      "head": 6,
+      "token_id": 49924,
+      "token_text": " Franchise",
+      "logit_boost": 0.09065436571836472
+    },
+    {
+      "component": "layer_11.head_6",
+      "layer": 11,
+      "head": 6,
+      "token_id": 32590,
+      "token_text": "(-",
+      "logit_boost": 0.08796956390142441
+    },
+    {
+      "component": "layer_11.head_7",
+      "layer": 11,
+      "head": 7,
+      "token_id": 9163,
+      "token_text": "sylv",
+      "logit_boost": 0.14915059506893158
+    },
+    {
+      "component": "layer_11.head_7",
+      "layer": 11,
+      "head": 7,
+      "token_id": 37077,
+      "token_text": "ancock",
+      "logit_boost": 0.1420111358165741
+    },
+    {
+      "component": "layer_11.head_7",
+      "layer": 11,
+      "head": 7,
+      "token_id": 16183,
+      "token_text": "ancies",
+      "logit_boost": 0.1418200582265854
+    },
+    {
+      "component": "layer_11.head_7",
+      "layer": 11,
+      "head": 7,
+      "token_id": 39996,
+      "token_text": "addons",
+      "logit_boost": 0.1388784945011139
+    },
+    {
+      "component": "layer_11.head_7",
+      "layer": 11,
+      "head": 7,
+      "token_id": 41141,
+      "token_text": "anus",
+      "logit_boost": 0.13827604055404663
+    },
+    {
+      "component": "layer_11.head_8",
+      "layer": 11,
+      "head": 8,
+      "token_id": 41543,
+      "token_text": "Ore",
+      "logit_boost": 0.8885576128959656
+    },
+    {
+      "component": "layer_11.head_8",
+      "layer": 11,
+      "head": 8,
+      "token_id": 46118,
+      "token_text": "btn",
+      "logit_boost": 0.5240511894226074
+    },
+    {
+      "component": "layer_11.head_8",
+      "layer": 11,
+      "head": 8,
+      "token_id": 48948,
+      "token_text": "Privacy",
+      "logit_boost": 0.4954867362976074
+    },
+    {
+      "component": "layer_11.head_8",
+      "layer": 11,
+      "head": 8,
+      "token_id": 26691,
+      "token_text": "cz",
+      "logit_boost": 0.4868701994419098
+    },
+    {
+      "component": "layer_11.head_8",
+      "layer": 11,
+      "head": 8,
+      "token_id": 28819,
+      "token_text": "utterstock",
+      "logit_boost": 0.47479209303855896
+    },
+    {
+      "component": "layer_11.head_9",
+      "layer": 11,
+      "head": 9,
+      "token_id": 14148,
+      "token_text": " offence",
+      "logit_boost": 0.0933171957731247
+    },
+    {
+      "component": "layer_11.head_9",
+      "layer": 11,
+      "head": 9,
+      "token_id": 48162,
+      "token_text": "anism",
+      "logit_boost": 0.08564885705709457
+    },
+    {
+      "component": "layer_11.head_9",
+      "layer": 11,
+      "head": 9,
+      "token_id": 11087,
+      "token_text": " interior",
+      "logit_boost": 0.08041585981845856
+    },
+    {
+      "component": "layer_11.head_9",
+      "layer": 11,
+      "head": 9,
+      "token_id": 5622,
+      "token_text": " philos",
+      "logit_boost": 0.07946930080652237
+    },
+    {
+      "component": "layer_11.head_9",
+      "layer": 11,
+      "head": 9,
+      "token_id": 36670,
+      "token_text": "rongh",
+      "logit_boost": 0.07946449518203735
+    },
+    {
+      "component": "layer_11.head_10",
+      "layer": 11,
+      "head": 10,
+      "token_id": 13636,
+      "token_text": "artz",
+      "logit_boost": 0.05154400318861008
+    },
+    {
+      "component": "layer_11.head_10",
+      "layer": 11,
+      "head": 10,
+      "token_id": 44944,
+      "token_text": "laugh",
+      "logit_boost": 0.04362571984529495
+    },
+    {
+      "component": "layer_11.head_10",
+      "layer": 11,
+      "head": 10,
+      "token_id": 48361,
+      "token_text": "yk",
+      "logit_boost": 0.04166216030716896
+    },
+    {
+      "component": "layer_11.head_10",
+      "layer": 11,
+      "head": 10,
+      "token_id": 28124,
+      "token_text": "laughs",
+      "logit_boost": 0.037894099950790405
+    },
+    {
+      "component": "layer_11.head_10",
+      "layer": 11,
+      "head": 10,
+      "token_id": 35407,
+      "token_text": "Reviewer",
+      "logit_boost": 0.036438047885894775
+    },
+    {
+      "component": "layer_11.head_11",
+      "layer": 11,
+      "head": 11,
+      "token_id": 15270,
+      "token_text": "ouble",
+      "logit_boost": 0.16590535640716553
+    },
+    {
+      "component": "layer_11.head_11",
+      "layer": 11,
+      "head": 11,
+      "token_id": 32291,
+      "token_text": "romeda",
+      "logit_boost": 0.15835313498973846
+    },
+    {
+      "component": "layer_11.head_11",
+      "layer": 11,
+      "head": 11,
+      "token_id": 44015,
+      "token_text": "Sequ",
+      "logit_boost": 0.1543690413236618
+    },
+    {
+      "component": "layer_11.head_11",
+      "layer": 11,
+      "head": 11,
+      "token_id": 26873,
+      "token_text": "uces",
+      "logit_boost": 0.14864808320999146
+    },
+    {
+      "component": "layer_11.head_11",
+      "layer": 11,
+      "head": 11,
+      "token_id": 33087,
+      "token_text": "rolet",
+      "logit_boost": 0.14848703145980835
+    },
+    {
+      "component": "layer_11.mlp",
+      "layer": 11,
+      "head": -1,
+      "token_id": 4943,
+      "token_text": "\")",
+      "logit_boost": -2.0364813804626465
+    },
+    {
+      "component": "layer_11.mlp",
+      "layer": 11,
+      "head": -1,
+      "token_id": 15341,
+      "token_text": "\");",
+      "logit_boost": -2.048198938369751
+    },
+    {
+      "component": "layer_11.mlp",
+      "layer": 11,
+      "head": -1,
+      "token_id": 22504,
+      "token_text": "tip",
+      "logit_boost": -2.060934066772461
+    },
+    {
+      "component": "layer_11.mlp",
+      "layer": 11,
+      "head": -1,
+      "token_id": 17912,
+      "token_text": "\"[",
+      "logit_boost": -2.0636541843414307
+    },
+    {
+      "component": "layer_11.mlp",
+      "layer": 11,
+      "head": -1,
+      "token_id": 4873,
+      "token_text": "rate",
+      "logit_boost": -2.0653076171875
+    }
+  ]
+}
