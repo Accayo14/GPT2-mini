@@ -1,3 +1,4 @@
 # Dataset binaries
 data/openwebtext/train.bin
 data/openwebtext/val.bin
+out-gpt2-small/ckpt.pt

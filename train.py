@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import math
 import time
@@ -112,6 +113,23 @@ def _save_checkpoint(
     torch.save(checkpoint, ckpt_path)
 
 
+def _write_csv_header(path: Path, header: list[str]) -> None:
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(header)
+
+
+def _append_csv_row(path: Path, row: list[object]) -> None:
+    with open(path, "a", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(row)
+
+
+def _append_jsonl(path: Path, payload: dict[str, object]) -> None:
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(payload) + "\n")
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Train GPT-2 small on tokenized memmap data.")
     parser.add_argument("--data-dir", type=str, default="data/openwebtext")
@@ -151,7 +169,7 @@ def main(argv: list[str] | None = None) -> None:
 
     ptdtype = {"float32": torch.float32, "bfloat16": torch.bfloat16, "float16": torch.float16}[args.dtype]
     ctx = nullcontext() if device_type == "cpu" else torch.amp.autocast(device_type=device_type, dtype=ptdtype)
-    scaler = torch.cuda.amp.GradScaler(enabled=(args.dtype == "float16" and device_type == "cuda"))
+    scaler = torch.amp.GradScaler("cuda", enabled=(args.dtype == "float16" and device_type == "cuda"))
 
     data_dir = Path(args.data_dir)
     out_dir = Path(args.out_dir)
@@ -206,12 +224,47 @@ def main(argv: list[str] | None = None) -> None:
     with open(out_dir / "train_config.json", "w", encoding="utf-8") as f:
         json.dump(train_args, f, indent=2)
 
+    iter_log_csv = out_dir / "train_iter_log.csv"
+    eval_log_csv = out_dir / "eval_log.csv"
+    metrics_jsonl = out_dir / "metrics.jsonl"
+    if args.init_from != "resume" or not iter_log_csv.exists():
+        _write_csv_header(
+            iter_log_csv,
+            [
+                "iter",
+                "train_loss",
+                "lr",
+                "dt_ms",
+                "grad_norm",
+                "tokens_per_iter",
+                "tokens_seen",
+                "timestamp_unix",
+            ],
+        )
+    if args.init_from != "resume" or not eval_log_csv.exists():
+        _write_csv_header(
+            eval_log_csv,
+            [
+                "iter",
+                "eval_train_loss",
+                "eval_val_loss",
+                "lr",
+                "best_val_loss",
+                "timestamp_unix",
+            ],
+        )
+    if args.init_from != "resume" or not metrics_jsonl.exists():
+        with open(metrics_jsonl, "w", encoding="utf-8"):
+            pass
+
     print(f"device: {device}")
     print(f"parameters: {model.get_num_params():,}")
-    print(f"tokens/iter: {args.batch_size * args.block_size * args.gradient_accumulation_steps:,}")
+    tokens_per_iter = args.batch_size * args.block_size * args.gradient_accumulation_steps
+    print(f"tokens/iter: {tokens_per_iter:,}")
 
     t0 = time.time()
     while iter_num < args.max_iters:
+        iter_start = time.time()
         lr = _get_lr(
             iter_num=iter_num,
             warmup_iters=args.warmup_iters,
@@ -234,6 +287,28 @@ def main(argv: list[str] | None = None) -> None:
                 ctx=ctx,
             )
             print(f"step {iter_num}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}, lr {lr:.3e}")
+            eval_best_val_loss = min(best_val_loss, float(losses["val"]))
+            eval_record = {
+                "event": "eval",
+                "iter": iter_num,
+                "eval_train_loss": float(losses["train"]),
+                "eval_val_loss": float(losses["val"]),
+                "lr": float(lr),
+                "best_val_loss": float(eval_best_val_loss),
+                "timestamp_unix": float(time.time()),
+            }
+            _append_csv_row(
+                eval_log_csv,
+                [
+                    iter_num,
+                    losses["train"],
+                    losses["val"],
+                    lr,
+                    eval_best_val_loss,
+                    eval_record["timestamp_unix"],
+                ],
+            )
+            _append_jsonl(metrics_jsonl, eval_record)
             if losses["val"] < best_val_loss:
                 best_val_loss = losses["val"]
                 _save_checkpoint(
@@ -247,25 +322,58 @@ def main(argv: list[str] | None = None) -> None:
                 )
 
         optimizer.zero_grad(set_to_none=True)
+        micro_loss_sum = 0.0
         for _ in range(args.gradient_accumulation_steps):
             xb, yb = _get_batch("train", train_data, val_data, args.batch_size, args.block_size, device)
             with ctx:
                 _, loss = model(xb, yb)
             if loss is None:
                 raise RuntimeError("Loss should not be None in training.")
+            micro_loss_sum += loss.item()
             loss = loss / args.gradient_accumulation_steps
             scaler.scale(loss).backward()
 
+        grad_norm_value = float("nan")
         if args.grad_clip > 0:
             scaler.unscale_(optimizer)
-            torch.nn.utils.clip_grad_norm_(model.parameters(), args.grad_clip)
+            grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), args.grad_clip)
+            grad_norm_value = float(grad_norm.item())
 
         scaler.step(optimizer)
         scaler.update()
 
+        train_loss = micro_loss_sum / args.gradient_accumulation_steps
+        dt_ms = (time.time() - iter_start) * 1000.0
+        tokens_seen = (iter_num + 1) * tokens_per_iter
+        step_record = {
+            "event": "train_step",
+            "iter": iter_num,
+            "train_loss": float(train_loss),
+            "lr": float(lr),
+            "dt_ms": float(dt_ms),
+            "grad_norm": float(grad_norm_value),
+            "tokens_per_iter": int(tokens_per_iter),
+            "tokens_seen": int(tokens_seen),
+            "timestamp_unix": float(time.time()),
+        }
+        _append_csv_row(
+            iter_log_csv,
+            [
+                iter_num,
+                train_loss,
+                lr,
+                dt_ms,
+                grad_norm_value,
+                tokens_per_iter,
+                tokens_seen,
+                step_record["timestamp_unix"],
+            ],
+        )
+        _append_jsonl(metrics_jsonl, step_record)
+
         if iter_num % args.log_interval == 0:
             dt = time.time() - t0
-            print(f"iter {iter_num:6d} | loss {loss.item() * args.gradient_accumulation_steps:.4f} | dt {dt * 1000:.2f} ms")
+            print(f"iter {iter_num:6d} | loss {train_loss:.4f} | dt {dt * 1000:.2f} ms")
             t0 = time.time()
 
         iter_num += 1
