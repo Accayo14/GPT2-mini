@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "20260329T095652Z",
+  "model_name": "gpt2",
+  "input": "Indian Institute of Technology Bombay is",
+  "output": "Indian Institute of Technology Bombay is a first-of-its-kind university that provides computer science training and education to undergraduates. A research institute, it has three campuses in India, including Mumbai, Mumbai, Chennai and Jadavpur.\n\nThe university also offers a range of courses, including computer science course, online courses, and courses in software security, data science courses, and data science course.\n\n\"We want to be one of the first to make the world a safer place. We hope this will be the case for all the young people in India,\" said Sushil Kumar, vice president of",
+  "continuation_only": " a first-of-its-kind university that provides computer science training and education to undergraduates. A research institute, it has three campuses in India, including Mumbai, Mumbai, Chennai and Jadavpur.\n\nThe university also offers a range of courses, including computer science course, online courses, and courses in software security, data science courses, and data science course.\n\n\"We want to be one of the first to make the world a safer place. We hope this will be the case for all the young people in India,\" said Sushil Kumar, vice president of",
+  "sampling_config": {
+    "max_new_tokens": 120,
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 1.0,
+    "seed": 1337
+  },
+  "device": "cuda",
+  "index": 1
+}

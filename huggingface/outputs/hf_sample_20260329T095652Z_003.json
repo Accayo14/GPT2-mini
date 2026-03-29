@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "20260329T095652Z",
+  "model_name": "gpt2",
+  "input": "Once upon a time",
+  "output": "Once upon a time, the world was filled with people who were so afraid of the people that their faith could no longer be trusted.\n\nOne man, a fellow who knew only the name of the emperor, had been killed by a group of men who said they were trying to make him a slave.\n\n\"Are you going to kill me like that?\"\n\nThe emperor wanted to be with the people.\n\n\"I'm going to kill you if you take me away, but I'm not going to kill you for doing that. I don't want to kill you for having no faith.",
+  "continuation_only": ", the world was filled with people who were so afraid of the people that their faith could no longer be trusted.\n\nOne man, a fellow who knew only the name of the emperor, had been killed by a group of men who said they were trying to make him a slave.\n\n\"Are you going to kill me like that?\"\n\nThe emperor wanted to be with the people.\n\n\"I'm going to kill you if you take me away, but I'm not going to kill you for doing that. I don't want to kill you for having no faith.",
+  "sampling_config": {
+    "max_new_tokens": 120,
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 1.0,
+    "seed": 1337
+  },
+  "device": "cuda",
+  "index": 3
+}

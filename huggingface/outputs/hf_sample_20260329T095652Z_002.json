@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "20260329T095652Z",
+  "model_name": "gpt2",
+  "input": "In machine learning, overfitting means",
+  "output": "In machine learning, overfitting means that a system performs a task incorrectly. If that task is a function of the number of inputs and outputs, then the system fails. But if the task is a function of the number of inputs and outputs, then the system performs better. The more errors the system makes, the better the performance. In this sense, machine learning can be called \"machine learning optimization.\"\n\nIt's important to remember that machine learning is not a new concept. But it's not new. In fact, machine learning is the first step toward AI.\n\nIn this article, we'll look at three approaches",
+  "continuation_only": " that a system performs a task incorrectly. If that task is a function of the number of inputs and outputs, then the system fails. But if the task is a function of the number of inputs and outputs, then the system performs better. The more errors the system makes, the better the performance. In this sense, machine learning can be called \"machine learning optimization.\"\n\nIt's important to remember that machine learning is not a new concept. But it's not new. In fact, machine learning is the first step toward AI.\n\nIn this article, we'll look at three approaches",
+  "sampling_config": {
+    "max_new_tokens": 120,
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 1.0,
+    "seed": 1337
+  },
+  "device": "cuda",
+  "index": 2
+}

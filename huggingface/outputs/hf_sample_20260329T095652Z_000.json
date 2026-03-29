@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "20260329T095652Z",
+  "model_name": "gpt2",
+  "input": "The capital of France is",
+  "output": "The capital of France is the capital of the world's second largest economy. Its GDP is estimated to be about $15 trillion.\n\nBut many observers say that under the economic model, the French have an advantage: They have no money for their own currency. Instead, they can borrow from other countries, often by borrowing from foreign banks.\n\nThe reason for this is a matter of public policy. In the past, the French have been a bit more cautious than the global financial system.\n\nAfter the financial crisis in 2008, the country was struggling to recover from the crisis. But under France's new policies",
+  "continuation_only": " the capital of the world's second largest economy. Its GDP is estimated to be about $15 trillion.\n\nBut many observers say that under the economic model, the French have an advantage: They have no money for their own currency. Instead, they can borrow from other countries, often by borrowing from foreign banks.\n\nThe reason for this is a matter of public policy. In the past, the French have been a bit more cautious than the global financial system.\n\nAfter the financial crisis in 2008, the country was struggling to recover from the crisis. But under France's new policies",
+  "sampling_config": {
+    "max_new_tokens": 120,
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 1.0,
+    "seed": 1337
+  },
+  "device": "cuda",
+  "index": 0
+}
